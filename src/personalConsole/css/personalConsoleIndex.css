@@ -1,0 +1,456 @@
+.publicBottomComponentContainer {
+    background-color: #ffffff;
+}
+.personalConsoleIndex{
+    padding: 10px;
+    background: #ffffff;
+    /* height: 100%; */
+    margin: 0px -15px;
+}
+.personaltop{
+    height: 102px;
+    background: #ffffff;
+    margin-top: 10px;
+    
+}
+.personaltop .personaltopright{
+    padding: 10px;
+    height: 100%;
+    background: #fff;
+    width: 69%;
+    float: left;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+.personaltop .unname{
+    display: block;
+    margin-top: 30px;
+    margin-left: 42px;
+    font-size: 12px;
+}
+.personaltop .personaltopright .truename{
+    display: block;
+    margin-top: 20px;
+    margin-left: 11%;
+    font-size: 12px;
+}
+.personaltop .personaltopright .perinformation img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 7%;
+    margin-top: 10px;
+    float: left;
+}
+.personaltop .personaltopright .perinformation div {
+    float: left;
+    margin-top: 20px;
+    margin-left: 8%;
+    font-size: 12px;
+}
+.personaltop .personaltopright .unname span{
+    color: #ff6980;;
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin-left: 2px;
+}
+.personaltop .personaltopright .unname span:hover{
+    cursor: pointer;
+}
+.personaltop .personaltopright .username{
+    display: block;
+    margin-top: 10px;
+}
+
+.personaltop .personaltopright .truename span:hover{
+    cursor: pointer;
+}
+.personaltop .personaltopright .jinggao{
+    color: #ffac0b;
+    font-size: 16px;
+    margin-right: 9px;
+}
+
+.personaltop .personaltopright .through .company{
+    display: block;
+    margin-left: 11%;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.personaltop .personaltopright .through .throughimg{
+    background: url("../images/renzheng.png") no-repeat;
+    display: block;
+    width: 112px;
+    height: 87px;
+    margin-left: 48%;
+    margin-top: -68px;
+}
+.personaltopright .certification{
+    width: 51%;
+    height: 83px;
+    /* border-right: 1px solid #f1f1f1; */
+    float: left;
+  }
+
+.personaltopright .perinformation{
+    width: 41%;
+    height: 83px;
+    border-right: 1px solid #f1f1f1;
+    float: left;
+}
+.personaltop .personaltopleft{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background: #ffffff;
+    margin-left: 0.85%;
+}
+.personalmiddle{
+    height: 241px;
+    background: #ffffff;
+    margin-top: 10px;
+    
+}
+.personalmiddle .personalmiddleright{
+   
+    height: 100%;
+    background: #fff;
+    width: 69%;
+    float: left;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+.checkmore{
+    /* display: block; */
+    color: #b6b6b6;
+    font-size: 12px;
+}
+
+.contenttitle{
+    height: 36px;
+    font-size: 14px;
+    display: block;
+    border-bottom: 1px solid #f1f1f1;
+    width: 100%;
+    line-height: 36px;
+    /* margin-left: 10px; */
+    padding-left: 10px;
+    position: relative;
+}
+
+.personalmiddle .personalmiddleleft{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background: #fff;
+    margin-left: 0.85%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+.personalmiddle .personalmiddleleft .gonggao{
+    position: absolute;
+    right: 10px;
+}
+.personalmiddle .personalmiddleleft .gonggao:hover{
+   cursor: pointer;
+   color:#60adfd
+}
+.personalmiddle .personalmiddleleft li{
+    font-size: 12px;
+    line-height: 40px;
+    height: 41px;
+}
+.personalmiddle .personalmiddleleft li:last-child span{
+    border-bottom: 0px;
+}
+.personalmiddle .personalmiddleleft li:hover, .personalbottom .personalbottomleft li:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.personalmiddle .personalmiddleleft .title{
+    height: 40px;
+    margin-left: 10px;
+    display: block;
+    width: 240px;
+    float: left;
+    border-bottom: 1px dashed  #f1f1f1;
+    
+}
+
+.personalmiddle .personalmiddleleft .time{
+    height: 40px;
+    width: 83px;
+    /* margin-left: 58px; */
+    display: block;
+    border-bottom: 1px dashed #f1f1f1;
+    float: left;
+}
+
+.personalbottom{
+    height: 336px;
+    background: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.personalbottom .personalbottomright{
+  
+    height: 100%;
+    background: #fff;
+    width: 69%;
+    float: left;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+.personalbottom .personalbottomright ul{
+   padding: 10px;
+}
+.personalbottom .personalbottomright .liopen{
+    position: relative;
+    margin-right: 2px;
+    display: inline-block;
+    width: 33%;
+    height: 68px;
+    border: 1px solid #f1f1f1;
+    
+}
+.personalbottom .personalbottomright .liclose{
+    position: relative;
+    margin-right: 2px;
+    display: inline-block;
+    width: 250px;
+    height: 68px;
+    border: 1px solid #f1f1f1;
+    
+}
+.personalbottom .personalbottomright .liopen:hover{
+    cursor: pointer;
+    border: 1px solid #55a8fd;
+}
+.personalbottom .personalbottomright .shenqing{
+    position: absolute;
+    right:10px;
+}
+.personalbottom .personalbottomright .shenqing:hover{
+    cursor: pointer;
+    color:#60adfd
+}
+.personalbottom .personalbottomleft .tuijian{
+    position: absolute;
+    right: 10px;
+}
+.personalbottom .personalbottomleft .tuijian:hover{
+    cursor: pointer;
+    color:#60adfd
+}
+.personalbottom .personalbottomleft{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background: #fff;
+    margin-left: 0.85%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+
+.personaltopleft .apply{
+    background: #fff;
+    width: 48.5%;
+    height: 100%;
+    float: left;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+.personaltopleft .apply:hover{
+    cursor: pointer;
+    border: 1px solid #55a8fd;
+}
+.personaltopleft .applyleft{
+  margin-left: 3%
+}
+.personaltopleft .applyleftimg{
+    background: url("../images/shenqing.png") no-repeat;
+    display: block;
+    width: 48px;
+    height: 45px;
+    /* text-align: center; */
+    margin-left: 22px;
+    margin-top: 30px;
+  }
+  .personaltopleft .applyimg{
+    background: url("../images/daishenhe.png") no-repeat;
+    display: block;
+    width: 48px;
+    height: 51px;
+    /* text-align: center; */
+    margin-left: 26px;
+    margin-top: 25px;
+  }
+  .personaltopleft .applytext{
+    display: block;
+    margin-left: 74px;
+    font-size: 14px;
+    
+  }
+  .personaltopleft .applynum{
+    display: block;
+    margin-left: 76px;
+    font-size: 20px;
+    margin-top: -47px;
+    color: red;
+  }
+  .personalbottom .personalbottomright .error{
+    z-index: 999;
+    background: url("../images/abnormal.png") no-repeat; 
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    display: block;
+ }
+ .personalbottom .personalbottomright .isclose{
+    z-index: 999;
+    background: url("../images/close.png") no-repeat; 
+    width: 100px;
+    height:60px;
+    position: absolute;
+    display: block;
+ }
+ .personalbottom .personalbottomright .liclose{
+    background-color: #f5f5f5;
+ }
+ .personalbottom .personalbottomright .liopen div {
+    position: absolute;
+ }
+ .personalbottom .personalbottomright .liclose div {
+    position: absolute;
+ }
+ .personalbottom .personalbottomright img {
+    width: 100%;
+    height: 53px;
+    border: 1px solid #f1f1f1;
+ }
+ .personalbottom .personalbottomright .bottomrightimg{
+     width: 42%;
+    margin-top: 6px;
+    margin-left: 6px;
+ }
+ .personalbottom .personalbottomright .bottomrighttitle{
+    margin-left: 48%;
+    font-size: 14px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+ }
+ .personalbottom .personalbottomright .bottomrighttext{
+    font-size: 12px;
+    margin-top: 29px;
+    color: #999999;
+    margin-left: 48%;
+    width: 49%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+ }
+
+ .personalbottom .personalbottomleft img {
+    width: 70px;
+    height: 35px;
+    border: 1px solid #f1f1f1;
+ }
+ .personalbottom .personalbottomleft li div {
+    position: absolute;
+ }
+ .personalbottom .personalbottomleft li{
+     position: relative;
+     padding-left: 10px;
+     padding-top: 10px;
+    height: 60px;
+}
+.personalbottom .personalbottomleft .bottomlefttitle{
+    margin-left: 83px;
+    font-size: 14px;
+    margin-top: -3px;
+}
+.personalbottom .personalbottomleft .bottomlefttext{
+    margin-left: 83px;
+    font-size: 12px;
+    margin-top: 21px;
+    color: #666;
+}
+.personalbottom .personalbottomleft .bottomcontent{
+    width: 94%;
+    height: 50px;
+    border-bottom: 1px dashed #f1f1f1;
+}
+.personalbottom .personalbottomleft li:last-child div{
+    border-bottom: 0px;
+}
+.linechart{
+    width: 88%;
+    height: 194px;
+    float: left;
+    /* margin-top: 5px; */
+}
+.newnotice{
+    background: url("../images/new.png") no-repeat; 
+    width: 30px;
+    height: 18px;
+    display: inline-block;
+}
+.charttitle{
+    width: 9%;
+    float: left;
+    height: 150px;
+    margin-top: 31px;
+    color: #60adfd;
+    margin-left: 9px;
+}
+.personalmiddle .personalmiddleleft .notice i{
+    background-color: #ff0000;
+    border-radius: 5px;
+    padding: 1px;
+    color: #fff;
+    margin-right: 5px;
+}
+.noNotic{
+    margin: 0 auto;
+    width: 105px;
+    height: 113px;
+    background: url(../images/zanwu.png) no-repeat;
+    margin-top: 47px;
+}
+.tuli{
+    background: url(../images/tuli.png) no-repeat;
+    width: 50px;
+    height: 16px;
+    margin-top: 111px;
+    margin-left: 3px;
+}
+.personalmiddleleft li:last-child div{
+    border-bottom: 0px;
+}
+.personalmiddleleft .noticetitle{
+    width: 73%;
+    float: left;
+    margin-left: 2%;
+    border-bottom: 1px dashed #f1f1f1;
+}
+.personalmiddleleft .noticetime{
+    width: 24%;
+    float: left;
+    border-bottom: 1px dashed #f1f1f1;
+    color: #666;
+    /* position: absolute; */
+    right: 2%;
+}
+
+.personalmiddleleft ul li .newnotic{
+    background: url("../images/new.png") no-repeat; 
+    margin-right: 5px;
+    width: 28px;
+    height: 16px;
+    float: left;
+    margin-top: 12px;
+}
+
+
+
+

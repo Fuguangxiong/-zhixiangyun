@@ -1,0 +1,1378 @@
+﻿@charset "utf-8";
+input,button,select,textarea{outline:none}textarea{resize:none}
+button{
+    margin: 0;
+    padding: 0;
+    
+}
+button{
+    background: transparent;
+}
+label{
+    font-weight: normal;
+}
+em,i{
+    font-style: normal;
+}
+input[disabled] {
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #55a8fd;
+}
+.macInp  .bordercolor{
+    border: 1px solid #55a8fd;
+}
+/* inputsearch */
+.search{
+    position: relative;
+}
+.search .searchBut{
+    position: absolute;
+    
+    right: 0;
+    background-color: transparent;
+    cursor: pointer;
+    
+    top:0;
+    border: 0;
+    transition:all .5s;
+}
+.search .searchBut i{
+    font-size: 18px;
+    color: #838383;
+}
+.search .searchBut:hover i{
+    color: #55a8fd;
+}
+.inputStyle{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: relative;
+    border-bottom:1px #f1f1f1 solid;
+    padding-right: 20px;
+    box-sizing: border-box;
+   
+    transition:all .5s;
+}
+.inputStyle:hover,.inputStyle:focus{
+    border-bottom:1px #55a8fd solid;
+    
+}
+.search.width248{
+    width: 248px;
+    height: 28px;
+}
+/* con */
+.collection{
+    padding: 10px;
+    
+    background: #fff;
+}
+.conCent .rise{
+    
+    border-bottom: 1px #f1f1f1 solid;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+.conCent .rise .textTlie{
+    position: relative;
+    padding-left: 8px;
+    line-height: 12px;
+    
+}
+.conCent .rise .textTlie::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top:2px;
+    width: 2px;
+    height: 10px;
+    border-radius: 2px;
+    background-color: #55a8fd;
+}
+.tStyel{
+    padding-left: 76px;
+    padding-right: 125px;
+    position: relative;
+    box-sizing:border-box;
+    padding-bottom: 10px;
+}
+.tStyel .textName{
+    position: absolute;
+    left: 0;
+    line-height: 26px;
+    width: 72px;
+
+}
+.tStyel.tStyelfuw .listCon{
+   
+    position: relative;
+    height: 25px;
+    
+}
+.tStyel .listCon .checkboxStyle{
+    display: none;
+}
+.tStyel .listCon.checkboxShow .checkboxStyle{
+    display: inline-block;
+}
+.listCon ul{
+    z-index: 100;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    transition: all .4s;
+    height: 26px;
+}
+.listCon ul.heiauto{
+    height: 100px;
+    border: 1px #5cabfd solid;
+    background-color: #fff;
+}
+.listCon ul li{
+    width: 60px;
+    text-align: left;
+    float: left;
+    box-sizing: border-box;
+    line-height: 24px;
+    height: 24px;
+    position: relative;
+     margin-right: 10px;
+    /*margin-left: 10px; */
+}
+.listCon ul li.wti{
+    /* padding-left: 15px; */
+   
+} 
+/* .listCon ul li:last-child{
+    margin-left: 10px;
+}   */
+.listCon ul li.wti:hover{
+    color: #55a8fd;
+}  
+.checkboxShow ul li{
+    padding-left: 15px;
+}
+.checkboxShow ul li:first-child{
+    padding-left: 0px;
+}
+.listCon ul li.active i.cheboxInput{
+    background: url("../images/inputchebox.png") no-repeat;
+}
+.checkboxShow .cheboxInput{
+    display: inline-block;
+}
+.cheboxInput{
+    background: url("../images/inputcheboxs.png") no-repeat;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    top:8px;
+   
+   display: none;
+}
+.listCon ul li em{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 65px;
+    overflow: hidden;
+    position: absolute;
+    transition: all .3s;
+    left: 0;
+    top:1px;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.checkboxShow ul li em{
+    left: 15px;
+}
+.listCon ul li:hover em{
+    width: auto;
+    
+    white-space :  nowrap ;
+    background: #fff;
+    z-index: 99;
+}
+.listCon ul li a{
+    cursor: pointer;
+    color: #333;
+}
+.listCon ul li a:hover{
+    color: #55a8fd;
+    text-decoration: none;
+}
+.listCon ul li.active{
+    color: #55a8fd;
+}
+.listCon ul li.active a{
+    color: #55a8fd;
+}
+.listCon ul li label{
+    cursor: pointer;
+}
+.listCon ul li input{
+    margin-right:4px;
+}
+.rightBut{
+    position: absolute;
+    right: 0;
+    width: 180px;
+    text-align: right;
+    top:0;
+}
+.rightBut button{
+    margin: 0 10px;
+}
+.rightBut button:hover{
+    border: 1px #55a8fd solid;
+    color: #55a8fd;
+}
+.inpuChbox{
+    width: auto;
+    height: 20px;
+    border: 1px #e3e3e3 solid;
+    border-radius: 0;
+    color: #666666;
+    display:inline-block;
+    font-size: 12px;
+    padding: 0 5px;
+    line-height: 18px;
+    transition: all .3s;
+}
+.inpuChbox .icon-iconjia{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.moreSytle i{
+    font-size: 12px;
+    vertical-align: middle;
+}
+.moreSytle.active{
+    border: 1px #55a8fd solid;
+    color: #55a8fd;
+}
+.cheboxAllSyle.active{
+    border: 1px #55a8fd solid;
+    color: #55a8fd;
+}
+.moreSytle .icon-arrow-down-copy{
+    display: none;
+}
+.moreSytle .icon-arrow-down{
+    display: inline-block;
+}
+.moreSytle.active .icon-arrow-down-copy{
+    display: inline-block;
+}
+.moreSytle.active .icon-arrow-down{
+    display: none;
+}
+/* 排序 */
+.queryListWord{
+    height: 32px;
+    border: 1px #f1f1f1 solid;
+    overflow: hidden;
+}
+.sortCon{
+    
+    float: left;
+}
+.sortCon span{
+    float:left;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+    border-right:1px #f1f1f1 solid;
+    color: #333;
+    position: relative;
+    cursor: pointer;
+}
+.sortCon span.sortWord em{
+  width: 64px;
+  display: block;
+}
+.sortCon span.sortWord i{
+    left: 50%;
+    margin-left:6px;
+    top:0;
+    color: #797979;
+   position: absolute;
+   
+}
+.sortCon span.active{
+    color: #55a8fd;
+}
+.sortCon span.sortWord i.icon-jiantou-up{
+    display: none;
+}
+
+.sortCon span.active i.icon-jiantou-lower{
+    color: #55a8fd;
+}
+.sortCon span.sortWord.active.wordUp i.icon-jiantou-up{
+    display: block;
+    color: #55a8fd;
+}
+.sortCon span.sortWord.active.wordUp i.icon-jiantou-lower{
+    display: none;
+}
+/* 设置多选 */
+.checkboxCon{
+    float: right;
+}
+.checkboxCon .checkboxBut{
+    width: 40px;
+    line-height: 30px;
+    color: #333;
+    border-left:1px #f1f1f1 solid;
+    text-align: center;
+    cursor: pointer;
+}
+.checkboxCon .checkboxBut:hover i{
+    color: #55a8fd;
+}
+/* top分页 */
+.topPage{
+    float: right;
+}
+.topPage span{
+    border-left:1px #f1f1f1 solid;
+    cursor: pointer;
+    width: 40px;
+    float:left;
+    line-height: 30px;
+    color: #9e9e9e;
+    text-align: center;
+}
+.topPage span:hover{
+    color: #55a8fd;
+}
+.topPage em{
+    
+    float:left;
+    line-height: 30px;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 15px;
+}
+.topPage em i.cloer{
+    color: #fb6233;
+}
+.pageTop{
+    width: 80px;
+    overflow: hidden;
+}
+/* 列表信息 */
+.listLi{
+    position: relative;
+    padding-right: 124px;
+    box-sizing: border-box;
+    border-bottom: 1px #f1f1f1 solid;
+}
+.normal::after{
+    content: '';
+    transition: all .1s;
+}
+.normal:hover::after,.abnormalClx:hover::after,.corner:hover::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left: -10px;
+    bottom: 0;
+    right: 0;
+    border: 2px #55a8fd solid;
+    z-index: 96;
+    box-shadow: 0 0 8px rgba(85,168,253,.7)
+}
+.normal:hover .setCheokCon .setEsc,.abnormalClx:hover .setCheokCon .setEsc,.corner:hover .setCheokCon .setEsc{
+    left: 0;
+}
+/* 列表关闭状态 */
+.corner{
+    background: #f4f4f4;
+}
+.corner .setDat{
+    background-color: #f4f4f4;
+}
+
+.abnormalClx dl dd::after{
+    content: '';
+    position: absolute;
+    background-image:url(../images/abnormal.png);
+    width: 39px;
+    height: 39px;
+    left: -2px;
+    top:-2px;
+}
+
+.corner .scoreCon .xingxingCon i,.corner .scoreCon .xingxingCon .xingIcon,.corner .scoreCon .pinfen .fsClor{
+    color: #666666;
+}
+.corner .listLiLeft dl dt h2{
+    color: #333;
+}
+.corner .listLiLeft dl dd .classmona{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 96;
+    background: rgba(0,0,0,.6)
+}
+.listLiLeft{
+    position: relative;
+    z-index: 98;
+    box-sizing: border-box;
+    height: 98px;
+    padding: 10px 10px 10px 100px;
+}
+
+.listLiLeft dl dd{
+    width: 100px;
+    height: 78px;
+    position: absolute;
+    left: 0;
+    top:10px;
+   
+}
+
+.porAlik{
+    cursor: pointer;
+}
+.porAlik:hover{
+    color: #55a8fd;
+}
+.listLiLeft dl dd img{
+    width: 85px;
+    height: 78px;
+    margin-left: 3px;
+}
+.listLiLeft dl dt{
+    padding-right: 190px;
+    box-sizing: border-box;   
+}
+.listLiLeft dl dt h2{
+    font-size: 14px;
+    color: #000;
+    position: relative;
+    
+}
+.listLiLeft dl dt h2 .porAlik{
+   
+    left: 0;
+}
+.corner .listLiLeft dl dt h2 .porAlik{
+    cursor:default
+}
+.corner .listLiLeft dl dt h2 .porAlik:hover{
+    color: #333;
+}
+.listLiLeft dl dt h2 a{
+    color: #000
+}
+.listLiLeft dl dt h2 a:hover{
+    text-decoration:none;
+    color: #55a8fd
+}
+.listLiLeft dl dt h3{
+    font-size: 12px;
+    margin-top: 12px;
+    height: 15px;
+}
+.listLiLeft dl dt p{
+    margin-top: 14px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+   
+}
+.listLiLeft dl dt h3 span:last-child i{
+    display: none;
+}
+/* 列表选中 */
+.selectedAll{
+    background: #f7f7f7;
+    color: #55a8fd;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 20px;
+    padding-left:  6px;
+    border: 1px #f7f7f7 solid;
+    position: relative;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.selectedAll:hover{
+    border: 1px #55a8fd solid;
+    background: #fff;
+}
+.selectedAll span:last-of-type i{
+    display: none;
+}
+.selectedAll .dataAll{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top:0;    
+    cursor: pointer;
+}
+.selectedAll:hover .dataAll{
+    background: #55a8fd;
+    color: #fff;
+}
+/* 收藏 */
+.setCheok{
+    width: 124px;
+    height: 98px;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    top:0;
+    border-left: 1px #f1f1f1 solid;
+    border-right: 1px #f1f1f1 solid;
+}
+.setDat{
+    padding: 0 26px;
+    width: 124px;
+    height: 98px;
+    box-sizing:border-box;
+    top:0;
+    background: #fcfcfc;
+    position: absolute;
+   
+}
+.setCheokCon{
+    position: relative;
+}
+.setCheokCon .setDat .titles {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.setCheokCon .setDat .titles i{
+    font-size: 14px;
+}
+.setCheokCon .setDat .titles em{
+    font-size: 12px;
+}
+.setCheokCon .setDat p{
+    margin-top: 0px;
+    text-align: center;
+}
+.setCheokCon .setEsc{
+    position: absolute;
+    width: 124px;
+    height: 96px;
+    background-color: #55a8fd;
+    top:0;
+    left: 100%;
+    transition: all .2s;
+    text-align: center;
+    line-height: 96px;
+    cursor: pointer;
+    
+    z-index: 99;
+   
+}
+.evaluationLiFlag:hover .setCheokCon .setEsc{
+    left: 100%;
+}
+.evaluationLiFlag .normal::after{
+    content: '';
+    z-index: 101;
+}
+.evaluationLiFlag .setCheok{
+    z-index: 102;
+    
+}
+.evaluationLiFlag:hover .setCheok{
+    border-left: 1px #55a8fd solid;
+}
+
+.setCheokCon .setEsc button{
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+    background-color: transparent;
+}
+
+.checkItem{
+    position: absolute;
+    width: 124px;
+    height: 96px;
+    background-color: #fcfcfc;
+    top:0;
+    left: 100%;
+   
+    text-align: center;
+    line-height: 96px;
+    cursor: pointer;
+    z-index: 99;
+}
+.checkItem .centr{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #55a8fd;
+    position: absolute;
+    color: #55a8fd;
+    left: 50%;
+    top: 50%;
+    margin-left: -12.5px;
+    margin-top: -12.5px;
+    text-align: center;
+    line-height: 25px;
+}
+.evaluationLiFlag .checkItem{
+    left:0;
+}
+.evaluationLiFlag:hover .checkItem{
+    left:0;
+    background-color:#55a8fd; 
+}
+.evaluationLiFlag:hover .centr{
+    border: 2px solid #fff;
+    color: #fff;
+}
+/* 分享 */
+.score{
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 98px;
+    width: 190px;
+}
+.scoreCon{
+    margin-top: 20px;
+}
+.scoreCon .pinfen{
+    text-align: center;
+}
+.scoreCon .pinfen .fsClor{
+    color: #fb6233;
+    font-size: 14px;
+}
+.scoreCon .xingxingCon{
+    position: relative;
+    overflow: hidden;
+    width: 128px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.scoreCon .xingxingCon i{
+    float: left;
+    color: #ff9400;
+    font-size: 14px;
+    width: 23px;
+}
+.scoreCon .xingIcon{
+    position: absolute;
+    left: 0;
+    top:-3px;
+}
+.scoreCon .xingIcon i{
+    font-size: 18px;
+    color: #ff9400;
+    float: left;
+    width: 23px;
+    margin-left: .4px;
+}
+.more{
+    width: 125px;
+    height: 100%;
+    float: right;
+    line-height: 30px;
+}
+.more .sure{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    color: #fb7085;
+    border-left: 1px solid #f1f1f1 ;
+}
+.more .cancel{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+    border-left: 1px solid #f1f1f1;
+}
+
+.nodata{
+    
+    background: url("../images/test.png") no-repeat center center;
+  }
+  .inpuRiog{
+      display: none;
+  }
+  .evaluationLiFlag .inpuRiog{
+      position: absolute;
+      cursor: pointer;
+      left: 0;
+      top:0;
+      right: 0;
+      bottom: 0;
+    display: block;
+      z-index:999;
+  }
+  /* 黑白名单管理 */
+.permanentSign,.temporaryY{
+    display: inline-block;
+    height: 20px;
+    line-height: 18px;
+    width: auto;
+    padding: 0 10px;
+    font-size: 12px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-left: 9px;
+}
+/* 永久的字体颜色 */
+.permanentSign{
+    border: 1px solid #2dd28a;
+    color: #2dd28a;
+}
+/* 临时的字体颜色 */
+.temporaryY{
+    border: 1px solid #55a8fd;
+    color: #55a8fd;
+}
+.failureTime{
+    float: right;
+}
+.founderName{
+    display: inline-block;
+    float: left;
+    /* margin-left: 10%; */
+}
+.senior{
+    width: 60px;
+    height: auto;
+    float: right;
+    cursor: pointer;
+    margin-right: 4px;
+}
+.seniorGao{
+    display: inline-block;
+    width: 60px;
+    height: auto;
+    font-size: 12px;
+    color: #55a8fd;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.listCon .modifyDeleteUl{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 60px;
+    height: auto;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    display: none;
+}
+.listCon .modifyDeleteLi{
+    height: 29px;
+    line-height: 28px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 1px solid #f1f1f1;
+    margin: 0;
+}
+.senior:hover .modifyDeleteUl{
+    display: block;
+}
+.addIconBtn{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 11%;
+    right: 20px;
+    background: #7b8189;
+    z-index: 999;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.addIconBtn:hover{
+    background:#55a8fd;
+}
+
+.addIconBtn i{
+    font-size: 28px;
+    color: #ffffff;
+}
+/* 添加黑白名单 */
+.addBlackWhiteList{
+    position: absolute;
+    width: 506px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -260px;
+    margin-left: -253px;
+    background: #ffffff;
+    z-index:1901;
+    border-radius: 4px;
+}
+.addBlackWhiteListTitle{
+    width: 100%;
+    height: 40px;
+    background: #6aa8f6;
+    border-radius: 4px 4px 0 0;
+    line-height: 40px;
+}
+.titleText{
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.addBlackWhiteListTitle i{
+    float: right;
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.addBlackWhiteListCenter{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding:15px 20px;
+}
+.restrictedCategory{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+}
+
+.ipMacUserMain{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+}
+
+.spanrcName{
+    display: inline-block;
+    width: 105px;
+    line-height: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-right: 15px;
+    text-align: right;
+    font-size: 12px;
+    color: #333333;
+    float: left;
+}
+.termValidity{
+    display: inline-block;
+    margin-left: 5px;
+}
+.ressUsername{
+    display: inline-block;
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 30px;
+}
+/* .emRadio{
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    background: url(../images/RadioIcon.png) no-repeat;
+    cursor: pointer;
+    float: left;
+    margin-top: 11px;
+    margin-right: 5px;
+}
+.radioSelected{
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    background: url(../images/RadioIcon.png) no-repeat 0 -22px;
+    cursor: pointer;
+    float: left;
+    margin-top: 11px;
+    margin-right: 5px;
+} */
+.addressUserMain{
+    width: 100%;
+    height: auto;
+}
+.ipAddress,.macAddress,.userAddress{
+    width: 100%;
+    height: 45px;
+}
+.userAddress{
+    height: auto;
+}
+.spanrcName i{
+    font-size: 22px;
+    color: #ff627b;
+}
+.spanInp,.macInp,.userInp{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+/* ip地址 */
+.ipInput{
+    width: 265px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+.el-select{
+    width: 265px;
+}
+.macInp{
+    height: 30px;
+}
+.inputMac{
+    width: 35px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+
+
+/* .appHotConfigTcIp>.el-select{
+	width:560px;
+	margin-left:100px;
+	margin-bottom:20px
+} */
+/* .appHotConfigTcIp{
+	margin-top: 30px;
+} */
+.appHotConfigTcIp span{
+	color: red
+}
+.aui input.text {
+	border-radius: 3px;
+	border: 1px #cacaca solid;
+	line-height: 22px;
+	width: 290px;
+	display: inline-block;
+	box-sizing: border-box;
+	color: #1f2d3d;
+	font-size: 14px;
+	height: 30px;
+	outline: 0;
+	padding: 3px 10px;
+    font-family: inherit;
+}
+
+.aui-dd-parent {
+    position: relative;
+    margin-left: -18px;
+}
+div.resize-to-input .aui-dropdown {
+    margin-top: 5px;
+    max-height: 187px;
+    width: 95%;
+}
+div.resize-to-input .aui-dropdown li{
+	list-style: none;
+    line-height: 30px;
+    padding: 0 10px;
+    margin: 0;
+    cursor: pointer;
+    color: #48576a;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+
+.aui-dd-parent .aui-dropdown-left {
+	left: 19px;
+    width: 290px;
+}
+
+.aui-dd-parent .aui-dropdown {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	-moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+	color: #000;
+	margin-top: -1px;
+	padding: 4px 0 4px 0;
+	position: absolute;
+	z-index: 2003;
+}
+
+.aui-dropdown {
+	list-style-type: none;
+	overflow: auto;
+	max-height: 250px;
+}
+
+.aui-dropdown li a span {
+	background-position: 8px 50%;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.aui-dropdown li:hover {
+	background-color: #e4e8f1;
+	font-style: normal;
+}
+.label-suggestion span {
+	color: #48576a;
+}
+
+.label-suggestion em {
+	font-style: normal;
+}
+.appImgConfigBox{
+	height: 100%;
+	background: #f3f7fd;
+}
+
+/* .chengF{
+    width: 290px;
+    height: 80px;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    margin-top: 5px;
+} */
+
+/* 控制服务 */
+.controlService{
+    width: 100%;
+    height:auto;
+}
+.allSingleMain{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    /* margin-top: 10px; */
+}
+.fullService,.singleService{
+    height: 40px;
+    line-height: 40px;
+}
+.fullService .el-radio .el-radio__label{
+    font-size: 12px;
+    color: #333333;
+
+}
+.singleService{
+
+}
+.singleServiceInp{
+    display: inline-block;
+}
+.singleServiceInp .appHotConfigTcIp .aui>.text{
+    width: 188px;
+    margin-left: 10px;
+    border: 1px solid #eeeeee;
+}
+.timeLimit{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 24px;
+}
+.timeLimitMian{
+    display: inline-block;
+    width: auto;
+    height: 35px;
+}
+.permanentY,.temporaryL{
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+}
+.permanentY{
+    margin-right: 20px;
+}
+
+.singleService .aui-dd-parent .aui-dropdown-left{
+    width: 188px;
+    margin-left: 10px;
+}
+.temporaryTime{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+.temporaryTime .el-date-editor.el-input{
+    width: 145px;
+    height: 30px;
+}
+
+/* 备注 */
+.remarksBeiz{
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+.remarksBeizText{
+    display: inline-block;
+    width: 265px;
+    height: auto;
+}
+.addBlackWhiteListBtn{
+    width:100%;
+    height: 40px;
+    text-align: center;
+    background: #e3e3e3;
+    border-radius: 0 0 4px 4px;
+}
+.addBlackWhiteListBtn button{
+    width: 49.5%;
+    border: none;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.addBlackWhiteListBtn .confirmBtn{
+    background: #6aa8f6;
+    color: #ffffff;
+    border-radius: 0 0 0 4px;
+}
+input.textPhone {
+    border-radius: 3px;
+    border: 1px #eeeeee solid;
+    line-height: 22px;
+    width: 290px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #1f2d3d;
+    font-size: 14px;
+    height: 33px;
+    outline: 0;
+    padding: 3px 10px;
+    font-family: inherit;
+}
+
+
+
+.appHotConfigTcList{
+    width: 290px;
+    border: 1px solid #eeeeee;
+    min-height: 80px;
+    max-height: 80px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.appHotConfigTcList>ul{
+	width:100%;
+	overflow: auto;
+	max-height: 80px;
+}
+.appHotConfigTcList>ul>li{
+	padding: 0 10px 0 8px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	border:1px solid #e4f1ff;
+	border-radius: 4px;
+	margin-bottom:18px;
+	font-size: 14px;
+	color:#333;
+	margin:4px;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	position: relative;
+    cursor: pointer;
+    width: 150px;
+}
+.appHotConfigTcList>ul>li>i{
+    float: left;
+    font-size: 20px;
+    color: #2ba9ff;
+}
+.appHotConfigTcList>ul>li>span{
+	width: 16px;
+    height: 16px;
+    color: #fa405c;
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    z-index: 99;
+    font-size: 16px;
+    text-align: center;
+    line-height: 16px;
+    display: none;
+}
+.appHotConfigTcList>ul>li:hover{
+    box-shadow:0 0 3px 2px #e4f1ff;
+}
+.appHotConfigTcList>ul>li:hover span{
+    display: block;
+    
+}
+
+.checkIpInfoSpan{
+    color:red
+}
+.remarksBeizText textarea{
+    width: 265px;
+    height: 84px;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+.checknum
+{margin-left: 270px;
+margin-top: -18px;
+/* display: block; */
+float: left;
+}
+.remnants{
+    color: #6aa8f6;
+}
+.checkservreInfo{
+    height: 30px;
+    color: red;
+    margin-top: -34px;
+    margin-left: 276px;
+}   
+.checkMarkinfo{
+    margin-left: 271px;
+    margin-top: -34px;
+    display: inline-block;
+    width: 100px;
+    float: left;
+    color: red;
+}
+
+.showwhite{
+    margin-left: 67px;
+}
+.appHotConfigTcIp  .inwhiteList{
+    color: #cccccc;
+    cursor: context-menu;
+}
+a:link { text-decoration: none}
+a:active { text-decoration:none}
+a:hover { text-decoration:none} 
+a:visited { text-decoration: none}
+
+.appHotConfigTcIp .singleServiceMain{
+    width: 198px;
+
+}
+.appHotConfigTcIp .singleServiceMain .aui-dropdown{
+    margin-left: 10px;
+}
+.radioboxR{
+    height: 30px;
+    line-height: 30px;
+}
+.controlServicesBiaos{
+    float: left;
+    width: 350px;
+}
+
+.dateRangeMain{
+    display: inline-block;
+    height: 26px;
+}
+.dateRangeMain ul{
+    height: 26px;
+    line-height: 26px;
+}
+.dateRangeMain ul li{
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.customTime{
+    display: inline-block;
+    position: absolute;
+}
+.customTimeName{
+    display: inline-block;
+    line-height: 26px;
+    margin-right: 5px;
+}
+.determineBtn{
+    display: inline-block;
+    line-height: 20px;
+    border: 1px solid #e3e3e3;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #666666;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.determineBtn:hover{
+    border: 1px solid #55a8fd;
+    color: #55a8fd;
+}
+.customTime .checktimeclass{
+    color: red;
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 10px;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.dateRangeMain ul li.active,.dateRangeMain ul li.isActiveOne,.dateRangeMain ul li.isActiveThree,.dateRangeMain ul li.isActiveSix{
+    color: #55a8fd;
+}
+.collection .overlay {
+    z-index: 2000;
+  }
+.noInformation{
+    text-align: center;
+    padding-top: 100px;
+} 
+#wdtcst li:last-child{
+    margin-left: 10px;
+}
+/* .addBlackWhiteList .addBlackWhiteListCenter .timeLimit .el-date-editor .el-input {
+    width: 165px;
+} */
+.dateRangeMain ul li:hover {
+    color: #55a8fd;
+}

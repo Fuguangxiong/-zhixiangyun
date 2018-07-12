@@ -1,0 +1,548 @@
+﻿@charset "utf-8";
+/*-----------------------------
+Name: common Css
+
+-----------------------------*/
+/* 公共 */
+input::-webkit-input-placeholder {
+   padding-left:5px ;
+   color: #ccc !important;
+}
+/* 公共-end */
+
+/* 内容 */
+em{
+    font-style: normal;
+}
+.bota-left{
+    width: 233px;
+    float: left;
+    border-right: 1px solid #dedede;
+    /*-webkit-box-shadow: 0px 0px 2px #dedede inset;
+    -moz-box-shadow: 0px 0px 2px #dedede inset;
+    box-shadow: 0px 0px 3px #dedede inset;*/
+    /*height: 742px;*/
+    overflow: auto;
+}
+.tabtate{
+    margin:20px 20px 0 20px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.tabtate span{
+    border: 1px #d1d1d1 solid;
+    width:94px;
+    height: 30px;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.inpt-mg{
+    margin: 10px 20px;
+}
+.inpt-mg .control-tcss{
+    width:187px;
+}
+.tabtate span.active{
+    background: #b61717;
+    color: #fff;
+    border: 1px #b61717 solid;
+}
+.treecong{
+    margin: 0 20px;
+}
+.treecong .tli{
+    width:190px;
+    height: 34px;
+    background: #f2f2f2;
+    /*text-align: center;*/
+    line-height: 34px;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.treecong .tli::before{
+    content: "";
+    position: absolute;
+    background: url("../../images/jt.png") 0 -7px no-repeat;
+    width:12px;
+    height: 8px;
+    right: 5px;
+    top:50%;
+    margin-top: -4px;
+}
+.treecong .tli.active{
+    background: #cacaca;
+}
+.treecong .tli.active::before{
+    content: "";
+
+    background-position: 0 0;
+}
+.treecong ul.tul{
+    padding:10px 0 10px 20px;
+}
+.treecong ul.tul li{
+    line-height: 30px;
+    font-size: 14px;
+}
+.treecong ul.tul li:hover{
+    color: #b61717;
+}
+.bo-right{
+    margin-left: 233px;
+    padding-bottom: 10px
+}
+.right-con{
+    padding: 0 45px;
+
+}
+.time-con{
+    padding-top: 10px;
+}
+.time-con h2{
+    border-left: 2px #b61717 solid;
+    font-size: 14px;
+    margin: 10px 0;
+    height: 14px;
+    line-height: 14px;
+    padding-left: 10px;
+    position: relative;
+}
+.infobox{
+    border: 1px #cccccc solid;
+    border-radius: 3px;
+    height: 420px;
+    position: relative;
+}
+.info-left{
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    /*height: 418px;*/
+    border-left: 1px solid #ccc;
+        z-index: 100;
+    background: #fff;
+
+}
+.info-left .butcst{
+    border: 1px #cacaca solid;
+    border-radius: 3px;
+    height: 27px;
+    line-height: 27px;
+    display: inline-block;
+    padding: 0 18px;
+    color: #999;
+    font-size: 14px;
+    cursor: pointer;
+}
+.poanut{
+    position: absolute;
+    left: 8px;
+    top:8px;
+}
+.info-left .butcst.active{
+    border: 1px #506ff6 solid;
+    color: #506ff6;
+}
+.info-left .butcst.active.an1{
+    background: url("../../images/6.png") 6px center no-repeat;
+    padding: 0 12px 0 30px;
+}
+.domeec{
+    border: 1px #d5d5d5 solid;
+    width:100px;
+    height: 100px;
+    position: absolute;
+    left: 40%;
+    top:50px;
+    border-radius: 3px;
+}
+.domeec.active{
+    border: 1px #506ff6 solid;
+}
+.domeec .dle{
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 2px;
+    top:2px;
+    border-radius: 50%;
+    border: 1px #c9c9c9 solid;
+    text-align: center;
+    line-height: 18px;
+    color: #999;
+}
+.domeec dl{
+    text-align: center;
+    padding-top: 16px;
+}
+.domeec dl dd img{
+    width: 42px;
+    height: 42px;
+    border-radius: 3px;
+    border: 1px #d3d3d3 solid;
+}
+.domeec dl dt{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.addzk{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    border-left: 1px #dedede solid;
+    width:163px;
+}
+.addzk h3{
+    background: #efefef;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+}
+.addzk i{
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+}
+.addzk ul{
+    padding:10px 0;
+}
+.addzk ul li{
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.addzk.active{
+    width:30px;
+}
+.addzk.active ul{
+    display:none;
+}
+.addzk.active h3{
+    display: block;
+    height: 100%;
+}
+.addzk.active h3 .kai{
+    display: none;
+}
+.addzk h3 .guan{
+    display: none;
+
+}
+.addzk.active h3 .guan{
+    display: block;
+    top:48%;
+    left:5px;
+}
+.addzk.active h3 span{
+    display: none;
+}
+.boscssinp{
+    border: 1px #ccc solid;
+    width:172px;
+    height: 28px;
+    border-radius: 3px;
+}
+.boscss{
+    border: 1px #ccc solid;
+    width:872px;
+    height: 60px;
+    border-radius: 3px;
+}
+.boscss1{
+    border: 1px #ccc solid;
+    width:872px;
+    height: 120px;
+    border-radius: 3px;
+}
+.ahed{
+    position: absolute;
+    right: 0px;
+    font-size: 14px;
+    color: #3b6bf5;
+}
+.pormbutton{
+    position: absolute;
+    right:10px;
+    top:15px;
+}
+.inputbos{
+	margin-left: 20px;
+    line-height: 60px;
+}
+.gong-con{
+    width:540px;
+    height: 360px;
+    margin-left: -270px;
+    margin-top: -180px;
+}
+.gong-con-tc{
+    margin:24px 4px;
+}
+.taclet{
+    width: 220px;
+    padding: 0 20px;
+    height: 210px;
+    float: left;
+}
+.taclet p .boscssinp{
+    height: 24px;
+    line-height: 24px;
+}
+.taclet h2{
+    padding-bottom: 10px;
+}
+.taclet ul{
+    padding: 10px 0;
+}
+.taclet ul li{
+    line-height: 14px;
+    font-size: 14px;
+    margin: 14px 0;
+}
+.taclet ul li .chebox i{
+    display: inline-block;
+    vertical-align: middle;
+}
+.bord{
+    border-right: 1px #ccc dashed;
+}
+.taclet ul li span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 14px;
+    margin-left: 4px;
+}
+.taclet ul li.active{
+    padding-left: 4px;
+    color: #b61717;
+    border-left: 2px #b61717 solid;
+}
+.butonstred{/*覆盖公用*/
+	border-radius: 3px;
+    border: 1px #b61717 solid;
+    text-align: center;
+    font-size: 14px;
+    color: #b61717;
+    line-height: 28px;
+    cursor: pointer;
+    padding: 0 12px;
+    background: #fff;
+}
+.butonstred:hover{
+    background: #b61717;
+    color: #fff;
+}
+/*添加end*/
+
+.combination{
+    min-height: 50px;
+    max-height: 90px;
+    overflow-y: auto;
+    border:1px solid #cccccc;
+    margin-top: 15px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+}
+.listStyleRight{
+    overflow: auto;
+}
+.leftMenu{
+    float: left;
+    width: 253px;
+    height: 247px;
+     border-radius: 4px;
+     border:1px solid #cccccc;
+}
+.leftMenu>p,.rightMenu>p{
+    border-bottom: 1px solid #eae4e4;
+    height: 34px;
+    font-size: 14px;
+}
+.leftMenu>p>span,.rightMenu>p>span{
+    width: 83px;
+    height: 22px;
+    line-height: 22px;
+    display: inline-block;
+    background: #b61717;
+    margin-top: 6px;
+    padding-left: 7px;
+    color: #f6e2e2;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.leftMenu>ul,.rightMenu>ul{
+    height: 160px;
+    overflow-y:auto;
+}
+.leftMenu>ul>li{
+    height: 23px;
+    line-height: 23px;
+}
+.leftMenuList{
+    cursor: pointer;
+}
+.leftMenuListItem{
+    height: 29px;
+    line-height: 29px;
+    padding-left: 10px;
+    font-size: 14px;
+
+}
+.leftMenuListItem.active{
+    background: #f6eeee;
+}
+.leftMenuListItem:hover{
+    background: #f6eeee;
+}
+.rightMenu{
+    float: right;
+     width: 253px;
+     height: 247px;
+     border-radius: 4px;
+     border:1px solid #cccccc;
+
+}
+.rightMenuList{
+     border:1px solid #fff;
+     cursor: pointer;
+     
+}
+.rightMenu>ul>li{
+    height: 23px;
+    line-height: 23px;
+    padding-left: 6px;
+}
+
+/*  */
+.configSpan 
+{
+    border: 1px solid #cccccc;
+    padding: 6px 10px;
+    display: inline-block;
+    border-radius: 4px;
+    margin-right: 5px;
+    position: relative;
+    margin-top: 5px;
+    background: #FFF;
+}
+.delConfig {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: -6px;
+    top: -5px;
+    border: 1px solid #f30635;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 15px;
+    background: #fff;
+    padding-left: 2px;
+    color: #f30635;
+    cursor: pointer;
+}
+
+/* 单选按钮 */
+  .componentSelectBtn {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #ececec;
+    cursor: pointer;
+  }
+  .componentSelectBtn.select{
+    width: 13px;
+    height: 13px;
+    background-image: url("../../images/checkBoxActive.png");
+    background-repeat: no-repeat;
+  }
+.tuijian{
+	height: 40px;
+	line-height: 40px;
+	background: #ccc;
+	text-align: center;
+}
+.tjserver{
+	padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.serverListDiv{
+	height: 378px;
+    overflow-y: auto;
+}
+svg path{
+    cursor: pointer;
+}
+.draggable.leftMenuList,.tjserver{
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+     word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+    text-overflow:ellipsis
+}
+.modal-header{
+    background: #b61717;
+}
+.modal-title{
+    color: #f0d1d1;
+    font-size: 14px;
+}
+.modal-body,.modal-footer{
+    background: #f8f8f8;
+}
+.modal-footer{
+    border-top: none;
+}
+#submit_label{
+     margin-left: 20px;
+    margin-right:200px;
+    background: #b61717;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    line-height: 30px;
+    padding: 0;
+    background: #b5b5b5;
+    border:none;
+}
+.btn:hover{
+  background: #b61717;  
+}
+.centerArrows{
+    float: left;
+    height: 247px;
+    text-align: center;
+    line-height: 247px;
+    width: 60px;
+    font-weight: 700;
+    color:#8a8a8a;
+}
+.describe{
+    height: 50px;
+    background: #f6eeee;
+    border-top: 1px solid #eae4e4;
+    padding: 5px 10px;
+    overflow-y:auto;
+    font-size: 12px;
+    color: #585656;
+}
+.describe>p{
+    height: 16px;
+    line-height: 16px;
+}
+.describe>p>span{
+    color:#c64d4d;
+    padding-right:2px;
+}

@@ -1,0 +1,89 @@
+.headerNav{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background:rgba(0,0,0,0.7);
+    /*opacity: 0.8;*/
+    z-index: 999;
+}
+.headerNavMain{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+.logoT{
+    display: inline-block;
+    width: 230px;
+    height: 60px;
+    float: left;
+}
+.a_logo{
+    display:inline-block;
+    width: 230px;
+    height: 60px;
+}
+.navMain{
+    height: 38px;
+    width: auto;
+    float: left;
+    margin-top: 11px;
+    line-height: 38px;
+    margin-left: 75px;
+}
+.navMain li{
+    float: left;
+    line-height: 38px;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #ffffff;
+    /*font-weight: 600;*/
+    cursor: pointer;
+    border-bottom:1px solid transparent;
+}
+.navMain li a{
+    color: #ffffff;
+}
+.navMain li:hover{
+    border-color: #1b8bf9;
+    color: #1b8bf9;
+}
+.navMain li a:hover{
+    color: #1b8bf9;
+}
+.navMain li.aclick{
+    border-color: #1b8bf9;
+    color: #1b8bf9;
+}
+.navMain li.aclick a{
+    color: #1b8bf9;
+}
+
+.loginregistered{
+    width: auto;
+    float: right;
+    height: 60px;
+}
+.ullr{
+    height: 16px;
+    width: auto;
+    margin-top: 22px;
+
+}
+.ullr li{
+    float: left;
+    line-height: 16px;
+    padding: 0 15px;
+    font-size: 14px;
+}
+.ullr li a{
+    color: #ffffff;
+}
+.borderR{
+    border-right: 1px solid #ffffff;
+}

@@ -1,0 +1,617 @@
+.color-red{
+    color: #fa405c;
+}
+.boxService{
+    padding-left: 18px;
+    padding-top: 12px;
+    padding-bottom: 100px;
+}
+.comcm{
+    padding-right: 200px;
+    position: relative;
+    
+}
+
+.rightfix{
+   
+    position: fixed;
+    z-index:79;
+    right: 20px;
+    top:70px;
+    width: 155px;
+    background-color: #fff;
+    padding: 10px 15px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1)
+}
+.rightfix ul li.initial{
+    background: url('../../images/iconsce.png') no-repeat center left; 
+    padding-left: 18px;
+    line-height: 30px;
+    color: #666;
+}
+.rightfix ul li.modes{
+    background: url('../../images/iconsce.png') no-repeat center left; 
+    padding-left: 18px;
+    line-height: 30px;
+    color: #e3e3e3;
+}
+.rightfix ul li{
+    background: url('../../images/iconsce.png') no-repeat center left; 
+    padding-left: 18px;
+    line-height: 30px;
+    color: #e3e3e3;
+}
+.rightfix ul li.stant{
+    background: url('../../images/iconsce2.png') no-repeat center left; 
+    padding-left: 18px;
+    line-height: 30px;
+    color: #55a8fd;
+}
+.rightfix ul li.tree{
+    background: url('../../images/iconsce1.png') no-repeat center left; 
+    padding-left: 18px;
+    line-height: 30px;
+    color: #09ca2c;
+}
+.rightfix ul li.false{
+    background: url('../../images/iconsce3.png') no-repeat center left; 
+    padding-left: 18px;
+    line-height: 30px;
+    color: #fa405c;
+}
+.tattop{
+    border-bottom: 1px #f1f1f1 solid;
+    color: #333;
+    line-height: 1;
+    padding-bottom: 10px;
+    position: relative;
+    padding-left: 5px;
+}
+.tattop::after{
+    content: '';
+    width: 2px;
+    height: 12px;
+    position: absolute;
+    left: 0;
+    top:1px;
+    background-color: #55a8fd;
+}
+.thade{
+    background-color: #f9f9f9;
+    border: 1px #f1f1f1 solid;
+    border-left-width: 4px;
+    height: 28px;
+   position: relative;
+}
+
+.comcm.active .thade{
+    border-left-color: #55a8fd;
+}
+.comcm.active .thade-cloe{
+    color: #55a8fd;
+}
+.thade-cloe{
+    margin-left: 7px;
+    margin-top: 3px;
+    float: left;
+}
+.thade-cloe i{
+    float: left;
+
+}
+.thade-cloe em{
+    float: left;
+    font-size: 12px;
+    margin-top: 2px;
+    font-style: normal;
+}
+.basics-time{
+    margin-top: 18px;
+}
+
+.formaCon{
+    width: 710px;
+    margin: 0 auto;
+   
+    overflow: hidden;
+    font-size: 12px;
+}
+/* }
+.domeheig1{
+    height: 0;
+    transition: all 1s;
+    overflow: hidden;
+}
+.domeheig{
+    height: 0;
+    transition: all 1s;
+    overflow: hidden;
+} */
+
+/* .comcm.active .domeheig{
+    height: 450px;
+}
+.comcm.active .domeheig1{
+    height: 350px;
+}
+.comcm.active .formboxru{
+    height: 350px;
+} */
+
+.upcnl{
+    position: absolute;
+    right: 4px;
+    top:3px;
+}
+/* .formaCon.showBlck {
+    display: block
+} */
+/* .formaCon{
+    display: none;
+} */
+.comcm .upjit i{
+    display: inline-block;
+    transition: all .5s;
+    transform:rotate(0deg);
+   
+}
+.comcm.active .upjit i{
+    transform:rotate(180deg);
+    color: #55a8fd;
+}
+.upcnl em{
+    cursor: pointer;
+}
+.upcnl em.bianji i:hover{
+    color: #55a8fd;
+}
+.formbox{
+    width: 500px;
+    margin-top: 20px;
+}
+
+.txet-ts{
+    position: absolute;
+    right: -101%;
+    top:0;
+    color: #999999;
+    font-size: 12px;
+}
+.tatl-texe{
+    text-align: right;
+    font-size: 12px;
+    color: #999;
+    position: absolute;
+    right: 0;
+    bottom: -28px;
+}
+.xingroe{
+    font-style: normal;
+    color: red;
+    padding-right: 5px;
+}
+.but-alin{
+    text-align: center;
+}
+.bomac{
+    margin-bottom: 30px;
+}
+.clope{
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+}
+.tagstyle{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.but-style{
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(150, 200, 246, .5);
+    display:inline-block;
+    background-color: #fff;
+    text-align: center;
+    line-height: 28px;
+    transition: all .3s;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px #fff solid;
+}
+.but-style:hover{
+    min-width: 80px;
+    width: auto;
+}
+.but-style i{
+    display: none;
+}
+.but-style1{
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(150, 200, 246, .5);
+    display:inline-block;
+    width: 80px;
+    background-color: #fff;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+    transition: all .3s;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px #fff solid;
+}
+.tagart{
+    position: relative;
+}
+.tagart:hover{
+    border: 1px #55a8fd solid;
+    overflow: visible;
+}
+.tagArea:hover{
+    background-color: #55a8fd;
+    color: #fff;
+}
+.tagart:hover i{
+    position: absolute;
+    right: -8px;
+    top:-50%;
+    display: block;
+    color: #fa405c;
+}
+
+.checkPicture{
+    height: 30px;
+}
+.checkPicture .checkBtn{
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    background-color: rgba(22, 155, 213, 1);
+    float: left;
+    cursor: pointer;
+}
+.checkPicture span{
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.userImg{
+    width: 64px;
+    height: 64px;
+}
+.clear{
+    margin-top: 50px;
+}
+.clear li{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 6px;
+    cursor: pointer;
+    float: left;
+    border: 1px solid rgba(247, 0, 255, 0);
+    position: relative;
+}
+.clear li i{
+    position: absolute;
+    color: #999999;
+    right: -9px;
+    top: -9px;
+    display: none;
+}
+.clear .checkActive .deleteBtn{
+    display: inline-block;
+}
+.clear li i::before{
+    background-color: #fff;
+    border-radius: 50%;
+}
+.clear li:hover{
+    border:1px solid #55a8fd;
+    box-shadow:0px 0px 1px 1px #74a6fa;
+}
+.clear .checkActive{
+    border:1px solid #55a8fd;
+    box-shadow:0px 0px 1px 1px #74a6fa;
+}
+.clear::after{
+    content:"";
+    height:0;
+    line-height:0;
+    display:block;
+    visibility:hidden;
+    clear:both
+}
+
+.dialog-footer button{
+    width: 68px;
+    height: 28px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+}
+.confirmBtn{
+    background: rgba(22, 155, 213, 1);
+    border: 1px solid rgba(22, 155, 213, 1);
+    color: #fff;
+    margin-right: 30px;
+}
+.resetBtn{
+    color: #999999;
+    background: #fff;
+    border: 1px solid #999999;
+}
+.addLogimg{
+    width: 150px;
+    height: 150px;
+    border: 1px #cccccc solid;
+    border-radius: 3px;
+    position: relative;
+    float: left;
+    background: url('../../images/addimglog.png') center 45px no-repeat;
+}
+.addBgimg{
+    float: left;
+    width: 300px;
+    height: 150px;
+    border: 1px #cccccc solid;
+    border-radius: 3px;
+    position: relative;
+    margin-left: 40px;
+    background: url('../../images/addimglog.png') center 45px no-repeat;
+}
+.logtxet{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: #f9f9f9;
+    bottom: 0;
+    text-align: center;
+    line-height: 30px;
+    left: 0;
+    color: #666;
+}
+.flixtie{
+   
+    float: left;
+    margin-left: 12px;
+    color: #999;
+    line-height: 22px;
+}
+#id1,#id2{
+    opacity: 0;
+    position: absolute;
+    top:-100%;
+}
+.imgCss{
+    width: 148px;
+    height: 118px;
+}
+.bgimgCss{
+    width: 298px;
+    height: 118px;
+}
+.imgclorcom{
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.forpz{
+    border: 1px #ccc dashed;
+    border-radius: 4px;
+}
+.forpz-con{
+    width: 540px;
+    padding: 10px 0 30px 60px;
+}
+.boxService .forpz-con .el-form-item{
+    margin-bottom: 20px;
+}
+.clode{
+    color: red;
+}
+.add-palan{
+    width: 202px;
+    height: 107px;
+    margin-right: 13px;
+    float: left;
+    border: 1px #cccccc solid;
+    background: url('../../images/addimglog.png') center no-repeat;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.add-palan:hover{
+    border: 1px #55a8fd solid;
+}
+.add-palanad{
+    width: 202px;
+    
+    margin-right: 13px;
+    float: left;
+    border: 1px #cccccc solid;
+    overflow: hidden;
+    border-radius: 2px;
+    position: relative;
+    padding: 5px 10px 15px 10px;
+    margin-bottom: 10px;
+}
+.add-palanad:hover span.daleLi{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top:0;
+    background-color: red;
+    cursor: pointer;
+}
+.icon-weibiaoti101{
+    position: absolute;
+    margin-top: -13px;
+    font-size: 12px;
+    color: #fff;
+}
+.add-palanad p{
+    line-height: 22px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.movead{
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    cursor: pointer;
+    background: url('../../images/upcom.png') center no-repeat;
+}
+.movead:hover{
+
+}
+.but-alin{
+    padding-top: 10px;
+}
+.stylefont{
+    font-size: 12px;
+}
+.examine{
+    position: fixed;
+    display: none;
+    right: 10px;
+    background: red;
+    height: 100px;
+    z-index: 10;
+    bottom:100px;
+    transition: all .5s;
+}
+.examine.a {
+    left:50px;
+}
+.thade.modes .thade-cloe{
+    color: #e3e3e3;
+}
+.dalchet{
+    height: 88px;
+    transition: all .5s;
+    overflow: hidden;
+}
+.dalchet p em{
+    font-style: normal;
+}
+.dalchet.abncss{
+    height:auto;
+   
+}
+.apply-actions {
+   
+    position: fixed;
+    /* right: -2000px; */
+    bottom: 36px;
+    height: 86px;
+    background: rgba(245, 245, 245, 0.93);
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    z-index: 88;
+}
+
+.apply-actions>div {
+    position: absolute;
+    left: 20px;
+    right: 330px;
+    top: 25px;
+    line-height: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.apply-actions>div>span {
+    position: absolute;
+    left: 90px;
+    right: 0;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.apply-btn {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 1;
+    margin: 28px 20px 0 0;
+    text-align: center;
+    border: 1px solid #55a8fd;
+    border-radius: 2px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.apply-btn.submit {
+    background: #55a8fd;
+    color: #fff;
+}
+
+.apply-btn.back {
+    background: #f6f6f6;
+    color: #55a8fd;
+}
+
+.apply-btn.save {
+    background: #26d186;
+    border: 1px solid #26d186;
+    color: #fff;
+}
+
+.apply-btn {
+    background: #fff;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    border-radius: 0;
+    margin: 0 30px 0 -5px;
+    margin-top: 29px;
+}
+
+.apply-btn.active {
+    background: #ff9900;
+    border: 1px solid #ff9900;
+    color: #fff;
+}
+.box{
+    position: relative;
+}
+.box form {
+    position: relative;
+    top: -30px;
+    height: 160px;
+}
+.uploadInput{
+    position: absolute;
+    left: -9999px;
+}
+.box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    height: 160px;
+}

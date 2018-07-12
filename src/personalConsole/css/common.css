@@ -1,0 +1,104 @@
+.publicLeftNavImage {
+    text-align: center;
+    font-size: 20px;
+}
+
+.bigSreen .publicLeftNavImage {
+    text-align: left;
+    padding-left: 12px;
+}
+
+.overlay .popupBox {
+    width: 440px;
+    height: 260px;
+    border-radius: 5px;
+    margin-left: -220px;
+    background-color: initial;
+}
+
+.overlay .popupBoxHeader {
+    border-radius: 5px 5px 0 0;
+}
+
+/* .overlay .popupBoxBody {
+    height: 180px;
+    background: url("../images/deleteIcon.png") no-repeat center 26px;
+    padding-top: 0;
+    line-height: 260px;
+    color: #898989;
+    background-color: #fff;
+}
+.overlay .popupBoxBody1 {
+    height: 180px;
+    background: url("../images/switch.png") no-repeat center 26px;
+    padding-top: 0;
+    line-height: 260px;
+    color: #898989;
+    background-color: #fff;
+}
+#NoticeBoxOverlay.overlay .popupBoxBody2 {
+    height: 180px;
+    background: url("../images/quit.png") no-repeat center 26px;
+    padding-top: 0;
+    line-height: 260px;
+    color: #898989;
+    background-color: #fff;
+} */
+.overlay .popupBoxBtnContainer {
+    padding-bottom: 0px;
+    background-color: initial;
+}
+
+.overlay .popupBoxBtnContainer .popupBoxBtn {
+    border-radius: 0 0 5px 0;
+    margin: 0;
+    width: 50%;
+    background-color: #e3e3e3;
+}
+.overlay .popupBoxBtnContainer .popupBoxBtn:hover{
+    background-color: #dcdcdc;
+}
+.overlay .popupBoxBtnContainer .redBg {
+    background: #6aa8f6;
+    border-radius: 0 0 0 5px;
+}
+.overlay .popupBoxBtnContainer .redBg:hover{
+    background-color: #639fea;
+}
+.el-pagination__jump {
+    cursor: pointer;
+}
+
+.publicLeftNavImage.pc_account {
+    background-image: url("../images/pc_account.png");
+}
+.publicLeftNavImage.pc_service {
+    background-image: url("../images/pc_service.png");
+}
+.publicLeftNavImage.pc_table {
+    background-image: url("../images/pc_table.png");
+}
+.publicLeftNavImage.pc_collection {
+    background-image: url("../images/pc_collection.png");
+}
+.publicLeftNavImage.pc_news {
+    background-image: url("../images/pc_news.png");
+}
+.publicLeftNavImage.pc_evaluation {
+    background-image: url("../images/pc_evaluation.png");
+}
+.publicLeftNavImage.pc_footprint {
+    background-image: url("../images/pc_footprint.png");
+}
+.publicLeftNavImage.pc_reimbursement {
+    background-image: url("../images/pc_reimbursement.png");
+}
+.publicLeftNavImage.resourcemanage {
+    background-image: url('../images/resourceCatalog.png');
+}
+.publicLeftNavImage.announcement {
+    background-image: url('../images/announcement.png');
+}
+.publicLeftNavImage.appmanager {
+    background-image: url('../images/appmanager.png');
+}

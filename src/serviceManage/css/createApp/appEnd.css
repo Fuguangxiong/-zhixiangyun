@@ -1,0 +1,31 @@
+
+.iformcon-con5.step_five{
+    width: 225px;
+    height: auto;
+    margin: 60px auto 0;
+}
+em{
+    font-style: normal;
+}
+.complete {
+    width: 100%;
+    height: 70px;
+}
+.complete_ico{
+    display:block;
+    width: 79px;
+    height: 79px;
+    margin:0 auto;
+    background: url(../../images/successfully.png) no-repeat;
+}
+.complete_main{
+	 display:block;
+	 font-size:14px ;
+	 color:#666666;
+	 padding-top: 20px;
+	 text-align: center;
+}
+.butonstred{
+	margin-top: 80px;
+	background: #55a8fd;
+}

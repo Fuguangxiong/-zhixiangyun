@@ -1,0 +1,418 @@
+.publicContent {
+    position: relative;
+  }
+.inpfrom {
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+em{
+    font-style: normal;
+}
+.inpfrom h2.tilesc {
+    font-size: 18px;
+    color: #55a8fd;
+    text-align: center;
+    height:60px;
+    padding-top:14px;
+    display: -webkit-flex;
+    display: -moz-box;         
+    display: -ms-flexbox;   
+    display: -webkit-flex;   
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+}
+.tilescSpan{
+    display: inline-block;
+    max-width:200px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding:0 6px;
+}
+.divtime {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.divtime .tile {
+    height: 30px;
+    font-size: 12px;
+    position: relative;
+    background-color: #f9f9f9;
+    border-left: 4px solid #f1f1f1;
+}
+.divtime .tile .titleInfo{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+}
+.divtime .tile .titleInfo i{
+    float: left;
+}
+.divtime .tile .titleInfo em{
+    margin-top: 4px;
+    margin-left: 6px;
+    float: left;
+    font-size: 12px;
+    line-height: 1;
+}
+.divtime .wid {
+    padding:0 104px;
+}
+.w1000{
+	width: 1000px;
+}
+.line{
+	position: absolute;
+    border-bottom: 1px #55a8fd solid;
+    bottom: 16px;
+    left: 141px;
+    right: 43px;
+}
+.textrea{
+    width: 800px;
+    font-size: 12px!important;
+    min-height: 35px;
+    resize:none;
+    background-color: #fff;
+}
+.con-cont{
+	position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.con-cont1{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.cssinput {
+    background: transparent;
+    border: 1px #dadada solid;
+    height: 24px;
+    padding: 0;
+}
+.setParam{
+    height: 110px;
+}
+.paramBox{
+    width: 204px;
+    height: 110px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    float: left;
+    transition:all .5s;
+    background-color: #ffffff;
+    margin-right: 20px;
+}
+.paramContent{
+    height: 86px;
+    padding: 8px;
+    overflow: hidden;
+    transition:all .5s;
+}
+.paramContent p{
+    margin-bottom: 3px;
+}
+.paramContent span{
+    min-width: 62px;
+    height: 26px;
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 23px;
+}
+.paramBtn{
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+.paramBtn i{
+    cursor: pointer
+}
+.actives{
+    height: auto;
+    /* height: 150px; */
+    transition:all .5s;
+    transform:rotate(0deg);
+}
+.paramTag{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.pb{
+    position: absolute;
+    top: 5px;
+    z-index: 87;
+}
+.boxBody {
+    width: 95%;
+    padding: 0;
+  }
+  .boxBody table {
+    width: 100%;
+  }
+  .boxBody table #title {
+    background-color: #ccc;
+  }
+  .boxBody table th {
+    text-align: left;
+  }
+  .boxBody table tr {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+  }
+  .active {
+    display: none;
+  }
+  .remarks {
+    margin-top: 30px;
+    width: 800px;
+    position: relative;
+  }
+  .xing {
+    color: #cc3333;
+    position: absolute;
+    left: -8px;
+    top: 2px;
+  }
+  .button_box {
+      width: 100%;
+      height: 32px;
+      margin: 20px auto;
+      text-align: center;
+  }
+  .button_box span {
+      cursor: pointer;
+      width: 82px !important;
+      height: 30px !important;
+      color: #fff !important;
+      text-align: center !important;
+      line-height: 30px;
+      margin: 20px auto;
+      margin-right: 175px;
+      float: right;
+  }
+  .queding {
+      background-color: #26d186 !important;
+  }
+  .quxiao{
+      background-color: #eeeeee !important;
+  }
+  .firstSpan{
+    float: left;
+    margin-top: 5px;
+  }
+  .rs{
+    width: 82px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #cccccc;
+    display: block;
+    float: left;
+    margin-right: 30px;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+  .rs.selected{
+    border: 1px solid #ff9900;
+    background-color: #ff9900;
+    color: #fff;
+  }
+  .audit_remark{
+      display: inline-block;
+      width: 150px;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space: nowrap;
+  }
+  textarea{
+    width: 700px;
+    height: 50px;
+  }
+  .apply-actions {
+    position: fixed;
+    right: 0;
+    bottom: 36px;
+    height: 86px;
+    background: rgba(245, 245, 245, 0.93);
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    z-index: 88;
+}
+
+.apply-actions>div {
+    position: absolute;
+    left: 20px;
+    right: 330px;
+    top: 25px;
+    line-height: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.apply-actions>div>span {
+    position: absolute;
+    left: 90px;
+    right: 0;
+    display: inline-block;
+    font-size: 12px;
+}
+.apply-btn {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 1;
+    margin: 28px 20px 0 0;
+    text-align: center;
+    border: 1px solid #55a8fd;
+    border-radius: 2px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.apply-btn.submit {
+    background: #55a8fd;
+    color: #fff;
+}
+
+.apply-btn.back {
+    background: #f6f6f6;
+    color: #55a8fd;
+}
+
+.apply-btn.save {
+    background: #26d186;
+    border: 1px solid #26d186;
+    color: #fff;
+}
+
+.apply-btn {
+    background: #fff;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    border-radius: 0;
+    margin: 0 30px 0 -5px;
+    margin-top: 29px;
+}
+
+.apply-btn.active {
+    background: #ff9900;
+    border: 1px solid #ff9900;
+    color: #fff;
+}
+.divtimeUl{
+    margin-top:15px; 
+}
+.divtimeUl li{
+    height:36px; 
+}
+.divtimeUl li .divtimeUlDiv{
+    height:36px;
+    float:left;
+}
+.divtimeUl li .divtimeUlDiv1{
+    height:36px;
+    float:right;
+    width:280px;
+    text-align: left;
+}
+.text{
+    display: inline-block;
+    width:75px;
+    font-weight:600;
+}
+.basicInformationUl{
+    margin: 20px 0;
+  }
+  .basicInformationUl li{
+    min-height:38px;
+  }
+  .basicLabe{
+    width:75px;
+    font-weight:600;
+  }
+  .basicInformationUl li span:nth-child(1){
+    display: inline-block;
+    font-weight:600;
+    width:75px;
+  }
+  .basicInformationUl .basicLabeLi div{
+    float:left;
+    color:#363636;
+  }
+  .basicInformationUl .appRemarkLi{
+    margin-top:6px;
+  }
+  .basicInformationUl .appRemarkLi div:nth-child(1){
+    float:left;
+    font-weight:600;
+    width:75px;
+    line-height:20px;
+  }
+  .basicInformationUl .appRemarkLi div:nth-child(2){
+    margin-left:75px;
+    line-height:20px;
+    min-height:30px;
+    width:85%;
+    word-break:break-all
+  }
+  .basicInformationUl .basicLabeLi div:nth-child(1){
+    line-height:25px;
+  }
+  .basicLabel span{
+    display: inline-block;
+    width:80px;
+    height:26px;
+    line-height:24px;
+    text-align: center;
+    font-size:12px;
+    border:1px solid #f2f2f2;
+    background:#f9f9f9;
+    border-radius: 4px;
+    font-weight: normal!important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding:0 5px;
+  }
+  .appUpload{
+    height:60px;
+    line-height:60px;
+  }
+  .appUpload span:nth-child(1){
+    font-weight:600;
+  }
+  .appUpload span:nth-child(2),.appUpload span:nth-child(3){
+    color:#74a6fa;
+  }
+  .date{
+      margin-right:10px;
+  }
+  .date1{
+    margin-left:10px;
+  }
+  .approvalStatus{
+      float:left;
+  }
+  .basicInformationSpan{
+    display: inline-block;
+    width:500px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }

@@ -1,0 +1,171 @@
+.overlayMarkte .popupBox {
+    width: 440px;
+    height: 260px;
+    border-radius: 5px;
+    margin-left: -220px;
+    background-color: initial;
+}
+
+.overlayMarkte .popupBoxHeader {
+    border-radius: 5px 5px 0 0;
+}
+
+.overlayMarkte .popupBoxBody {
+    height: 180px;
+    padding-top: 0;
+    line-height: 260px;
+    color: #898989;
+    background: url(".././images/deleteIcon.png") no-repeat center 26px;
+    background-color: #fff;
+}
+
+#NoticeBoxOverlay.overlayMarkte .popupBoxBody.deleteIcon {
+    background: url(".././images/deleteIcon.png") no-repeat center 26px;
+    background-color: #fff;
+}
+
+#NoticeBoxOverlay.overlayMarkte .popupBoxBody.abandan {
+    background: url(".././images/abandan.png") no-repeat center 26px;
+    background-color: #fff;
+}
+
+#NoticeBoxOverlay.overlayMarkte .popupBoxBody.publish {
+    background: url(".././images/publish.png") no-repeat center 26px;
+    background-color: #fff;
+}
+
+.overlayMarkte .popupBoxBtnContainer {
+    padding-bottom: 0px;
+    background-color: initial;
+}
+
+.overlayMarkte .popupBoxBtnContainer .popupBoxBtn {
+    border-radius: 0 0 5px 0;
+    margin: 0;
+    width: 50%;
+    background-color: #e3e3e3;
+}
+
+.overlayMarkte .popupBoxBtnContainer .redBg {
+    background: #55a8fd;
+    border-radius: 0 0 0 5px;
+}
+
+.spanInp .el-select-dropdown {
+    z-index: 9999;
+}
+
+.temporaryTime .el-date-editor.el-input .el-input__inner {
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.controlService .el-radio__label,
+.restrictedCategory .el-radio__label,
+.timeLimit .el-radio__label {
+    font-size: 12px;
+}
+
+.publicLayoutLeftContainer .publicLeftNavImage {
+    background-image: url('../images/appmanager.png')
+}
+
+.publicLayoutLeftContainer .publicLeftNavImage.servicemanage {
+    background-image: url('../images/servicemanage.png')
+}
+.publicLayoutLeftContainer .publicLeftNavImage.resourcemanage {
+    background-image: url('../images/resourcemanage.png')
+}
+.publicLayoutLeftContainer .publicLeftNavImage.powermanage {
+    background-image: url('../images/powermanage.png')
+}
+.publicLayoutLeftContainer .publicLeftNavImage.accountconfine {
+    background-image: url('../images/accountconfine.png')
+}
+.publicLayoutLeftContainer .publicLeftNavImage.personal {
+    background-image: url('../images/personal.png')
+}
+.publicLayoutLeftContainer .publicLeftNavImage.evaluation {
+    background-image: url('../images/evaluation.png')
+}
+.publicLayoutLeftContainer .publicLeftNavImage.accountmanage {
+    background-image: url('../images/accountmanage.png')
+}
+.publicLayoutLeftContainer .publicLeftNavImage.operationmanage {
+    background-image: url('../images/operationmanage.png')
+}
+.publicLayoutLeftContainer .publicLeftNavImage.newsmanage {
+    background-image: url('../images/newsmanage.png')
+}
+.publicLayoutLeftContainer .publicLeftNavImage.companyaudi {
+        background-image: url('../images/companyaudi.png')
+}
+.publicLayoutLeftContainer .publicLeftNavImage.appmarketmanage {
+    background-image: url('../images/appmarketmanage.png')
+}
+.publicLayoutLeftContainer .publicLeftNavImage.notice {
+    background-image: url('../images/notice.png')
+}
+/*应用市场配置public.css*/
+.el-carousel.appLunBuo>.el-carousel__container{
+	height: 100%;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+input,
+input{
+	list-style: none;
+	border:0;
+	outline: none;
+}
+.row{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+/*应用系统配置页图标*/
+.publicLeftNavImage.appImgConfig{
+    background-image: url("../images/appImgConfig.png");
+}
+.publicLeftNavImage.appNavConfig{
+    background-image: url("../images/appMenuConfig.png");
+}
+.publicLeftNavImage.appBannerImgConfig{
+    background-image: url("../images/appBannerImgConfig.png");
+}
+.publicLeftNavImage.appNoticConfig{
+    background-image: url("../images/appNoticConfig.png");
+}
+
+.publicLeftNavImage.appKeyWordsConfig{
+    background-image: url("../images/appKeyWordsConfig.png");
+}
+.publicLeftNavImage.appHotConfig{
+    background-image: url("../images/appHotConfig.png");
+}
+.publicLeftNavImage.appSpecialConfig{
+    background-image: url("../images/appSpecialConfig.png");
+}
+
+.publicLeftNavImage.appNewServiceConfig{
+    background-image: url("../images/appNewServiceConfig.png");
+}
+.publicLeftNavImage.appFriendshipLinkConfig{
+    background-image: url("../images/appFriendshipLinkConfig.png");
+}
+.appNavConfigRight .top li .el-button{
+    font-size: 12px;
+}
+.tagbox .tag .el-button {
+    padding: 5px 10px;
+    font-size: 12px;
+}

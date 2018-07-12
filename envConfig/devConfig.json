@@ -1,0 +1,60 @@
+{
+  "PLATFORM":"http://192.168.38.164:8080/",
+  "PLATFORM_LOGIN_URL":"http://www.iscas.com:8081/iscs/login",
+  "PLATFORM_LOGOUT_URL":"http://www.iscas.com:8081/iscs/logout",
+  "PLATFORM_USER":"http://192.168.38.120:8089/platform/priviapi/",
+  "SERVICE_MANAGE" :"http://192.168.182.142:7002/appsManager/",
+  "APP_MARKET":"http://localhost:8080",
+  "PLATFORM_AUTHORITY":"http://localhost:8081/iscs/#/AuthorityManagement",
+  "RESOURCE_CATALOG":"http://192.168.182.142:7003/xtgaj/",
+  "MESSAGE_SOCKET":"http://192.168.38.96:8087",
+  "API_SERVER": "http://www.iscs.com:8082/platform/",
+  "PERSONAL_CONSOLE": "http://localhost:8082",
+  "INTERNAL_OPERATION":"http://192.168.182.142/pm/",
+  "COMPANY_OPERATION": "http://localhost:8083",
+
+  "OPENPLATFORM":"http://localhost:8080/",
+  "OPEN_PLATFORM_API_PAHT": "http://192.168.38.157:8082",
+
+  "MESSAGE_URL":"",
+  "INTRODUCE_GUIDE":"",
+  "PRODUCT_DOCUMENT":"",
+  "COMMON_PROBLEM":"",
+  "INTRODUCE_SERVER":"http://192.168.172.133:8091/",
+
+  "personalConsole": {
+    "SECURITY_MANAGE": "http://192.168.182.142/pc/#/safetyManagement",
+    "BASIC_INFO": "http://192.168.182.142/pc/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://192.168.182.142/pc/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://192.168.182.142/pc/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://192.168.182.142/pc/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://192.168.182.142/pc/#/identityManagement"
+  },
+  "internalOperation": {
+    "SECURITY_MANAGE": "http://192.168.182.142/pm/#/safetyManagement",
+    "BASIC_INFO": "http://192.168.182.142/pm/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://192.168.182.142/pm/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://192.168.182.142/pm/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://192.168.182.142/pm/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://192.168.182.142/pm/#/identityManagement"
+  },
+  "enterpriseOperation": {
+    "SECURITY_MANAGE": "http://192.168.182.142/em/#/safetyManagement",
+    "BASIC_INFO": "http://192.168.182.142/em/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://192.168.182.142/em/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://192.168.182.142/em/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://192.168.182.142/em/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://192.168.182.142/em/#/identityManagement"
+  },
+  "appMarket": {
+    
+  },
+  "openPlatform":{
+    "SECURITY_MANAGE":"http://localhost:8091/#/safetyManagement",
+    "BASIC_INFO":"http://localhost:8091/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION":"http://localhost:8091/#/realNameCertification",
+    "CREATE_ENTERPRISE":"http://localhost:8091/#/createEnterprise",
+    "JOIN_ENTERPRISE":"http://localhost:8091/#/joinEnterprise",
+    "IDENTITY_MANAGE":"http://localhost:8091/#/identityManagement"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "API_SERVER": "http://www.iscs.com:8082/platform/",
+  "PLATFORM_USER": "http://www.iscs.com:8082/platform/priviapi/",
+  "PLATFORM_LOGIN_URL": "http://www.iscs.com:8081/iscs/login",
+  "PLATFORM_LOGOUT_URL": "http://www.iscs.com:8081/iscs/logout",
+  "SERVICE_MANAGE": "http://www.iscs.com:8082/platform/sc",
+  "APP_MARKET": "http://www.iscs.com:8082/platform/mall/",
+  "RESOURCE_CATALOG": "http://www.iscs.com:8082/platform/rc/",
+  "PLATFORM": "http://www.iscs.com:8082/platform/bc",
+  "PLATFORM_AUTHORITY": "http://www.iscs.com:8081/iscs/#/AuthorityManagement",
+  "PERSONAL_CONSOLE": "http://www.iscs.com:8082/platform/pc/",
+  "INTERNAL_OPERATION":"http://www.iscs.com:8082/platform/pm/",
+  "COMPANY_OPERATION": "http://www.iscs.com:8082/platform/em/",
+
+  "MESSAGE_URL": "",
+  "INTRODUCE_GUIDE": "",
+  "PRODUCT_DOCUMENT": "",
+  "COMMON_PROBLEM": "",
+  "personalConsole": {
+    "SECURITY_MANAGE": "http://www.iscs.com:8082/platform/pc/#/safetyManagement",
+    "BASIC_INFO": "http://www.iscs.com:8082/platform/pc/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://www.iscs.com:8082/platform/pc/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://www.iscs.com:8082/platform/pc/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://www.iscs.com:8082/platform/pc/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://www.iscs.com:8082/platform/pc/#/identityManagement"
+  },
+  "internalOperation": {
+    "SECURITY_MANAGE": "http://www.iscs.com:8082/platform/pm/#/safetyManagement",
+    "BASIC_INFO": "http://www.iscs.com:8082/platform/pm/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://www.iscs.com:8082/platform/pm/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://www.iscs.com:8082/platform/pm/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://www.iscs.com:8082/platform/pm/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://www.iscs.com:8082/platform/pm/#/identityManagement"
+  },
+  "enterpriseOperation": {
+    "SECURITY_MANAGE": "http://www.iscs.com:8082/platform/em/#/safetyManagement",
+    "BASIC_INFO": "http://www.iscs.com:8082/platform/em/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://www.iscs.com:8082/platform/em/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://www.iscs.com:8082/platform/em/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://www.iscs.com:8082/platform/em/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://www.iscs.com:8082/platform/em/#/identityManagement"
+  },
+  "appMarket": {
+    
+  }
+}

@@ -1,0 +1,30 @@
+.breadCrumb {
+    height: 45px;
+    line-height: 45px;
+    background-color: #ffffff;
+    padding-left: 12px;
+    font-size: 12px;
+    box-shadow: 0 0 5px #dedede;
+  }
+  .breadCrumb i.icon-dingwei {
+    color: #33D48D;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .breadCrumb a {
+    color: #000;
+    text-decoration: none;
+    padding-right: 17px;
+    position: relative;
+  }
+  .breadCrumb a::before {
+    content:'·';
+    position: absolute;
+    right: 3px;
+    font-size: 26px;
+    line-height: 42px;
+    color: #000;
+  }
+  .breadCrumb a:hover {
+    color: #33D48D;
+  }

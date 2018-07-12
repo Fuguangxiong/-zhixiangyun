@@ -1,0 +1,201 @@
+.io-category-manage {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.io-category-manage>h1 {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.io-category-manage>h1:before {
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: 12px;
+  background: #2ca3ee;
+  transform: translateY(2px);
+  margin-right: 10px;
+}
+
+/* category-manage-left */
+
+.category-manage-left {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  bottom: 20px;
+  width: 200px;
+  box-shadow: 1px 1px 5px #ccc;
+  /* border: 1px solid #e9e9e9; */
+  overflow: hidden;
+}
+.category-manage-left>h2 {
+  position: relative;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+  font-size: 12px;
+  font-weight: bold;
+  text-indent: 10px;
+  border-bottom: 1px solid #e9e9e9;
+}
+.category-manage-left>h2 .icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  cursor: pointer;
+  font-weight: normal;
+}
+.category-manage-left>ul {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.category-manage-left>ul>li {
+  position: relative;
+  width: 100%;
+  height: 34px;
+  line-height: 34px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #f57400;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.category-manage-left>ul>li .icon-wenjianjia {
+  margin-right: 5px;
+  color: #55A8FD;
+  vertical-align: middle;
+}
+.category-manage-left>ul>li .icon-ziyuanguanli {
+  margin-right: 5px;
+  color: #f57400;
+  vertical-align: middle;
+}
+.category-manage-left>ul>li .icon-shanchu {
+  position: absolute;
+  right: 0;
+  top: 1px;
+  color: #d8d9dc;
+}
+.category-manage-left>ul>li .icon-shanchu:hover {
+  color: #55A8FD;
+}
+
+/* category-manage-right */
+
+.category-manage-right {
+  position: absolute;
+  left: 210px;
+  right: -5px;
+  top: 45px;
+  bottom: 15px;
+  padding: 5px;
+  overflow-y: auto;
+}
+.category-manage-level2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 24px 0 0 20px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px #ccc;
+  overflow: hidden;
+}
+.category-manage-level2-form {
+  padding-right: 55px;
+}
+.category-manage-level2>button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 34px;
+  height: 50%;
+  line-height: 1;
+  background: #fff;
+  border-left: 1px solid #e9e9e9;
+  color: #d8d9dc;
+}
+.category-manage-level2>button:nth-child(2) {
+  top: 50%;
+  border-top: 1px solid #e9e9e9;
+}
+.category-manage-level2>button:hover {
+  background: rgb(248, 250, 251);
+}
+
+/* category-manage-btns */
+
+.category-manage-btns {
+  width: 100%;
+  text-align: center;
+}
+.category-manage-btns>button {
+  margin: 0 10px;
+  padding: 6px 12px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  color: #fff;
+}
+.category-manage-btns>button.blue {
+  background: #2ca3ee;
+}
+.category-manage-btns>button.grey {
+  background: #cacccf;
+}
+
+/* tags */
+
+.category-manage-level2 .add-tag-btn, .category-manage-level2 .tag-span {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(150, 200, 246, .5);
+  background-color: #fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 28px;
+  transition: all .3s;
+  margin-right: 10px;
+  border: 1px #fff solid;
+  vertical-align: middle;
+}
+.category-manage-level2 .add-tag-btn:hover {
+  background-color: #55a8fd;
+  color: #fff;
+}
+.category-manage-level2 .tag-span>label {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: normal;
+}
+.category-manage-level2 .tag-span:hover {
+  border: 1px #55a8fd solid;
+}
+.category-manage-level2 .tag-span>i {
+  display: none;
+}
+.category-manage-level2 .tag-span:hover>i {
+  position: absolute;
+  display: block;
+  transform: scale(-80%, -80%);
+  right: -6px;
+  top: -40%;
+  color: #fa405c;
+  cursor: pointer;
+}

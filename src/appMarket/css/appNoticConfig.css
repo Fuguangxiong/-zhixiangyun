@@ -1,0 +1,256 @@
+.appImgConfigBox{
+	height: 100%;
+	background: #fff;
+}
+
+.appNoticConfigTop{
+	width:100%;
+	height:45px;
+	line-height: 45px;
+	font-size: 14px;
+	background:#fff;
+	padding:0 15px 0 11px;
+}
+.appNoticeConfigTopLeft{
+	float:left;
+	color:#666;
+}
+.appNoticeConfigTopLeft>span{
+	color:#3ad591;
+	margin-right:9px;
+}
+.appNoticeConfigTopRight{
+	float:right;
+	width:88px;
+	height:24px;
+	line-height: 23px;
+	border:1px solid #55a8fd;
+	border-radius: 12px;
+	color:#55a8fd;
+	line-height: 24px;
+	text-align: center;
+	margin-top:11px;
+	cursor: pointer;
+}
+.appNoticConfigContent{
+	width:100%;
+	margin-top:15px;
+	background:#fff;
+	overflow-y: auto; 
+	height:530px;
+}
+.appNoticConfigContent>ul{
+	width:100%;
+	padding:15px 13px 0;
+	background:#fff;
+}
+.appNoticConfigContent>ul>li{
+	width:100%;
+	height:90px;
+	background:#f9f9f9;
+	padding:21px 27px 0;
+	margin-bottom:15px;
+}
+.appNoticConfigContent>ul>li:hover{
+	box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.1);
+}
+.appNoticConfigContentLeft{
+	float:left;
+	width:15%;
+	height:100%;
+	line-height:45px;
+	font-size: 14px;
+	color:#666;
+}
+.appNoticConfigContentLeft>span:first-child{
+	font-size: 22px;
+	color:#26d186;
+	margin-right: 32px;
+}
+.appNoticConfigContentLeft>span:nth-child(2){
+	font-size: 11px;
+}
+.appNoticConfigContentCenter{
+	float:left;
+	width:40%;
+	font-size: 14px;
+	color:#666;
+}
+.appNoticeConfigContentTitle{
+	width:100%;
+	height:40px;	
+}
+.appNoticeConfigContentName{
+	width:100%;		
+}
+.appNoticConfigContentCenter1{
+	float:left;
+	width:80px;
+	padding-top:39px;
+	font-size: 14px;
+	color:#666;
+}
+.appNoticeConfigContentTag>span{
+	font-size:13px;
+}
+.appNoticConfigContentRight{
+	float:right;
+	line-height: 45px;	
+	color:#55a8fd;
+}
+.appNoticConfigContentRight>span{
+	cursor: pointer;
+}
+.appNoticConfigContentRight>span:nth-child(2){
+	margin-left:37px;
+	font-size: 19px;
+}
+.appNoticConfigBottom{
+	width:100%;
+	height:75px;
+	line-height: 37px;
+	text-align: center;
+	color:#666666;
+	font-size: 13px;
+	cursor: pointer;
+}
+.appNoticConfigBottom>span{
+	margin-left:8px;
+}
+/*新建弹窗*/
+.modal-content{
+	width:657px;
+	height:465px;
+}
+.modal-content>.modal-header{
+	width:100%;
+	height:50px;
+	color:#fff;
+	font-size: 15px;
+	background:#55a8fd;
+	border-radius: 4px 4px 0 0;
+}
+.modal-content>.modal-header>.close{
+	font-size: 17px;
+	color:#cae4fe
+}
+.modal-content>.modal-body{
+	padding:29px 75px 0 40px;
+	
+}
+.modal-content>.modal-body>.appNoticeTitle{
+	width:100%;
+	height:29px;
+	line-height: 29px;
+	text-align: right;
+	font-size: 16px;
+	color:#333;
+	margin-bottom:18px;
+}
+.modal-content>.modal-body>.appNoticeTitle>input{
+	float:right;
+	width:461px;
+	height:29px;
+	margin-left:15px;
+	font-size: 12px;
+	color:#666;
+}
+.modal-content>.modal-body>.appNoticeTag{
+	width:100%;
+	height:45px;
+	line-height: 22px;
+	text-align: right;
+	font-size: 16px;
+	color:#333;
+}
+.modal-content>.modal-body>.appNoticeTag>ul{
+	width:461px;
+	height:100%;
+	float:right;
+	margin-left:15px;
+}
+.modal-content>.modal-body>.appNoticeTag>ul>li{
+	width:49px;
+	height:22px;
+	line-height: 20px;
+	text-align: center;
+	color:#55a8fd;
+	font-size: 11px;
+	float:left;
+	border:1px solid #55a8fd;
+	border-radius: 3px;
+	margin-right: 40px;	
+	position: relative;
+	cursor: pointer;
+}
+.modal-content>.modal-body>.appNoticeTag>ul>li>span{
+	width:10px;
+	height:10px;
+	display: block;
+	position: absolute;
+	top:-7px;
+	right:0;
+	color:#26d186
+}
+.modal-content>.modal-body>.appNoticeTag>ul>li:last-child{
+	margin-right: 0;
+}
+.modal-content>.modal-body>.appNoticeName{
+	width:100%;
+	height:43px;
+	line-height: 43px;
+	font-size: 16px;
+	color:#333;
+	margin-bottom:188px;
+}
+
+.modal-content>.modal-body>.appNoticeName>.serverName{
+   float: right;
+    width: 461px;
+    height: 43px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #666 !important;
+	
+}
+
+.modal-content>.modal-body>.appNoticeName>.el-select>.el-input>input{
+	width:461px;
+	margin-left:10px;
+}
+.modal-content>.modal-footer{
+	width:100%;
+	border-top:none;
+	text-align: center;
+}
+.modal-content>.modal-footer>button{
+	width:78px;
+	height:27px;
+	line-height: 13px;
+	text-align: center;
+	color:#fff;
+	font-size: 13px;
+}
+.modal-content>.modal-footer>button:first-child{
+	background:#26d186;
+	margin-right: 18px;	
+	width: 78px;
+    height: 27px;
+    line-height: 13px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    border-color: #26d186 !important;
+}
+
+.modal-content>.modal-footer>button:first-child:hover{
+    background: #3ca67c;
+    cursor: pointer;
+}
+.modal-content>.modal-footer>button:nth-child(2){
+	background: #e3e3e3;
+}
+.modal-content>.modal-footer>button:nth-child(2):hover{
+	background: #cdcbcb;
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+{
+  "API_SERVER": "http://60.247.77.147:8092/manager/",
+  "PLATFORM_USER": "http://60.247.77.147:8092/manager/priviapi/",
+  "PLATFORM_LOGIN_URL": "http://60.247.77.147:8092/mall/#/register/",
+  "SERVICE_MANAGE": "http://60.247.77.147:8092/sc",
+  "APP_MARKET": "http://60.247.77.147:8092/mall/",
+  "RESOURCE_CATALOG": "http://60.247.77.147:8092/rc/",
+  "PLATFORM": "http://60.247.77.147:8092/bc",
+  "PLATFORM_AUTHORITY": "http://60.247.77.147:8092/bc",
+  "PERSONAL_CONSOLE": "http://60.247.77.147:8092/pc/",
+  "INTERNAL_OPERATION":"http://60.247.77.147:8092/pm/",
+  "COMPANY_OPERATION": "http://60.247.77.147:8092/em/",
+  "OPENPLATFORM":"http://60.247.77.147:8092/op/",
+  "OPEN_PLATFORM_API_PAHT": "http://60.247.77.147:8092",
+
+  "MESSAGE_URL":"",
+  "INTRODUCE_GUIDE":"",
+  "PRODUCT_DOCUMENT":"",
+  "COMMON_PROBLEM":"",
+  "INTRODUCE_SERVER":"http://60.247.77.147:8092/",
+  "personalConsole": {
+    "SECURITY_MANAGE": "http://60.247.77.147:8092/pc/#/safetyManagement",
+    "BASIC_INFO": "http://60.247.77.147:8092/pc/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://60.247.77.147:8092/pc/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://60.247.77.147:8092/pc/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://60.247.77.147:8092/pc/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://60.247.77.147:8092/pc/#/identityManagement"
+  },
+  "internalOperation": {
+    "SECURITY_MANAGE": "http://60.247.77.147:8092/pm/#/safetyManagement",
+    "BASIC_INFO": "http://60.247.77.147:8092/pm/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://60.247.77.147:8092/pm/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://60.247.77.147:8092/pm/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://60.247.77.147:8092/pm/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://60.247.77.147:8092/pm/#/identityManagement"
+  },
+  "enterpriseOperation": {
+    "SECURITY_MANAGE": "http://60.247.77.147:8092/em/#/safetyManagement",
+    "BASIC_INFO": "http://60.247.77.147:8092/em/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://60.247.77.147:8092/em/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://60.247.77.147:8092/em/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://60.247.77.147:8092/em/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://60.247.77.147:8092/em/#/identityManagement"
+  },
+  "appMarket": {
+    
+  },
+  "openPlatform": {
+    "SECURITY_MANAGE": "http://60.247.77.147:8092/em/#/safetyManagement",
+    "BASIC_INFO": "http://60.247.77.147:8092/em/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://60.247.77.147:8092/em/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://60.247.77.147:8092/em/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://60.247.77.147:8092/em/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://60.247.77.147:8092/em/#/identityManagement"
+  }
+}

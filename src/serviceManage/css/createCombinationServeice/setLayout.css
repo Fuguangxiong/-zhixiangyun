@@ -1,0 +1,224 @@
+@charset "utf-8";
+.set-layout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* layout-left */
+
+.layout-left {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  bottom: 10px;
+  width: 200px;
+  box-shadow: 1px 1px 5px #ccc;
+  overflow: hidden;
+}
+.layout-left>h2 {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  text-indent: 10px;
+  text-align: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+.layout-left-list {
+  position: absolute;
+  top: 50px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  overflow: hidden;
+}
+.layout-left-list>ul {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.layout-left-list .draggable {
+  width: 100%;
+  height: 34px;
+  line-height: 34px;
+  border-bottom: 1px solid #f1f1f1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.layout-left-list .draggable:hover {
+  color: #55A8FD;
+  cursor: pointer;
+}
+.layout-left-list .draggable>img {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* layout-right */
+
+.layout-right {
+  position: absolute;
+  left: 220px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+}
+.layout-right-title {
+  width: 100%;
+  height: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #74a6fa;
+  letter-spacing: 1px;
+  /* font-weight: bold; */
+  text-align: center;
+}
+.layout-right-con {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40px;
+  bottom: 90px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px #ccc;
+  overflow-y: auto;
+}
+.layout-right-add {
+  position: relative;
+  width: 102px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 28px;
+  border: 1px #f1f1f1 solid;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+.layout-right-add:hover {
+  color: #74a6fa;
+  border: 1px solid #74a6fa;
+}
+.layout-right-area {
+  position: relative;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 10px;
+  min-height: 130px;
+}
+.layout-right-area:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10px;
+  clear: both;
+}
+.layout-right-area>i, .layout-right-service>i {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  transform: scale(0.8, 0.8);
+  cursor: pointer;
+}
+.layout-right-service>i {
+  top: 1px;
+  right: 8px;
+}
+.layout-right-area>i:hover, .layout-right-service>i:hover {
+  color: #74a6fa;
+}
+.layout-right-area .layout-right-area-title {
+  width: 100%;
+  padding: 7px 10px;
+  border: none;
+  border-bottom: 1px solid #f1f1f1;
+  font-size: 12px;
+}
+.layout-right-service {
+  position: relative;
+  float: left;
+  width: 48%;
+  height: 100px;
+  margin: 10px 1% 0 1%;
+  border: 1px solid #74a6fa;
+}
+.layout-right-service>h5 {
+  width: 100%;
+  height: 20px;
+  padding: 6px 10px 0 10px;
+  font-size: 12px;
+  color: #74a6fa;
+}
+.layout-right-service>div {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  padding: 0 5px;
+  transform: translate(0, -50%);
+  text-align: center;
+  vertical-align: middle;
+}
+.layout-right-service>div>img {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+.layout-right-service>div>span {
+  vertical-align: middle;
+}
+
+/* 暂存，下一步，上一步 */
+
+.buttons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: #f6f6f6;
+  box-shadow: 1px 1px 5px #ccc;
+}
+.buttons>h5 {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.buttons>p {
+  position: absolute;
+  left: 95px;
+  right: 235px;
+  top: 25px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.buttons>span {
+  position: absolute;
+  top: 25px;
+  font-size: 12px;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #74a6fa;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.buttons>span.back {
+  background: none;
+  color: #74a6fa;
+  right: 130px;
+}
+.buttons>span.save {
+  background: #74a6fa;
+  color: #fff;
+  right: 25px;
+}

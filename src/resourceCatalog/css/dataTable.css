@@ -1,0 +1,58 @@
+
+.dataTable {
+    height: 110px;
+    min-width: 900px;
+    line-height: 110px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .dataTable:hover {
+    background-color: #EBF5FF;
+  }
+  .dataTable > i {
+    float: left;
+    font-size: 26px;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .dataTable .content {
+    float: left;
+    flex: 1;
+    padding: 10px 0;
+  }
+  .dataTable .content .line {
+    line-height: 45px;
+    display: flex;
+  }
+  .dataTable .content .line > span {
+    flex: 1;
+    display: flex;
+    color: #000;
+    padding-right: 5px;
+    min-width: 190px;
+  }
+  .dataTable .content .line > span > span{
+    color: #888;
+    flex: 1;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    height: 30px;
+  }
+  .dataTable .content .line > span > a{
+    text-decoration: none;
+    line-height: 30px;
+    height: 30px;
+    margin-top: 7px;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+  }
+  .dataTable > span {
+    float: left;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    color: #63ADFD;
+  }

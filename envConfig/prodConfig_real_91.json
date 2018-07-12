@@ -1,0 +1,46 @@
+{
+  "API_SERVER": "http://is-cloud.cn/manager/",
+  "PLATFORM_USER": "http://is-cloud.cn/manager/priviapi/",
+  "PLATFORM_LOGIN_URL": "http://is-cloud.cn/mall/#/register/",
+  "SERVICE_MANAGE": "http://is-cloud.cn/sc",
+  "APP_MARKET": "http://is-cloud.cn/mall/",
+  "RESOURCE_CATALOG": "http://is-cloud.cn/rc/",
+  "PLATFORM": "http://is-cloud.cn/bc",
+  "PLATFORM_AUTHORITY": "http://is-cloud.cn/bc",
+  "PERSONAL_CONSOLE": "http://is-cloud.cn/pc/",
+  "INTERNAL_OPERATION":"http://is-cloud.cn/pm/",
+  "COMPANY_OPERATION": "http://is-cloud.cn/em/",
+
+  "MESSAGE_URL":"",
+  "INTRODUCE_GUIDE":"",
+  "PRODUCT_DOCUMENT":"",
+  "COMMON_PROBLEM":"",
+  "INTRODUCE_SERVER":"http://is-cloud.cn/",
+  "personalConsole": {
+    "SECURITY_MANAGE": "http://is-cloud.cn/pc/#/safetyManagement",
+    "BASIC_INFO": "http://is-cloud.cn/pc/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://is-cloud.cn/pc/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://is-cloud.cn/pc/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://is-cloud.cn/pc/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://is-cloud.cn/pc/#/identityManagement"
+  },
+  "internalOperation": {
+    "SECURITY_MANAGE": "http://is-cloud.cn/pm/#/safetyManagement",
+    "BASIC_INFO": "http://is-cloud.cn/pm/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://is-cloud.cn/pm/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://is-cloud.cn/pm/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://is-cloud.cn/pm/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://is-cloud.cn/pm/#/identityManagement"
+  },
+  "enterpriseOperation": {
+    "SECURITY_MANAGE": "http://is-cloud.cn/em/#/safetyManagement",
+    "BASIC_INFO": "http://is-cloud.cn/em/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://is-cloud.cn/em/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://is-cloud.cn/em/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://is-cloud.cn/em/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://is-cloud.cn/em/#/identityManagement"
+  },
+  "appMarket": {
+    
+  }
+}

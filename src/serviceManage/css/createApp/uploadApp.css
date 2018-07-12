@@ -1,0 +1,86 @@
+.iformcon-con2.second_step{
+    margin: 0 auto;
+}
+.click_upload_file{
+    width: 390px;
+    height: 196px;
+    margin: 100px auto 175px;
+    border: 1.5px solid #eeeeee;
+    border-radius: 4px;
+}
+em{
+    font-style: normal;
+}
+.cuf_tp{
+    width: 100%;
+    height: auto;
+}
+p.p_support{
+    font-size: 14px;
+    color: #999;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.up_icon{
+    width: 32px;
+    height: 32px;
+    margin: 58px auto 24px;
+    border:1px solid #74b8fd;
+    border-radius: 50%;
+    background: url(../../images/createAppUpload.png) no-repeat center center;
+    cursor: pointer;
+}
+#fileElem{
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    text-indent: 1000px;
+    width: 205px;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: -2000px;
+    opacity: 0;
+}
+.browseFileInput {
+    height: 47px;
+    width: 364px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #333;
+    margin-left: 4px;
+    line-height: 47px;
+    background: none;
+    font-size: 14px;
+    border: none;
+}
+p.p_support{
+    font-size: 14px;
+    color: #999;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* 暂存，下一步，上一步 */
+.butonstdelet{
+	background: #55a8fd;
+	margin: 0 18px;
+}
+.butonstred{
+	background: #55a8fd;
+}
+.butonst{
+	background: #26d186;
+}
+
+
+
+.showArchivers{
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #26d186;
+}

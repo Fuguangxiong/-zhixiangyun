@@ -1,0 +1,113 @@
+.commonnav {
+    height: 45px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 1px;
+}
+.commonnav .item {
+    display: inline-block;
+    width: 116px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    float: left;
+}
+.commonnav .item.active,.commonnav .item:hover{
+    color: #63ADFD;
+    border-bottom: 2px solid #63ADFD;
+}
+.commonTableSearch {
+    position: relative;
+    width: 263px;
+    float: right;
+    margin-right: 15px;
+}
+.commonTableSearchIcon {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    color: #63ADFD;
+    line-height: 23px;
+}
+.commonTableSearchInput {
+    margin-top: 8px;
+    width: 263px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-left: 10px;
+    color: #000;
+}
+.main-nav {
+    background: #fff;
+    height: 46px;
+    line-height: 46px;
+    box-shadow: 2px 0px 5px #ccc;
+}
+.main-content{
+    position: relative;
+    padding-bottom: 14px;
+    background: #fff;
+}
+.publicContent {
+    margin-top: 15px;
+    position: relative;
+    height: 100%;
+}
+.loadDataBox {
+    position: absolute;
+    top:45px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+}
+.rcIndex {
+    padding-top: 15px;
+}
+.rc_popupBox {
+    width: 370px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    margin-left: -185px;
+    z-index: 1001;
+    background: #fff;
+    border-radius: 5px 5px 0 0;
+}
+.rc_popupBox.large {
+    width: 480px;
+    margin-left: -240px;
+}
+.rc_popupBox.large .rc_popupBoxBody {
+    padding: 50px 20px;
+    padding-bottom: 34px;
+}
+.rc_popupBoxBody {
+    background-color: #fff;
+    padding: 30px 20px;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+}
+.rc_popupBox .el-select .el-input__inner {
+    width: 200px;
+}
+.rc_selectDown {
+    width: 200px;
+}
+.rc_popupBoxBtnContainer {
+    background-color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.rc_popupBox .el-cascader .el-input__inner {
+    width: 200px;
+}

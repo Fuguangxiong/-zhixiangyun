@@ -1,0 +1,364 @@
+﻿@charset "utf-8";
+
+.pageGen-boxBody a {
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+.pageGen-boxBody{
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.pageGen-boxst{
+    padding-left: 268px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.pageGen-Left,.pageGen-Right{
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px #c3bebe;
+    -moz-box-shadow: 0 0 10px #c3bebe;
+    -webkit-box-shadow: 0 0 10px #c3bebe;
+}
+
+.pageGen-Right{
+    overflow: auto;
+    box-sizing: border-box;
+    position: relative;
+    top: 0; 
+    left: 0;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.pageGen-Left{
+    width: 267px;
+    position: absolute;
+    left: 0;top: 0;
+    overflow: hidden;
+    height:100%;
+    box-sizing: border-box;
+}
+
+.pageGen-treeOuter{
+    overflow: auto;
+    height: 100%;
+    box-shadow: 0 0 10px #c3bebe;
+    -moz-box-shadow: 0 0 10px #c3bebe;
+    -webkit-box-shadow: 0 0 10px #c3bebe;
+    padding-top:50px;
+    box-sizing: border-box;
+}
+
+.pageGen-treeOuter>h2{
+    color: #55a8fd;
+    font-size: 15px;
+    margin: 17px 0 17px 14px;
+    padding-left: 20px;
+    position:absolute;
+    top:0;
+    background: url(../../images/classify.png) 0 0 no-repeat;
+}
+
+.pageGen-scrol {
+    height: 100%;
+    position: relative;
+    padding-top:0px;
+}
+
+.pageGen-scrol.tree {
+    width: 200px;
+    margin-bottom: 0;
+}
+
+.pageGen-scrol ul.pageGen-tul{
+    padding:10px 0px;
+}
+.pageGen-scrol ul.pageGen-tul li{
+    line-height: 30px;    
+    cursor: pointer;
+    white-space: nowrap;
+}
+.pageGen-scrol ul.pageGen-tul li:hover{
+    color: #fff;
+    background: #55a8fd;
+}
+
+.pageGen-scrol ul.pageGen-tul li h3{
+    padding:10px 20px;
+    font-size: 14px;
+    margin:0px;
+}
+
+.pageGen-rightBody{
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.pageGen-rightTitle,.pageGen-rightBody{
+   
+   
+}
+
+.pageGen-rightTitle{
+    width: 100%;
+    height: 60px;
+    position: absolute;top: 0;left: 0;
+    padding-top: 13px;
+    padding-left: 14px;
+    box-sizing: border-box;
+}
+
+.pageGen-iconAdd{
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+    background: url(../../images/add-big.png) no-repeat -1px -1px;
+    
+    border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    background-color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+.pageGen-fl{
+	float:right;
+}
+
+.pageGen-DIYBox{
+    margin-bottom: 20px
+}
+
+.pageGen-Iptboxer{
+    position: relative;
+    width: 244px;
+   
+}
+
+.pageGen-divHr{
+    width: 100%;
+}
+
+input.pageGen-aIpt{
+    width: 184px;
+    height: 22px;
+    font-size: 14px;
+    margin-top: 10px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.pageGen-iconDelete{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url(../../images/deleteBlue.png) no-repeat 4px 4px;
+    position: absolute;
+    /*top: -12px;right: 10px;*/
+    /*border: 1px solid #e7e7e7;*/
+    top: 4px;right: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.pageGen-maskClose{
+	width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url(../../images/close.png) no-repeat 4px 4px;
+    cursor: pointer;
+    position: absolute;
+    left: 162px;
+    top: 10px;
+}
+
+.pageGen-btnOuter{
+    float: right;
+    margin-right: 20px;
+    padding-top: 1px;
+}
+
+.pageGen-aBtn{
+    width: 70px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #b61717;
+    border-radius: 4px;
+    box-sizing: border-box;
+    line-height: 28px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    background:#fff;
+    color: #b61717;    
+}
+
+.pageGen-aBtn:hover{
+    background:#b61717;
+    color: #FFF;
+}
+
+.pageGen-rightBody-con{
+	position:relative;
+	 
+}
+
+.pageGen-trashStyle{
+   
+    /*margin-bottom: 20px;*/
+    width: 100%;
+}
+.pageGen-trashStyle li{
+    width: 24%;
+    height: 200px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.pageGen-editorAreaBox{
+	border:1px #eee solid;
+	min-height:270px;
+	/**padding-left:10px;**/
+	padding-top:30px;
+}
+
+.pageGen-ui-state-hover{
+	border:0;
+	background:#f5f5f5;
+}
+
+.pageGen-editorArea{
+    background-color: #fff;
+    height: 220px;
+    float: left;
+    /* border: 1px solid #c3bebe; */
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #c3bebe;
+    -moz-box-shadow: 0 0 10px #c3bebe;
+    -webkit-box-shadow: 0 0 10px #c3bebe;
+}
+
+.pageGen-editorArea:hover {
+    box-shadow: 0 0 10px rgba(98,202,242,.8);
+    -moz-box-shadow: 0 0 10px rgba(98,202,242,.8);
+    -webkit-box-shadow: 0 0 10px rgba(98,202,242,.8);
+}
+
+.pageGen-editorArea a b {
+    width: 14px;
+    height: 14px;
+    margin-right: 2px;
+    float: left;
+    display: inline-block;
+}
+.pageGen-editorArea a span{
+    color: #878787;
+    float: left;
+    font-weight: normal;
+}
+
+a.pageGen-sc{
+	padding-left:16px;
+	background:url(../../images/deleteGray.png) no-repeat 1px 1px
+}
+
+a.pageGen-sc:hover{
+	padding-left:16px;
+	background:url(../../images/deleteBlue.png) no-repeat 1px 1px
+}
+
+.pageGen-rowtitle{
+	position:relative;
+}
+
+.pageGen-rowtitle .pageGen-right-but{
+	position:absolute;
+	right:10px;
+	top:12px;
+}
+
+.pageGen-rowtitle .pageGen-right-but a{
+	float: left;
+}
+
+.pageGen-rowtitle .pageGen-right-but a:hover{
+	color:#51b2e4;
+}
+
+.pageGen-rowtitle .pageGen-box-label{
+	width: 321px;
+    height: 32px;    
+    padding: 20px 24px 8px 10px;
+    box-sizing: border-box;
+    font-size: 14px;    
+    border: 0;
+    float: left;
+    line-height:40px; 
+}
+
+.pageGen-box-cont{
+	width: 100%;
+    height: 100%;
+    padding:20px;
+    display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.pageGen-boxBody .ui-state-hover{
+	border:0;
+	background:#f5f5f5;
+}
+
+.pageGen-boxBody .ui-icon-gripsmall-diagonal-se {
+    background-position: -64px -224px;
+}
+
+.pageGen-boxBody .ui-icon, .ui-widget-content .ui-icon {
+    background-image: url(../../images/ui-icons_222222_256x240.png);
+}
+
+/*添加end*/
+
+/* 暂存，预览，下一步，上一步 */
+.butonstdelet{
+    background: #55a8fd;
+    margin: 0 18px;
+}
+.butonstred{
+    background: #55a8fd;
+}
+.butonst{
+    background: #26d186;
+}
+.butonpre{
+    background: #108cee; 
+    margin-left: 18px;
+}
+
+h3{
+    font-size: 14px;
+
+}
+li{
+    list-style: none;
+}

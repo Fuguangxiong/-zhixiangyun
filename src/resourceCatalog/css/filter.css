@@ -1,0 +1,54 @@
+.filter {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+  }
+  .filterItem {
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .filterItem > span {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+  }
+  i.icon-xiala1 {
+    font-size: 12px;
+  }
+  .tagSelct {
+    position: relative;
+  }
+  .tagbox {
+    position: absolute;
+    left: 0;
+    top: 28px;
+    width: 100px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+    border-radius: 4px;
+    box-shadow: 2px 0px 5px #ccc;
+  }
+  .tagbox p {
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+  }
+  .tagbox p:hover {
+    color:#63ADFD;
+  }
+  .tagbox p:last-child {
+    border-bottom: none;
+  }

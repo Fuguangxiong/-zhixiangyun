@@ -1,0 +1,177 @@
+.topbtnContainer{
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.inpfrom {
+  width: 1130px;
+  margin: 0 auto;
+}
+.inpfrom h2.tilesc {
+  font-size: 18px;
+  color: #b61717;
+  text-align: center;
+  line-height: 60px;
+}
+.divtime {
+  overflow: hidden;
+}
+.divtime .tile {
+  background-color: #f4f4f4;
+  line-height: 36px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 3px;
+  color: #b61717;
+  padding-left: 18px;
+}
+.divtime .wid {
+  width: 770px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.textlinpu {
+  float: left;
+  padding-left: 100px;
+  color: #333;
+  padding-right: 10px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 5px 0;
+}
+.textlinpu .text {
+  position: absolute;
+  left: 0;
+  text-align: right;
+  width: 90px;
+  font-size: 14px;
+  line-height: 35px;
+}
+.inputborder.w240 {
+  width: 240px;
+  color: #333;
+}
+.inputborder {
+  border: 1px #dadada solid;
+  border-radius: 3px;
+  padding: 8px 12px;
+  font-size: 14px;
+  margin: 0;
+  font-weight: normal;
+}
+.con-cont {
+  overflow: hidden;
+}
+.divtime .wid {
+  width: 770px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.w100 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.css-radio-box {
+  padding: 10px 0;
+}
+.fleradio .css-radio {
+  float: left;
+}
+.css-radio {
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.css-radio i {
+  background: url(../../images/radio.png) no-repeat;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.css-radio em {
+  display: inline-block;
+  vertical-align: middle;
+}
+.css-radio.active i {
+  background-position: 0 -13px;
+}
+.css-radio.active .css-rinpu {
+  display: inline-block;
+}
+.css-rinpu {
+  display: none;
+  position: absolute;
+  top: -8px;
+  margin-left: 4px;
+}
+.rili {
+  padding-bottom: 10px;
+  height: 30px;
+}
+.inputborder {
+  border: 1px #dadada solid;
+  border-radius: 3px;
+  padding: 8px 12px;
+  font-size: 14px;
+  margin: 0;
+}
+.textrea {
+  width: 92%;
+  font-size: 14px!important;
+  height: 100px;
+}
+.butanlic{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.selectContainer .el-select{
+  width:266px;
+}
+.el-select-dropdown__item.selected {
+  background-color: #1056bf;
+}
+.el-date-editor.el-input {
+  width: 266px;
+  position: relative;
+  top:-8px;
+}
+.dataTableContainer{
+  padding: 30px 20px 60px 20px;
+}
+.dataTable{
+  width:100%;
+  border: 1px solid #ccc;
+}
+.dataTable th{
+  text-align: center;
+  padding:10px;
+  border: 1px solid #ccc;
+}
+.dataTable td{
+  text-align: center;
+  padding:10px;
+  border: 1px solid #ccc;
+}
+.zxinxi .con-cont {
+  margin-bottom: 40px;
+}
+.widse .textlinpu {
+  width: 450px;
+  padding-left: 135px;
+  min-height: 36px;
+}
+.widse .text {
+  width: 130px;
+  color: #333333;
+}
+.widse .datexe {
+  line-height: 36px;
+  font-size: 14px;
+}
+.wenbenyu p {
+  line-height: 36px;
+  font-size: 14px;
+}
+

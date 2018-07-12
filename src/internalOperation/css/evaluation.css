@@ -1,0 +1,343 @@
+em,
+i {
+    font-style: normal;
+}
+.conCent .short{
+    height: 132px;
+}
+.conCent .long {
+    height: 264px;
+}
+.evaluation .conCent .mini {
+    height: 33px;
+}
+.conCent .suremini {
+    height: 6px;
+}
+.forHeight{
+    transition: all 0.4s;
+    height: 132px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.sureBox{
+    height: 28px;
+    width: 100%;
+    margin-top: 3px;
+    border-bottom: 1px solid #e3e3e3;
+    position: relative;
+    box-sizing: border-box;
+}
+.sureBox .sureIcon{
+    position: absolute;
+    width: 30px;
+    height: 6px;
+    background-color: #e5e5e5;
+    bottom: -6px;
+    left: 50%;
+    margin-left: -15px;
+    color: #ccc;
+    cursor: pointer;
+}
+.sureBox .sure{
+    width: 48px;
+    height: 20px;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+    border: 1px solid #55a8fd;
+    line-height: 18px;
+    color: #55a8fd;
+    transition: all 0.4s;
+}
+.sureBox .sureIcon i{
+    width: 30px;
+    height: 6px;
+    font-size: 6px;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    color: #fff;
+    line-height: 7px;
+}
+/* 设置多选 */
+
+.checkboxCon {
+    float: right;
+    cursor: pointer;
+}
+
+.checkboxCon .checkboxBut {
+    width: 40px;
+    line-height: 30px;
+    color: #333;
+    border-left: 1px #f1f1f1 solid;
+    text-align: center;
+}
+
+
+/* 排序 */
+
+.queryListWord {
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px #f1f1f1 solid;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.sortCon {
+    float: left;
+}
+
+.sortCon span {
+    float: left;
+    width: 80px;
+    line-height: 33px;
+    text-align: center;
+    border-right: 1px #f1f1f1 solid;
+    color: #333;
+    position: relative;
+    cursor: pointer;
+}
+
+.sortCon span.sortWord em {
+    width: 64px;
+    display: block;
+}
+
+.sortCon span.sortWord i {
+    left: 50%;
+    margin-left: 6px;
+    top: 0;
+    color: #797979;
+    position: absolute;
+}
+
+.sortCon span.active {
+    color: #55a8fd;
+}
+
+.sortCon span.sortWord i.icon-jiantou-up {
+    display: none;
+}
+
+.sortCon span.active i.icon-jiantou-lower {
+    color: #55a8fd;
+}
+
+.sortCon span.sortWord.active.wordUp i.icon-jiantou-up {
+    display: block;
+    color: #55a8fd;
+}
+
+.sortCon span.sortWord.active.wordUp i.icon-jiantou-lower {
+    display: none;
+}
+
+
+/* top分页 */
+
+.topPage {
+    float: right;
+}
+
+.topPage span {
+    border-left: 1px #f1f1f1 solid;
+    cursor: pointer;
+    width: 40px;
+    float: left;
+    line-height: 30px;
+    color: #9e9e9e;
+    text-align: center;
+}
+
+.topPage span:hover {
+    color: #55a8fd;
+}
+
+.topPage em {
+    float: left;
+    line-height: 30px;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.topPage em i.cloer {
+    color: #fb6233;
+}
+
+.evaluation {
+    padding: 10px;
+    background: #fff;
+    height: 100%;
+}
+
+.conCent .rise {
+    margin: 0 0;
+    border-bottom: 1px #f1f1f1 solid;
+    padding-bottom: 8px;
+}
+
+.conCent .rise .textTlie {
+    position: relative;
+    padding-left: 8px;
+    line-height: 12px;
+}
+
+.conCent .rise .textTlie::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 2px;
+    height: 10px;
+    border-radius: 2px;
+    background-color: #55a8fd;
+}
+
+.tStyel {
+    padding-left: 72px;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.tStyel .textName {
+    position: absolute;
+    left: 0px;
+    line-height: 28px;
+    width: 72px;
+}
+
+
+/* inputsearch */
+
+input,
+button,
+select,
+textarea {
+    outline: none
+}
+
+textarea {
+    resize: none
+}
+
+.search {
+    position: relative;
+}
+
+.search .searchBut {
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    cursor: pointer;
+    top: 0;
+    border: 0;
+    transition: all .5s;
+}
+
+.search .searchBut i {
+    font-size: 16px;
+    color: #666;
+}
+
+.search .searchBut:hover i {
+    color: #55a8fd;
+}
+
+.inputStyle {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: relative;
+    border-bottom: 1px #f1f1f1 solid;
+    padding-right: 20px;
+    box-sizing: border-box;
+    transition: all .5s;
+}
+
+.inputStyle:hover,
+.inputStyle:focus {
+    border-bottom: 1px #55a8fd solid;
+}
+
+.search.width248 {
+    width: 248px;
+    height: 28px;
+}
+
+.xingbox .xingxingCon {
+    position: relative;
+    overflow: hidden;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.xingbox .xingxingCon i {
+    float: left;
+    color: #ff9400;
+    font-size: 18px;
+    width: 23px;
+}
+
+.xingbox {
+    height: 20px;
+    position: relative;
+    width: 130px;
+    margin: 0 10px;
+}
+
+.xingbox .xingIcon {
+    position: absolute;
+    left: -1px;
+    top: 0px;
+}
+
+.xingbox .xingIcon i {
+    font-size: 18px;
+    color: #ff9400;
+    float: left;
+    width: 23px;
+    margin-left: .4px;
+}
+.textleft span {
+    padding-left: 40px;
+    font-size: 12px;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    cursor: pointer;
+}
+.textleft .active {
+    color: #55a8fd;
+}
+.textleft .scope{
+    padding-left: 5px;
+    padding-right: 25px;
+}
+.textleft .inputSmall{
+    width: 70px;
+    height: 25px;
+    border: 1px #f1f1f1 solid;
+    box-sizing: border-box;
+    transition: all .5s;
+    border-radius: 5px;
+}
+.textleft .nomall{
+    padding: 0;
+}
+.inputSmall:focus{
+    border: 1px #55a8fd solid;
+}
+.wordBlock .timer {
+    display: inline-block;
+    line-height: 28px;
+    width: 72px;
+    height: 28px;
+    margin-left: 30px;
+}

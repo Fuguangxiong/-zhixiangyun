@@ -1,0 +1,403 @@
+.flow-chart-con {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* 左侧 */
+
+.flow-chart-left {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  width: 200px;
+  box-shadow: 1px 1px 5px #ccc;
+  overflow: hidden;
+}
+.flow-chart-left-action {
+  width: 200px;
+  padding: 10px;
+  overflow: hidden;
+}
+.flow-chart-left-action>span {
+  display: inline-block;
+  width: 82px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  background: #fff;
+  border: 1px solid #cbcbcb;
+  cursor: pointer;
+}
+.flow-chart-left-action>span.active {
+  background: #e79824;
+  border: 1px solid #e79824;
+  color: #fff;
+}
+.flow-chart-left-action>span:nth-child(1) {
+  margin-right: 12px;
+}
+.flow-chart-left-search {
+  width: 100%;
+  padding: 14px 0 4px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+.flow-chart-left-search>input {
+  width: 160px;
+  height: 18px;
+  border: none;
+  font-size: 12px;
+  outline: none;
+  border-bottom: 1px solid #f1f1f1;
+}
+.flow-chart-left-search .icon {
+  cursor: pointer;
+}
+.flow-chart-left-list {
+  position: absolute;
+  top: 80px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  overflow: hidden;
+}
+.flow-chart-left-list .in {
+  width: 180px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.flow-chart .draggable {
+  height: 34px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.flow-chart .draggable-div {
+  width: 100%;
+  height: 34px;
+  line-height: 30px;
+  cursor: pointer;
+  border-bottom: 1px solid #f1f1f1;
+}
+.flow-chart .draggable-div>img {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  margin: 0 5px 0 10px;
+}
+.flow-chart .draggable-div>span {
+  display: inline-block;
+  width: 138px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 14px;
+  line-height: 14px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+.flow-chart .draggable-div:hover>span {
+  color: #55A8FD;
+}
+.draggable-service-tip>ul>li {
+  line-height: 28px;
+}
+.draggable-service-tip>ul>li>b {
+  display: inline-block;
+  width: 64px;
+  font-weight: bold;
+  vertical-align: top;
+}
+.draggable-service-tip>ul>li>span {
+  display: inline-block;
+  width: 210px;
+}
+
+/* 右侧 */
+
+.flow-chart-right {
+  position: absolute;
+  left: 220px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+}
+.flow-chart-right-title {
+  width: 100%;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #74a6fa;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.flow-chart-right-con {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 90px;
+  box-shadow: 1px 1px 5px #ccc;
+  background: url('../../images/flow-chart-bg.png');
+  overflow: hidden;
+}
+.infobox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.showBg {
+  background: url(../../images/draptitle.png) center center no-repeat;
+}
+.flow-chart-right-list {
+  width: 140px;
+  position: absolute;
+  right: 0;
+  border: 1px solid #f5f5f5;
+  /* border-right: 1px solid #55A8FD; */
+  margin: -1px -1px 0 0;
+  z-index: 100;
+  background: #fff;
+}
+.tuijian {
+  cursor: pointer;
+  height: 34px;
+  line-height: 34px;
+  background: #fff;
+  text-align: center;
+  /* font-weight: bold; */
+  letter-spacing: 1px;
+  border-bottom: 1px solid #f5f5f5;
+  margin-bottom: -1px;
+  background: #f5f5f5;
+}
+.serverListDiv {
+  max-height: 100%;
+  overflow-y: auto;
+  margin-top: 1px;
+}
+.serverListDiv>div {
+  padding: 6px 10px;
+  /* cursor: pointer; */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.serverListDiv>div>img {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  margin: 0 5px 0 0;
+}
+.el-collapse-item__content>div {
+  z-index: 222;
+  cursor: pointer;
+  /* margin: -10px -15px; */
+}
+
+/* 暂存，下一步，上一步 */
+
+.buttons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: #f6f6f6;
+  box-shadow: 1px 1px 5px #ccc;
+}
+.buttons>h5 {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.buttons>p {
+  position: absolute;
+  left: 95px;
+  right: 235px;
+  top: 25px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.buttons>span {
+  position: absolute;
+  top: 25px;
+  font-size: 12px;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #74a6fa;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.buttons>span.back {
+  background: none;
+  color: #74a6fa;
+  right: 130px;
+}
+.buttons>span.save {
+  background: #74a6fa;
+  color: #fff;
+  right: 25px;
+}
+
+/* 配置参数弹出框 */
+
+.combination {
+  min-height: 50px;
+  max-height: 90px;
+  overflow-y: auto;
+  border: 1px solid #ededed;
+  border-radius: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.configSpan {
+  position: relative;
+  border: 1px solid #e9f1fe;
+  padding: 3px 18px 3px 8px;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 5px;
+  background: #fff;
+  font-size: 12px;
+  box-shadow: 0 0 3px #e9f1fe;
+}
+.configSpan .icon-delete-black {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  color: #d9425b;
+  cursor: pointer;
+  display: none;
+}
+.configSpan:hover {
+  border: 1px solid #74a6fa;
+}
+.configSpan:hover .icon-delete-black {
+  display: block;
+}
+.listStyleRight {
+  overflow-y: auto;
+}
+.leftMenu {
+  float: left;
+  width: 280px;
+  height: 214px;
+  border: 1px solid #ededed;
+}
+.leftMenu>p, .rightMenu>p {
+  border-bottom: 1px solid #eae4e4;
+  height: 32px;
+  line-height: 32px;
+  text-indent: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.leftMenu>p>span, .rightMenu>p>span {
+  font-weight: normal;
+  margin-left: 5px;
+}
+.leftMenu>p>span>b {
+  font-weight: bold;
+  color: #d9425b;
+  margin: 0 2px;
+}
+.leftMenu>ul, .rightMenu>ul {
+  height: 180px;
+  overflow-y: auto;
+}
+.leftMenuListItem.active {
+  background: #ddeeff;
+}
+.leftMenuListItem:hover {
+  color: #7fa6f3;
+}
+.leftMenu>ul>li {
+  height: 23px;
+  line-height: 23px;
+  cursor: pointer;
+}
+.leftMenuListItem {
+  height: 29px;
+  line-height: 29px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.rightMenuList li {
+  cursor: pointer;
+}
+.describe {
+  height: 50px;
+  background: #f6eeee;
+  border-top: 1px solid #eae4e4;
+  padding: 5px 10px;
+  overflow-y: auto;
+  font-size: 12px;
+  color: #585656;
+}
+.describe>p {
+  height: 16px;
+  line-height: 16px;
+}
+.describe>p>span {
+  color: #c64d4d;
+  padding-right: 2px;
+}
+.rightMenu {
+  float: left;
+  width: 281px;
+  height: 214px;
+  border: 1px solid #ededed;
+  margin-left: -1px;
+}
+.rightMenu>ul>li {
+  height: 23px;
+  line-height: 23px;
+  padding-left: 6px;
+}
+.btn {
+  float: left;
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  background: #b5b5b5;
+  border: none;
+  border-radius: 0;
+  margin: 0
+}
+#submit_label {
+  background: #55a8fd;
+  margin: 0
+}
+.componentSelectBtn {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #ececec;
+  cursor: pointer;
+}
+.componentSelectBtn.select {
+  width: 13px;
+  height: 13px;
+  background-image: url("../../images/checkBoxActive.png");
+  background-repeat: no-repeat;
+}
+.centerArrows {
+  float: left;
+  height: 247px;
+  text-align: center;
+  line-height: 247px;
+  width: 60px;
+  font-weight: 700;
+  color: #8a8a8a;
+}

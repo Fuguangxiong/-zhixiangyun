@@ -1,0 +1,124 @@
+.publicTableSelectBox{
+    height: 32px;
+    border: 1px solid #f1f1f1;
+}
+.publicTableSelectLeftContainer{
+    float: left;
+}
+.publicTableSelectItem{
+    float: left;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+    border-right: 1px solid #f1f1f1;
+    color: #333;
+    position: relative;
+    cursor: pointer;
+}
+.publicTableSelectItemName{
+    width: 80px;
+    display: block;
+}
+.icon .publicTableSelectItemName{
+    width:64px;
+}
+.publicTableSelectItemIconContainer{
+    left: 50%;
+    margin-left: 6px;
+    top: 0;
+    color: #797979;
+    position: absolute;
+}
+.publicTableSelectItemUpIcon::before{
+    content: "\e857";
+}
+.publicTableSelectItemDownIcon::before{
+    content: "\e646";
+}
+.publicTableSelectItemChildrenIcon{
+    width: 16px;
+    height: 16px;
+    background-image: url(../publicImages/downArrow.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+.publicTableSelectItem.active{
+    color: #55a8fd;
+}
+.publicTableSelectChildrenContainer{
+    position: absolute;
+}
+.publicTableSelectChildrenItem{
+    position: relative;
+    border-bottom: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    color: #333;
+}
+.publicTableSelectChildrenItem.active{
+    color: #55a8fd;
+}
+.publicTableSelectChildrenItem .publicTableSelectItemIconContainer{
+    margin-left:25px;
+}
+.publicTableSelectRightContainer{
+    float: right;
+}
+.publicTableSelectColor{
+    color: #fb6233;
+}
+.publicTableSelectPageContainer{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-right:15px;
+    font-size: 14px;
+}
+.publicTableSelectControlContainer{
+    float: left;
+    width:122px;
+    border-left:1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    height: 30px;
+}
+.publicTableSelectPageBtn{
+    border-left: 1px solid #f1f1f1;
+    cursor: pointer;
+    width: 40px;
+    float: left;
+    line-height: 30px;
+    color: #9e9e9e;
+    text-align: center;
+}
+.publicTableSelectMoreBtnContainer{
+    width: 40px;
+    line-height: 30px;
+    height: 30px;
+    color: #333;
+    border-left: 1px solid #f1f1f1;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+.publicTableSelectDelBtn{
+    float:left;
+    width:62px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fb7085;
+    border-left:1px solid #f1f1f1;
+    cursor: pointer;
+}
+.publicTableSelectCancleBtn{
+    float:left;
+    width:62px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+    border-left:1px solid #f1f1f1;
+    cursor: pointer;
+}

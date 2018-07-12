@@ -1,0 +1,177 @@
+.mode-div{
+	overflow-y: auto;
+	height: 500px;
+	border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 0 3px 2px #dedede;
+}
+em{
+    font-style: normal;
+}
+.lanm-con[data-v-c6b571e4] {
+    margin-top: 10px;
+}
+.lam-tdl dl{
+    border: 1px #eeeeee solid;
+    margin: 18px;
+    overflow: hidden;
+    height: 120px;
+    padding-top: 20px;
+    border-radius: 6px;
+}
+.lam-tdl dl dd {
+    display: inline-block;
+    vertical-align: middle;
+    width: 250px;
+    height: 80px;
+    padding-left: 80px;
+    position: relative;
+    border-right: 1px #eeeeee solid;
+}
+.lam-tdl dl dd .poden {
+    position: absolute;
+    background: url(../../images/talt.png) no-repeat;
+    width: 15px;
+    height: 18px;
+    left: 58px;
+    top: 4px;
+}
+.lam-tdl dl dd h2 {
+    padding-top: 2px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    color: #333;
+    width: 140px;
+    height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+.lam-tdl dl dd p {
+    font-size: 12px;
+    color: #999999;
+    width: 140px;
+    height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 3px;
+}
+.lam-tdl dl .info {
+    display: inline-block;
+    vertical-align: middle;
+    width: 21%;
+    text-align: center;
+    border-right: 1px #eeeeee solid;
+    height: 80px;
+    padding-top: 20px;
+    line-height: 33px;
+}
+.noe{
+	display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+    line-height: 33px;
+	width: 111px;
+	padding:5px;
+}
+.lam-tdl dl dt h4{
+	font-size: 16px;
+}
+.lam-tdl dl dt p{
+	color: #999999;
+}
+.butonstdelet{
+	border: 1px #999999 solid;
+	border-radius: 6px;
+	color: #999999;
+	width: 63px;
+    height: 25px;
+    background-color: #fff;
+    line-height: 21px;
+}
+.butonst{
+	border: 1px #55a8fd solid;
+	border-radius: 6px;
+	color: #55a8fd;
+	width: 63px;
+    height: 25px;
+    background-color: #fff;
+    line-height: 21px;
+}
+.bpboerd{
+	position: relative;
+	display: block;
+	width: 122px;
+	text-align: center;
+}
+.bpboerd:after{
+	content: '';
+	border: 1px #55a8fd solid;
+	border-bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 12px;
+}
+.bpboerd:before{
+	content: '';
+	border: 1px #55a8fd solid;
+	border-top: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 12px;
+	bottom: 0;
+}
+.iformcon-con.reg1 {
+    width: 1000px;
+    margin: 0 auto;
+    float: left;
+    min-height: 100px;
+}
+.iftop {
+    position: relative;
+    color: #55a8fd; 
+    height: 36px;
+    line-height: 36px;
+    border-radius: 3px;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+.line{
+	position: absolute;
+    border-bottom: 1px #55a8fd solid;
+    bottom: 16px;
+    left: 141px;
+    right: 43px;
+}
+.time-x {
+    position: relative;
+    padding-left: 170px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.time-x .texet {
+    position: absolute;
+    left: 0;
+    width: 145px;
+    color: #333;
+    font-size: 14px;
+    text-align: right;
+}
+.time-x span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.inputime {
+    font-size: 14px;
+}

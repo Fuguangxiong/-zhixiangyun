@@ -1,0 +1,114 @@
+.iformcon-con3.third_step{
+    width: 650px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+div.cpu_box, div.memory_box{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+em{
+    font-style: normal;
+}
+.disk_size{
+    width: 100%;
+    height: auto;
+}
+.disk_size_title, span.cpu_title, span.memory_title{
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    margin-right: 15px;
+    text-align: right;
+}
+.cpu_main, .memory_main{
+    float: left;
+    width: auto;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    line-height: 40px;
+}
+ul li{
+	list-style: none;
+}
+.cpu_main ul li.no_borr, .memory_main ul li.no_borr{
+    border-right: none;
+}
+.cpu_main ul li.active, .memory_main ul li.active{
+    background: #287cef;
+    color: #fff;
+}
+.cpu_main ul li, .memory_main ul li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 177px;
+    border-right: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+div.cpu_box, div.memory_box{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.disk_size_title, span.cpu_title, span.memory_title{
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    margin-right: 15px;
+    text-align: right;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.disk_size {
+    width: 100%;
+    height: auto;
+}
+.bar_box {
+    width: 535px;
+    height: auto;
+    float: left;
+}
+.span_bar_dw{
+    width: auto;
+    float: left;
+    height: auto;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.clearfix:before{
+	    display: table;
+    content: " ";
+}
+
+/* 暂存，下一步，上一步 */
+.butonstdelet{
+	background: #55a8fd;
+	margin: 0 18px;
+}
+.butonstred{
+	background: #55a8fd;
+}
+.butonst{
+	background: #26d186;
+}

@@ -1,0 +1,44 @@
+.table-list {
+  width: 98%;
+  table-layout: fixed;
+  border-spacing: 0px;
+  border-color: grey;
+  margin: 0 auto;
+
+}
+.table-list thead {
+  margin: 0 10px;
+}
+.table-list thead tr {
+  border: none;
+}
+
+ .table-list tbody tr:nth-child(even){
+    background: rgb(252, 244, 244);
+   }
+
+ .table-list thead th {
+ 	font-weight: normal;
+  height: 38px;
+  border: none;
+  border-bottom: 1px solid #0066ca;
+  color: #333;
+}
+.table-list tbody td {
+  height: 50px;
+  border: none;
+  color:black;
+}
+.table-list tbody tr{
+	 /*border: 1px solid #ffffff;*/
+}
+.table-list tbody tr:hover {
+  border: 1px solid #A9A9A9!important;
+  color: #337ab7!important;
+ /* background-color:rgb(240,240,240);*/
+}
+
+.table-list .indexCell {
+  text-align: center;
+  width: 80px;
+}

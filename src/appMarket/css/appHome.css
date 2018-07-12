@@ -1,0 +1,1276 @@
+
+.App{
+	overflow: hidden;
+}
+.appHeader{
+	width:100vw;
+	height:30px;
+	line-height: 30px;
+	padding:0 5vw 0 6vw;
+	background:rgb(15,26,62);
+	color:#fff;
+	font-size: 12px;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index: 999;
+}
+.appHeaderLeft{
+	float:left;		
+}
+.appHeaderLeft>span{
+	margin-right:3.3vw;
+	cursor: pointer;
+}
+.appHeaderRight{
+	float:right;
+	cursor: pointer;
+}
+.appHeaderRight>span{
+	margin-right:3.6vw;
+}
+.appHeaderRight>select{
+	background:rgba(15,26,62,0.1);
+	color:#fff;
+	border:0;
+	outline: none;
+	cursor: pointer;
+}
+.appHeaderRight>select>option{
+	display: block;
+	color:#000;
+}
+.appBanner{
+	overflow: hidden;
+	width:100vw;
+	padding:0 5vw;
+	height:540px;
+	display:block;
+	margin-top:30px;
+	position: relative;
+}
+.appBanner>.appLunBuo{
+	max-width:1920px;
+	min-width:1366px;
+	height:100%;
+	position: absolute;
+	left:0;
+	top:0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	transition: 2s;
+    margin: 0 auto;
+}
+.appBanner>.appLunBuo>li{
+	float:left;
+	width:100%;
+	height:100%;
+}
+.appBanner>.appLunBuo>li>img{
+	width:100%;
+	height:100%;
+}
+.appBannerLeft{
+	width:280px;
+	height:540px;
+	background:rgba(64,73,104,0.4);
+	float:left;
+	position: relative;	
+	z-index: 2;
+}
+
+.appBannerLeftTop{
+	width:100%;
+	height:64px;
+	padding:10px 0 0 13px;
+	cursor: pointer;
+}
+
+.appBannerLeft>ul{
+	width:100%;
+	font-size: 13px;
+}
+.appBannerLeft>ul>li{
+	width:100%;
+	height:45px;
+	line-height: 45px;
+	padding:0 12px 0 14px;	
+	color:rgb(202,204,213);
+	overflow: hidden;
+}
+.appBannerLeft>ul>li:hover{
+	background:rgba(255,255,255,0.5);
+}
+.appBannerLeft>ul>li>div{
+	width:92%;
+	float:left;
+}
+.appBannerLeft>ul>li>div>a{
+	cursor: default;
+}
+.appBannerLeft>ul>li>div>a:hover{
+	color:#fff;
+}
+/* .appBannerLeft>ul>li>div>a:hover{
+	color:rgb(251,98,51);
+} */
+
+.appBannerLeft>ul>li>div>span{
+	color:#FFFFFF;
+	margin:0 10px;
+}
+.appBannerLeft>ul>li>div>a>span{
+	color:#FFFFFF;
+	margin:0 10px;
+}
+.appBannerLeft>ul>li>p{
+	height:16px;
+	float:left;
+	color:rgb(202,204,213);         
+}
+.appTanchuang{
+	overflow: visible;
+	width:920px;
+	height:540px;
+	position: absolute;
+	top:0;
+	left:280px;
+	background:rgba(255,255,255,0.95);
+	padding:0 20px 0 25px; 
+	/*transition: 1s;*/
+}
+.appTanchuangTop{
+	width:100%;
+	height:65px;
+	border-bottom:1px solid rgb(181,181,184);
+	padding-top:18px;
+	font-size:13px
+	
+}
+.appTanchuangTop>li{
+	width:90px;
+	height:29px;
+	text-align: center;
+	line-height: 28px;
+	border-radius: 3px;
+	border:1px solid rgb(102,102,102);
+	font-size: 13px;
+	float:left;
+	margin-right: 38px;
+	cursor: pointer;
+	color:rgb(51,51,51)
+}
+.appTanchuangTop>li:hover{
+	color:rgb(251,98,51);
+}
+.appTanchuangTop>li>span{
+	margin-left:8px;
+	
+}
+.appTanchuangHeader{
+	width:100%;
+	height:45px;
+	border-bottom:1px solid rgb(212,213,217);
+	font-size: 15px;
+}
+.appTanchuangHeader>h4{
+	min-width:100px;
+	height:45px;
+	line-height: 45px;
+	float:left;
+	cursor: default;
+	font-size: 16px;
+}
+.appTanchuangHeader>p{
+	line-height: 45px;
+	float:right;
+	font-size: 13px;
+	cursor: pointer;
+}
+.appTanchuangHeader>p:hover{
+	color:rgb(251,98,51);
+}
+.appTanchuangHeader>p>span{
+	margin-left:3px;
+}
+.appTanchuangHot,.appTanchuangHot1{
+	width:100%;
+	min-height:55px;
+	max-height:110px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.appTanchuangHot>li,.appTanchuangHot1>li{
+	line-height: 36px;
+	font-size: 13px;
+	color:rgb(51,51,51);
+	cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    padding: 0 10px;
+    min-width: 50px;
+}
+.appTanchuangHot>li:hover,.appTanchuangHot1>li:hover{
+	color:rgb(251,98,51)
+}
+
+.appTanchuangPeople{
+	width:100%;
+	height:78px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+.appTanchuangPeople>li{
+	width:12.5%;
+	line-height: 36px;
+	font-size: 13px;
+	cursor: pointer;
+	color:rgb(51,51,51);
+}
+.appTanchuangPeople>li:hover{
+	color:rgb(251,98,51)
+}
+.appBannerRight{
+	width:280px;
+	height:324px;
+	border-radius: 8px;
+	background:rgba(64,73,104,0.4);
+	float:right;
+	margin-top:150px;
+	padding:20px 20px 0;
+	color:#fff;
+	z-index:-999;
+	box-shadow:0.5px 1px 4px 4px rgba(64,73,104,0.3);
+}
+.appBannerRightImg{
+	width:45px;
+	height:45px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin:0 auto;
+}
+.appBannerRightImg img{
+	width:45px;
+	height:45px;
+}
+.appBannerRight>p{
+	width:100%;
+	height:33px;
+	line-height: 33px;
+	font-size: 12px;
+	text-align: center;
+}
+.appBannerRightLogin{
+	padding-left:50px;
+}
+.appBannerRightLogin>span>a{
+	display:inline-block;
+	width:55px;
+	text-align: center;
+	height:25px;
+	line-height: 24px;
+	border-radius: 5px;
+	border:1px solid rgb(160,163,178);
+	font-size: 13px;
+	color:rgb(222,223,228);	
+	margin-right:40px;
+}
+.appBannerRightLogin>span:nth-child(3){
+	float:left
+}
+.appBannerRightLogin>span:last-child{
+	float:right
+}
+.appBannerRight>ul{
+	width:100%;
+	border-top:1px solid rgb(160,163,178);
+	margin-top:8px;
+	padding-top:15px;
+	color:#fff;
+	font-size: 13px;
+}
+.appBannerRight>ul>li{
+	width:100%;
+	height:35px;
+	overflow:hidden;	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.appBannerRight>ul>li>span{
+	width:35px;
+	text-align: center;
+	height:20px;
+	line-height: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-right:10px;
+}
+.appBannerRight>ul>li:first-child>span,.appBannerRight>ul>li:nth-child(4)>span{
+	background:rgb(87,122,176);
+}
+.appBannerRight>ul>li:nth-child(2)>span,.appBannerRight>ul>li:nth-child(5)>span{
+	background:rgb(159,97,86);
+}
+.appBannerRight>ul>li:nth-child(3)>span{
+	background:rgb(82,155,102);
+}
+
+.appSearch{
+	background:#fff;
+	width:100vw;
+	padding:20px 0;
+	position: relative;
+	box-shadow: 0.5px 1px 1px 1px rgba(0,0,0,0.1);
+}
+.toTopAppSearch{
+	position: fixed;
+	top: 30px;
+	z-index: 777;
+}
+.appSearchLeft{
+	width:196px;
+	height:100%;
+	float:left;
+}
+.appSearchLeft>img{
+	cursor: pointer;
+}
+.appSearchBox{
+	width:65%;
+	height:80px;
+	float:left
+}
+.appSearchBox>input{
+	width:93%;
+	height:40px;
+	border-top:1px solid rgb(244,78,88);
+	border-left:1px solid rgb(244,78,88);
+	border-bottom:1px solid rgb(244,78,88);
+	padding-left:13px;
+	color:#666;
+	font-size: 13px;
+	border-radius: 3px 0 0 3px;	
+}
+.appSearchBox>button{
+	width:7%;
+	height:40px;
+	background:rgb(244,78,88);
+	color:#fff;
+	border-radius:0 3px 3px 0;
+	float:right;
+	cursor: pointer;
+}
+.appSearchBox>ul{
+	width:90%;
+	height:30px;
+	line-height: 30px;
+	font-size: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	
+}
+.appSearchBox>ul>li{
+	cursor: pointer;
+	color:rgb(51,51,51);
+	font-size: 12px ;
+}
+.appHot{
+
+	width:100vw;
+
+	padding:0 5vw;
+	background:rgb(250,250,250);
+}
+.appHotTop{
+	width:100%;
+	height:54px;
+	cursor: pointer;
+    line-height: 54px;
+}
+
+.appHotTop>p{
+	float:right;
+	padding-top: 24px;
+	
+}
+.appHotTop>h4{
+	float:left;
+	font-size: 18px;
+	color:rgb(51,51,51);
+	margin-top: 20px;
+}
+.appHotTop>h4>span{
+	margin-right:6px;
+	float: left;
+}
+.appHotTop>h4>em{
+	float: left;
+	font-style: normal;
+	margin-top: 2px;
+}
+.appHot>ul{
+	width:100%;
+}
+.appHot>ul>li{
+	width:24%;
+	height:202px;
+	border-radius: 4px;		
+	position: relative;
+	overflow: hidden;
+	z-index: 10;
+	cursor: pointer;
+	transition:all .5s;
+	float: left;
+	margin-right: 16px;
+}
+.appHot>ul>li:last-child{
+	margin-right: 0;
+}
+.appHot>ul>li>div:first-child{
+	width:100%;
+	height:100%;
+	position: absolute;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,0.4);
+	z-index: 2;
+}
+.appHot>ul>li:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,.6);
+}
+.appHot>ul>li>img{
+	width:100%;
+	height:100%;
+	transition: 0.5s;
+	z-index: 1;
+}
+.appHot>ul>li:hover>img{
+	transform: scale(1.2);
+	transition: 1s;
+}
+.appHot>ul>li>p{
+	width:100%;
+	position: absolute;
+	top:60px;
+	left:0;
+	text-align: center;
+	overflow:hidden;	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 16px;
+	color:#fff;
+	z-index: 3;
+}
+.appHot>ul>li>div:last-child{
+	position: absolute;
+	left:16px;
+	top:124px;
+	width:90%;
+	line-height: 24px;
+	font-size: 12px;
+	 overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+	color:#fff;
+	z-index: 3;
+}
+.appJingcai{
+	overflow: hidden;
+	width:100vw;
+	height:435px;
+	background:rgb(250,250,250);
+	padding:20px 5vw 0 5vw;
+}
+.appJingcaiTop{
+	width:100%;
+	height:54px;
+	line-height: 54px;
+	margin-top: 5px;
+}
+.appJingcaiTop>h4{
+	float:left;
+	font-size: 18px;
+	color:rgb(51,51,51);
+	margin-top: 20px;
+}
+.appJingcaiTop>h4>span{
+	margin-right: 6px;
+	float: left;
+}
+.appJingcaiTop>h4>em{
+	float: left;
+	font-style: normal;
+	margin-top: 1px;
+}
+.appJingcaiTop>p{
+	float:right;
+	padding-top: 24px;
+	cursor: pointer;
+}
+.appJingcaiContent{
+	width:100%;
+	height:355px;	
+}
+.appJingcaiContentLeft{
+	width:58%;
+	height:350px;
+	float:left;
+	background:#666;
+	position: relative;	
+	overflow: hidden;
+	border-radius: 5px;	
+}
+.appJingcaiContentLeft>ul{
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	cursor: pointer;
+}
+.appJingcaiContentLeft>ul>li{
+	width:100%;
+	height:100%;
+}
+.appJingcaiContentLeft>ul>li>img{
+	width:100%;
+	height:100%;
+}
+.appJingcaiContentLeftBottom{
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	color:#fff;
+	font-size: 14px;
+	background:rgba(0,0,0,0.5);
+	position: absolute;
+	left:0;
+	bottom:0;
+	cursor: pointer;
+	/*display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;*/
+}
+.appJingcaiContentLeftBottom>p{
+	width:16.66%;
+	text-align: center;
+	float:left;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.appJingcaiContentLeftBottom>p:last-child{
+	border-right: none;
+}
+.appJingcaiContentLeftBottom>p:hover{
+	background:rgba(50,146,146,0.5);
+}
+.appJingcaiContentRight{
+	width:40%;
+	height:350px;
+	float:right;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;	
+}
+.appJingcaiContentRight>li{
+	height:170px;
+	width:48%;
+	position: relative;
+	background:#666;
+	border-radius: 4px;
+	transition:all .5s;
+	font-size: 14px;
+	cursor: pointer;
+	margin-bottom:10px
+}
+.appJingcaiContentRight>li:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+.appJingcaiContentRight>li>img{
+	width:100%;
+	height:100%;
+	border-radius: 4px;
+	transition: 1s;
+}
+.appJingcaiContentRight>li:hover>p{
+
+
+	background:rgba(0,0,0,1);
+}
+.appJingcaiContentRight>li>p{
+	width:100%;
+	height:34px;
+	text-align: center;
+	line-height: 34px;
+	transition:all .5s;
+	position: absolute;
+	bottom:0;
+	left:0;
+	background:rgba(0,0,0,0.6);
+	color:#fff;	
+	border-radius:0 0 3px 3px;
+}
+.appJingcaiContentLeft>.appBiaoqian>li{
+	overflow: hidden;
+}
+.appJingcaiContentLeft>.appBiaoqian>li:hover>img{
+	transform: scale(1.1);
+	transition: 1s;
+}
+.appJingcaiContentLeft>.appBiaoqian>li>img{
+	transition: 1s;
+}
+.appJingcaiContentRight>li{
+	overflow: hidden;
+}
+.appJingcaiContentRight>li:hover>img{
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.appNav{
+	overflow: hidden;
+/* 	cursor: pointer;	 */
+}
+
+.appXinrui{
+	overflow: hidden;
+	width:100vw;
+	padding:0 5vw;
+	background: #fff;
+}
+.appXinruiTop{
+	width:100%;
+	max-width: 1200px;
+	margin:0 auto ;
+	margin-top: 5px;
+	height:54px;
+	line-height: 54px;
+}
+.appXinruiTop>h4{
+	margin-top: 20px;
+	float:left;
+	font-size: 18px;
+	color:rgb(51,51,51)
+}
+.appXinruiTop>h4>span{
+	margin-right: 6px;
+	float: left;
+}
+.appXinruiTop>h4>em{
+	float: left;
+	font-style: normal;
+	margin-top: 1px;
+}
+.appXinruiTop>p{
+	float:right;
+	padding-top: 24px;
+	cursor: pointer;
+}
+.appXinruiContent{
+	width:100%;
+}
+.appXinruiContent>li{
+	position: relative;
+	width:24%;
+	height:296px;
+	border-radius: 4px;
+	transition: all .5s;
+	border:1px solid rgba(0,0,0,0.1);
+	padding: 12px;
+	float: left;
+	margin-right: .5%;
+	margin-left: .5%;
+	margin-bottom: 12px;
+}
+.appXinruiContent>li:last-child{
+	margin-right: 0;
+}
+.appXinruiContent>li:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.appXinruiContentTop{
+	height:148px;
+	width:100%;
+	background:#fafafa;
+}
+.appXinruiContentLeft{
+	width:100%;
+	height:148px;
+	background:#666;
+	border-radius: 3px;
+	margin-bottom:20px;
+}
+.appXinruiContentLeft>img{
+	border-radius: 3px;
+}
+.appXinruiContentRight{
+	width:100%;
+	height:37px;
+}
+.appXinruiContentRight>h5{
+	height:37px;
+	line-height: 37px;
+    font-weight: 600;
+	font-size: 15px;
+	display: block;
+	overflow:hidden;	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width:80%;
+	color:rgb(51,51,51)
+}
+.appXinruiContentRight>p:nth-child(2){
+	height:36px;
+	line-height: 36px;
+	font-size:12px;
+	color:rgb(51,51,51) 
+}
+.appXinruiContentRight>p:nth-child(2)>span{
+	margin-right: 4px;
+	cursor: pointer;
+}
+.appXinruiContentRight>p:nth-child(3){
+	width:66px;
+	height:25px;
+	text-align: center;
+	line-height: 25px;
+	background:rgb(251,98,51);
+	color:#fff;
+	font-size: 12px;
+	float:right;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.nowuser{
+	width: 66px;
+    height: 26px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 12px;
+    float: right;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fb6233;
+    border: 1px solid;
+    transition: all .3s;
+}
+.nowuser:hover{
+	border: 1px #fb6233 solid;
+	background: #fb6233;
+    color: #fff;
+}
+.appXinruiContentBottom{
+	 word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    font-size: 12px;
+    width: 100%;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666;
+    height: 60px;
+}
+.appTiao{
+	overflow: hidden;
+	width:100vw;
+	height:15px;
+	background:rgb(250,250,250);
+	margin-bottom:15px;
+}
+.appBottom{
+	overflow: hidden;
+	width:100vw;
+	height:557px;
+	padding:0 5vw;
+}
+.appBottom>div:last-child{
+	margin-right:0;
+}
+.appBottomRmphb{
+	width:32%;
+	height:512px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+	background-color: #fff;
+	float: left;
+	margin-right: 24px;
+}
+
+.appBottomRmphbTop{
+	width:100%;
+	height:45px;
+	line-height: 45px;
+	font-size: 14px;
+	padding:0 0 0 10px;
+	font-weight: bold;
+	border-bottom:1px solid rgb(238,238,238);
+	color:rgb(51,51,51)
+}
+.appBottomRmphbTop>span{
+	margin-right: 8px;
+	color:#ff6668;
+}
+.appBottomRmphb>ul{
+	width:100%;
+}
+.appBottomRmphb>ul>li{
+	width:100%;
+	height:45px;
+	line-height: 45px;
+	font-size: 13px;
+	position: relative;
+	overflow: hidden;
+	border-bottom:1px  dashed rgb(238,238,238);
+	padding:0 15px 0 11px;
+	color:rgb(51,51,51);
+	transition:all 1.5s ;
+	cursor: pointer;	
+}
+.appBottomRmphb>ul>li:hover{
+	height:64px;
+	background:rgb(243,247,253);
+	color:#000
+}
+.appBottomRmphb>ul>li>span:first-child{
+	width:25px;
+	height:45px;
+	text-align:center;
+	line-height: 46px;
+	color:#000;
+	float:left;
+	font-size: 13px;
+	color:rgb(51,51,51);
+}
+.appBottomRmphb>ul>li:hover>.icon-sanjiaoxing:first-child{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: rgb(255,102,102);
+    float: left;
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    display: inline-block;
+    font-size: 30px;
+}
+.appBottomRmphb>ul>li>.topnum{
+	width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 6px;
+    border-radius: 50%;
+    float: left;
+    font-size: 12px;
+}
+.appBottomRmphb>ul>li:hover>.topnum{
+	width:25px;
+	height:25px;
+	text-align:center;
+	line-height: 25px;
+	color:#fff;
+	position: absolute;
+	top: -8px;
+    left: -5px;
+}
+.appBottomRmphb>ul>li .icon-sanjiaoxing:first-child{
+	display: none
+}
+.appBottomRmphb>ul>li:hover>.topindex{
+	width:25px;
+	height:25px;
+	text-align:center;
+	line-height: 25px;
+	background:rgb(255,102,102);
+	border-radius: 50%;
+	color:#fff;
+	float:left;
+	position: absolute;
+	top:16px;
+	left:10px;
+}
+
+.appBottomRmphb>ul>li>div{
+	display: none;
+
+}
+.appBottomRmphb>ul>li:hover>div{
+	width:38px;
+	height:36px;
+	border-radius: 3px;
+	background:#666;
+	float:left;
+	margin:15px 14px 0 28px;
+	display: block;
+}
+.appBottomRmphb>ul>li>div>img{
+	width:100%;
+	height:100%;
+	border-radius: 3px;	
+	vertical-align: baseline;
+}
+.appBottomRmphb>ul>li>p{
+	overflow:hidden;	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height:42px;
+	line-height: 42px;
+	font-size: 12px;
+	float:left;
+	width:50%;
+}
+.appBottomRmphb>ul>li:hover>p{
+	height:64px;
+	line-height: 64px;
+	width:40%;
+}
+.appBottomRmphb>ul>li>span:last-child{
+	font-size: 12px;
+	float:right;
+	line-height: 42px;
+	color:rgb(51,51,51);
+	
+}
+.appBottomRmphb>ul>li:hover>span:last-child{
+	float:right;
+	line-height: 64px;
+	color:#000
+}
+.appBottomRmphb>ul>li>span:first-child{
+	width:25px;
+	height:25px;
+	text-align:center;
+	line-height: 30px;
+	margin-top:6px;
+	border-radius: 50%;
+	float:left;
+	font-size: 12px;
+}
+.appBottomRmphb>ul>li>span:last-child{
+	float:right;
+	font-size: 12px;
+	overflow: hidden;
+}
+.appBottomRmphb>ul>li:last-child{
+	border-bottom: none;
+}
+.appBottomRmphb:last-child>.appBottomRmphbTop{
+	border-bottom:1px solid rgb(238,238,238)
+}
+
+.appBottomRmphb>.appBottomList{
+	width:100%;
+	padding:13px 13px 0 13px;	
+	
+}
+.appBottomRmphb>.appBottomList>p{
+	width:145px;
+	height:42px;
+	float: left;
+	background:#fff;
+	border-radius: 3px;
+	padding-left: 20px;
+	text-align: left;
+	line-height: 42px;
+	font-size: 13px;
+	margin-bottom:15px;
+	margin:10px 17px;
+/* 	box-shadow: 0.5px 1px 1px 1px rgba(0,0,0,0.1); */
+	color:rgb(51,51,51);
+	cursor: pointer;
+
+	overflow:hidden;
+	/* white-space:nowrap;text-overflow:ellipsis; */
+    border: 1px dashed #dedede;
+
+}
+.appBottomRmphb>.appBottomList>p:hover{
+	border:1px solid rgb(178,208,245);
+	color:rgb(107,179,253)
+}
+.appDel:last-child span{
+  display: none;
+}
+.appLunBuo .bannerImg{
+  cursor: pointer;
+}
+.icon-shoucang{
+	color:#fed582;
+	font-size: 24px;
+}
+.icon-zuji{
+	color:#90e4fd;
+	font-size: 24px;
+}
+
+
+
+
+
+.appColection{
+	overflow: hidden;
+	width:50%;
+	height:462px;
+	padding:0 5vw;
+	background:rgb(250,250,250);
+	float: left;
+}
+.appColectionTop{
+	width:100%;
+	height:60px;
+	line-height: 60px; 
+	height:60px;
+	line-height: 60px;
+
+
+}
+.appColectionTop>p{
+	float:right;
+	width:32px;
+	height:40px;
+	cursor: pointer;
+}
+.appColectionTop>h4{
+	height:60px;
+	line-height:60px;
+	float:left;
+	font-size: 18px;
+	color:rgb(51,51,51);
+	margin-top: 8px;
+}
+.appColectionTop>h4>span{
+	margin-right:8px
+}
+.appColection>ul{
+	height:202px;
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:  space-between;
+}
+.appColection>ul>li{
+	width:48%;
+	height:100%;
+	border-radius: 4px;		
+	position: relative;
+	overflow: hidden;
+	z-index: 10;
+	cursor: pointer;
+	margin-bottom: 3%;
+}
+.appColection>ul>li>div:first-child{
+	width:100%;
+	height:100%;
+	position: absolute;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,0.2);
+	z-index: 2;
+}
+.appColection>ul>li:hover{
+	border:2px solid rgba(238,238,238,0.6);
+}
+.appColection>ul>li>img{
+	width:100%;
+	height:100%;
+	transition: 0.5s;
+	z-index: 1;
+}
+.appColection>ul>li:hover>img{
+	transform: scale(1.2);
+	transition: 1s;
+}
+.appColection>ul>li>p{
+	width:100%;
+	position: absolute;
+	top:60px;
+	left:0;
+	text-align: center;
+	font-size: 20px;
+	color:#fff;
+	z-index: 3;
+}
+.appColection>ul>li>div:last-child{
+	position: absolute;
+	left:16px;
+	top:124px;
+	width:90%;
+	line-height: 24px;
+	font-size: 14px;
+	overflow:hidden;	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color:rgb(202,206,213);
+	z-index: 3;
+}
+
+/*---------------------------------------------------*/
+
+.appFootPrint{
+	overflow: hidden;
+	width:50%;
+	height:462px;
+	padding:0 5vw;
+	background:rgb(250,250,250);
+	float: left;
+}
+.appFootPrintTop{
+	width:100%;
+	height:60px;
+	line-height: 60px; 
+	height:60px;
+	line-height: 60px;
+    margin-top: 8px;
+}
+.appFootPrintTop>p{
+	float:right;
+	width:32px;
+	height:40px;
+	cursor: pointer;
+}
+.appFootPrintTop>h4{
+	height:60px;
+	line-height:60px;
+	float:left;
+	font-size: 18px;
+	color:rgb(51,51,51)
+}
+.appFootPrintTop>h4>span{
+	margin-right:8px
+}
+.appFootPrint>ul{
+	height:202px;
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:  space-between;
+}
+.appFootPrint>ul>li{
+	width:48%;
+	height:100%;
+	border-radius: 4px;		
+	position: relative;
+	overflow: hidden;
+	z-index: 10;
+	cursor: pointer;
+	margin-bottom: 3%;
+}
+.appFootPrint>ul>li>div:first-child{
+	width:100%;
+	height:100%;
+	position: absolute;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,0.2);
+	z-index: 2;
+}
+.appFootPrint>ul>li:hover{
+	border:2px solid rgba(238,238,238,0.6);
+}
+.appFootPrint>ul>li>img{
+	width:100%;
+	height:100%;
+	transition: 0.5s;
+	z-index: 1;
+}
+.appFootPrint>ul>li:hover>img{
+	transform: scale(1.2);
+	transition: 1s;
+}
+.appFootPrint>ul>li>p{
+	width:100%;
+	position: absolute;
+	top:60px;
+	left:0;
+	text-align: center;
+	font-size: 20px;
+	color:#fff;
+	z-index: 3;
+}
+.appFootPrint>ul>li>div:last-child{
+	position: absolute;
+	left:16px;
+	top:124px;
+	width:90%;
+	line-height: 24px;
+	font-size: 14px;
+	overflow:hidden;	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color:rgb(202,206,213);
+	z-index: 3;
+}
+/*new xxl*/
+.appMy{
+	padding: 0 5vm;
+}
+
+.boxforimg{
+	width: 1200px;;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.appSearch1 {
+	width: 100%;
+	margin: 0 auto;
+}
+.topleft {
+    width: 0;
+    display: block;
+    height: 0;
+    float: left;
+    border-top: 15px solid transparent;
+    border-right: 15px solid red;
+    border-bottom: 15px solid transparent;
+    rotate: 45deg;
+}
+.appHomeBannerMenuDefine{
+	width: 920px;
+    height: 540px;
+    line-height: 540px;
+    text-align: center;
+    font-size: 25px;
+    color: #666;
+}
+.appTanchuangHot>.msgTitle{
+  padding:10px;
+     color: #666;
+  }
+  
+.bigMsg{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 16px;
+  }
+  
+.icMove{
+	background: url('../images/more.png') no-repeat;
+	width: 24px;
+	height: 15px;
+	display: block;
+	cursor: pointer;
+
+}
+.icMove:hover{
+	background: url('../images/moreH.png') no-repeat;
+	width: 24px;
+	height: 15px;
+	display: block;
+}

@@ -1,0 +1,233 @@
+.iformcon .iformcon-con.reg1 {
+    width: 855px;
+    margin: 0 auto;
+}
+em{
+    font-style: normal;
+}
+.lanmp-con{
+    width: 788px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.lanbbag {
+    background: url(../../images/atomicServicePageActive.png) no-repeat;
+    width: 768px;
+    height: 37px;
+}
+.lanbbag p {
+    background: url(../../images/atomicServicePage.png) no-repeat;
+    width: 768px;
+    height: 37px;
+}
+.mode-div{
+    overflow-y: auto;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 0 3px 2px #dedede;
+}
+.tablnav ul{
+    padding-left: 22px;
+    padding-bottom: 24px;
+    margin-top: 30px;
+}
+.tablnav li.active{
+    border: 1px #55a8fd solid;
+    color: #55a8fd;
+}
+.tablnav li{
+    border: 1px #999999 solid;
+    color: #999999;
+    text-align: center;
+    display: inline-block;
+    line-height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    margin-right: 3px;
+    width: 120px;
+}
+.tabcon{
+    width: 734px;
+}
+.time-x{
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.time-x span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.inputime .css-radio{
+    float: left;
+    cursor: pointer;
+    margin-right: 45px;
+}
+.css-radio.active i{
+    background-position: 0 -13px;
+}
+.css-radio i{
+    background: url(../../images/radio.png) no-repeat;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.time-x .texet {
+    width: 80px;
+    color: #333;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 16px;
+}
+.shulist-m:first-child {
+    border-top: none;
+}
+.shulist-m{
+    overflow: hidden;
+    border-top: 1px #cdcdcd solid;
+    padding: 10px 0;
+}
+.shulist .inptcss,.inptcss1,.inptcss2{
+    background: transparent;
+    border: 1px #a9a9a9 solid;
+    height: 24px;
+    padding:0;
+    border-radius: 6px;
+}
+.shulist .inptcssw,.inptcssw1,.inptcssw2 {
+    width: 92px;
+    height: 23px;
+}
+.inptcss1{
+    width: 52px;
+    height: 24px;
+    border-radius: 6px;
+}
+.inptcss2{
+    width: 78px;
+    height: 24px;
+    border-radius: 6px;
+}
+.shulist .inptcssw1 {
+    width: 178px;
+}
+.shulist .inptcssw2 {
+    width: 112px;
+}
+.w1,.w2,.w3{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.chepoc{
+    float: right;
+    margin:  2px 0 0 18px;
+}
+.shulist-con {
+    background: #f5f5f5;
+    border: 1px #a9a9a9 solid;
+    border-radius: 5px;
+}
+.tabth{
+    padding-bottom: 10px;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: 600;
+}
+.ww1{
+    margin-left: 11px;
+}
+.ww2{
+    margin-left: 52px;
+}
+.ww3{
+    margin-left: 40px;
+}
+.ww4{
+    margin-left: 38px;
+}
+.ww5{
+    margin-left:138px;
+}
+.inputime .w200 {
+    width: 90px;
+    height: 30px;
+    padding: 0px 0px 1px 6px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.cssinput {
+    background: transparent;
+    border: 1px #dadada solid;
+    height: 24px;
+    padding: 0;
+}
+.inputime .w590{
+    width: 640px;
+    border-radius: 6px;
+    padding: 14px 5px;
+}
+.inputime .teac{
+    width: 734px;
+    height: 115px;
+    font-size: 16px;
+    padding: 5px 5px;
+    border-radius: 6px;
+}
+.shulist .icobut {
+    display: inline-block;
+    border: 1px #959595 solid;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer;
+}
+.shulist .icobut:hover{
+    background: #b61717;
+    border: 1px #b61717 solid;
+    color: #fff;
+}
+.lanbag-text span {
+    font-size: 14px;
+    display: inline-block;
+}
+.lanbag-text span.tim2 {
+    margin-left: 304px;
+}
+.lanbag-text span.tim3 {
+    margin-left: 300px;
+}
+.porthide{
+    display: none;
+}
+.beLong{
+    width: 734px !important;
+}
+.butonstred{
+    margin-left:10px;
+    margin-right:10px;
+    background: #55a8fd;
+}
+.butonst{
+    margin-left:10px;
+    background: #26d186;
+}
+.butonpre{
+    background: #108cee; 
+    margin-left: 18px;
+}
+.chepoc i.charu{
+    background: url("../../images/fxin.png") no-repeat;
+    width:20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+}

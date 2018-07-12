@@ -1,0 +1,451 @@
+.textColor1 {
+    color: #1dbbe3;
+}
+
+.textColor2 {
+    color: #333;
+}
+
+.textColor3 {
+    color: #56b5e5;
+}
+
+.bgColor1 {
+    background-color: #1dbbe3;
+}
+
+.bgColor2 {
+    background-color: #484848;
+}
+
+.bgColor3 {
+    background-color: #f2f2f2;
+}
+
+.link:hover {
+    color: #1dbbe3;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.publicBtn {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background-color: #1dbbe3;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.green.publicBtn {
+    background-color: #26d186;
+}
+
+.green.publicBtn:hover {
+    background-color: #1bbc75;
+}
+
+.gray.publicBtn {
+    background-color: #bcc1c3;
+}
+
+.publicBtn:hover {
+    background-color: #1d8de3;
+}
+
+.gray.publicBtn:hover {
+    background-color: #ccc;
+}
+
+.commonRightBottoTopContainer {
+    position: absolute;
+    /* width:100%; */
+    height: 50px;
+    left: 15px;
+    right: 15px;
+    top: 10px;
+    z-index: 2;
+}
+
+.commonRightBottoBottomContainer {
+    /* width:100%; */
+    /* height:100%; */
+    /* padding-top: 70px; */
+    position: absolute;
+    top: 70px;
+    bottom: 1px;
+    left: 15px;
+    right: 15px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.commonLayoutRightTopContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.commonLayoutRightTopLinkContainer {
+    float: left;
+    padding-left: 18px;
+    background-repeat: no-repeat;
+    background-position: 0px 2px;
+    background-image: url("../images/positionIcon.png");
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.commonLayoutRightTopLinkContainer a {
+    color: #333;
+}
+
+.commonLayoutRightTopSearchContainer {
+    float: right;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+.commonLayoutRightTopSearchInput {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    margin-right: 5px;
+}
+
+.commonLayoutRightTopSearchBtn {
+    float: right;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: 0px 2px;
+    background-image: url("../images/searchIcon.png");
+    cursor: pointer;
+}
+
+.commonTreeContainer {
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+#platformAuthority .commonTableContainer {
+    width: 100%;
+    height: 100%;
+    padding-left: 250px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.el-tree {
+    min-height: 100%;
+}
+
+.commonTableBtnContainer {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+}
+
+.commonTableTable {
+    padding-top: 60px;
+    height: 100%;
+    width: 100%;
+}
+
+.commonLayoutRightTopLinkDivision {
+    margin: 0 5px;
+}
+
+.publicLeftNavImage.departmentManage {
+    background-image: url("../images/departmentManageIcon.png");
+}
+
+.publicLeftNavImage.accoutManage {
+    background-image: url("../images/accountManageIcon.png");
+}
+
+.publicLeftNavImage.authority {
+    background-image: url("../images/authorityManageIcon.png");
+}
+
+.publicLeftNavImage.accoutApproval {
+    background-image: url("../images/accountManage2.png");
+}
+
+.publicLeftNavImage.superAdmin {
+    background-image: url("../images/superAdministratorIcon.png");
+}
+
+.publicLeftNavImage.approvalEnterprise {
+    background-image: url("../images/approvalEnterprise.png");
+}
+
+.publicLeftNavImage.enterpriseLicensing {
+    background-image: url("../images/enterpriseLicensingIcon.png");
+}
+
+.publicLeftNavImage.createEnterprise {
+    background-image: url("../images/createEnterpriseIcon.png");
+}
+
+.publicLeftNavImage.joinEnterprise {
+    background-image: url("../images/joinEnterprise.png");
+}
+
+.hasScroll {
+    overflow-y: auto;
+}
+
+.tableControlBtn {
+    padding-left: 25px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: 0, center;
+    float: right;
+    line-height: 30px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.tableControlBtn:hover {
+    color: #55a8fd;
+}
+
+.tableControlBtn.edit {
+    background-image: url("../images/editIcon.png");
+}
+
+.tableControlBtn.add {
+    background-image: url("../images/addIcon.png");
+}
+
+.tableControlBtn.remove {
+    background-image: url("../images/removeIcon.png");
+}
+
+.tableControlBtn.import {
+    background-image: url("../images/importIcon.png");
+}
+
+.tableControlBtn.export {
+    background-image: url("../images/exportIcon.png");
+}
+
+.tableControlBtn.sentMsg {
+    background-image: url("../images/sentMsg.png");
+}
+
+.tableControlBtn.resetPassword {
+    background-image: url("../images/resetPassword.png");
+}
+
+.allSelectContainer {
+    float: right;
+    margin-right: 12px;
+    margin-top: 20px;
+}
+
+.allSelectContainer .el-checkbox {
+    color: #333;
+    font-weight: normal;
+}
+
+.tableControlBtnDiv {
+    float: right;
+    margin-top: 16px;
+    margin-right: 0px;
+}
+
+.el-checkbox .el-checkbox__inner {
+    border: 1px solid #55a8fd;
+}
+
+.el-tree-node__children .el-tree-node__expand-icon.is-leaf {
+    border-color: transparent;
+    cursor: default;
+    border-top: 1px solid #000;
+    margin-top: 6px;
+}
+
+.commonTableBtn.authorityAssignment {
+    background-image: url("../images/authorityAssignmentIcon.png");
+}
+
+.commonTableBtn.edit {
+    background-image: url("../images/editIcon.png");
+}
+
+.commonTableBtn.remove {
+    background-image: url("../images/removeIcon.png");
+}
+
+.commonTableBtn.associatedUsers {
+    background-image: url("../images/associatedUsersIcon.png");
+}
+
+.commonTableBtn.relatedDepartment {
+    background-image: url("../images/relatedDepartmentIcon.png");
+}
+
+.whiteBg {
+    background-color: #fff;
+}
+
+.publicContainer .el-tabs--card>.el-tabs__header .el-tabs__item.is-active {
+    border: 1px solid #55a8fd;
+    border-bottom-color: #fff;
+    /*width:16px;
+    height: 16px;*/
+}
+
+.publicContainer .el-tabs__header {
+    border-bottom: 1px solid #55a8fd;
+    /* margin: 0 0 40px; */
+}
+
+.publicContainer .el-tabs__nav {
+    padding-left: 30px;
+}
+
+.publicContainer .el-icon-search:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/newSearchIcon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.publicContainer .el-input-group__append {
+    background-color: #fff;
+}
+
+.commonLayoutRightBottomContainer {
+    height: 100%;
+}
+
+.commonLayoutRightBottomContainer .el-tabs--card {
+    height: 100%;
+    position: relative;
+}
+
+.commonLayoutRightBottomContainer .el-tabs__header {}
+
+.commonLayoutRightBottomContainer .el-tabs__content {
+    height: 100%;
+}
+
+.commonLayoutRightBottomContainer .el-tab-pane {
+    height: 100%;
+    position: relative;
+}
+
+.departRoleBtn {
+    position: absolute;
+    bottom: 42px;
+    background-color: #fff;
+    padding-top: 10px;
+    z-index: 5;
+}
+
+#platformAuthority .el-input__icon+.el-input__inner {
+    padding-right: 0;
+    width: 140px;
+    margin-right: 21px;
+}
+
+.el-select>.el-input {
+    display: inline-block;
+}
+
+.el-input__icon {
+    right: -35px;
+}
+
+.el-select-dropdown {
+    min-width: 141px;
+}
+
+.tableControlBtn2 {
+    background-color: #55a8fd;
+    color: #fff;
+    padding-right: 25px;
+    border-radius: 3px;
+}
+
+.tableControlBtn2:hover {
+    color: #fff;
+}
+
+.radioContainer .el-radio__inner::after {
+    background-color: #55a8fd;
+    width: 8px;
+    height: 8px;
+}
+
+.radioContainer .el-radio__input.is-checked .el-radio__inner {
+    background-color: #fff;
+}
+
+.radioContainer .el-radio__label {
+    color: #333;
+    font-weight: normal;
+}
+
+.radioContainer .el-radio+.el-radio {
+    margin-left: 50px;
+}
+
+.pulicBtn2 {
+    border: 1px solid #55a8fd;
+    border-radius: 15px;
+    color: #55a8fd;
+    padding: 2px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.specil .commonTableTable {
+    position: relative;
+    top: -70px;
+}
+
+.approBoxText {
+    width: 300px;
+    height: 100px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.el-tree-node__content {
+    margin-left: 0!important;
+}
+
+.commonTreeContainer .el-tree-node__label {
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.approBoxTextTip {
+    font-size: 12px;
+    color: red;
+    margin-top: 5px;
+}

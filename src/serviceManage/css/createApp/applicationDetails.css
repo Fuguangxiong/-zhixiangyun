@@ -1,0 +1,267 @@
+  .boxService {
+    padding: 12px 0 100px 18px;
+    min-width: 1000px;
+  }
+  .tattop {
+    /* border-bottom: 1px #f1f1f1 solid; */
+    color: #333;
+    line-height: 1;
+    padding: 5px 0 15px 10px;
+    position: relative;
+  }
+  .tattop::after {
+    content: '';
+    width: 2px;
+    height: 12px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    background-color: #55a8fd;
+  }
+  .thade {
+    background-color: #f9f9f9;
+    border: 1px #f1f1f1 solid;
+    border-left-width: 4px;
+    height: 28px;
+    position: relative;
+  }
+  .comcm.active .thade {
+    border-left-color: #55a8fd;
+  }
+  .comcm.active .thade-cloe {
+    color: #55a8fd;
+  }
+  .thade-cloe {
+    margin-left: 7px;
+    margin-top: 3px;
+    float: left;
+  }
+  .thade-cloe>i {
+    float: left;
+    margin-right: 10px;
+  }
+  .thade-cloe>em {
+    float: left;
+    font-size: 12px;
+    margin-top: 2px;
+    font-style: normal;
+  }
+  .thade-cloe>em>b {
+    color: #fa405c;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  .basics-time {
+    margin-top: 18px;
+  }
+  .formaCon {
+    width: 730px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  .upcnl {
+    position: absolute;
+    right: 4px;
+    top: 3px;
+  }
+  .formaCon.showBlck {
+    display: block
+  }
+  
+  .comcm .upjit i {
+    display: inline-block;
+    transition: all .5s;
+    transform: rotate(0deg);
+  }
+  .comcm.active .upjit i {
+    transform: rotate(180deg);
+    color: #55a8fd;
+  }
+  .upcnl em {
+    cursor: pointer;
+  }
+  .upcnl em.bianji i:hover {
+    color: #55a8fd;
+  }
+  
+  /* 服务详情 */
+  
+  .intro {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    border: 1px solid #f4f4f4;
+    padding: 15px;
+    margin-bottom: 15px
+  }
+  .intro-message {
+    position: relative;
+    width: 100%;
+    height: 110px;
+  }
+  .intro-message>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 110px;
+  }
+  .intro-message>ul {
+    position: absolute;
+    top: 0;
+    left: 130px;
+  }
+  .intro-message>ul>li {
+    height: 25px;
+    line-height: 25px;
+  }
+  .intro-message>ul>li.intro-message-name {
+    height: 35px;
+    line-height: 35px;
+  }
+  .intro-message>ul>li.intro-message-name>span {
+    font-size: 14px;
+    margin-right: 5px;
+    letter-spacing: 1px;
+  }
+  .intro-statistics {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .intro-statistics>tr>th, .intro-statistics>tr>td {
+    text-align: center;
+    font-size: 14px;
+    padding: 3px 12px;
+    font-weight: normal;
+  }
+  .intro-statistics>tr>td {
+    font-size: 12px;
+  }
+  
+  /* 应用详情 */
+  .intro-messageTop{
+    font-size:14px;
+    font-weight: 600;
+    margin-bottom:5px;
+    width:500px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .intro-messageCon div{
+    height:28px;
+    line-height:28px;
+  }
+  .intro-messageConSpan{
+    display:inline-block;
+    margin-right:50px;
+  }
+  .comcmm{
+    position: relative;
+  }
+  .comcmm.active .thade {
+    border-left-color: #55a8fd;
+  }
+  .comcmm.active .thade-cloe {
+    color: #55a8fd;
+  }
+  .comcmm .upjit i {
+    display: inline-block;
+    transition: all .5s;
+    transform: rotate(0deg);
+  }
+  .comcmm.active .upjit i {
+    transform: rotate(180deg);
+    color: #55a8fd;
+  }
+  .basicInformation{
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 12px;
+    padding:0 100px;
+  }
+  .basicInformationUl{
+    margin: 20px 0;
+  }
+  .basicInformationUl li{
+    min-height:38px;
+  }
+  .basicLabe{
+    width:75px;
+    font-weight:600;
+  }
+  .basicInformationUl li span:nth-child(1){
+    display: inline-block;
+    font-weight:600;
+    width:75px;
+  }
+  .basicInformationUl .basicLabeLi div{
+    float:left;
+    color:#363636;
+  }
+  .basicInformationUl .appRemarkLi{
+    margin-top:6px;
+  }
+  .basicInformationUl .appRemarkLi div:nth-child(1){
+    float:left;
+    font-weight:600;
+    width:75px;
+    line-height:20px;
+  }
+  .basicInformationUl .appRemarkLi div:nth-child(2){
+    margin-left:75px;
+    line-height:20px;
+    min-height:30px;
+    width:85%;
+    word-break:break-all
+  }
+  .basicInformationUl .basicLabeLi div:nth-child(1){
+    line-height:25px;
+  }
+  .basicLabel span{
+    display: inline-block;
+    width:80px;
+    height:26px;
+    line-height:24px;
+    text-align: center;
+    font-size:12px;
+    border:1px solid #f2f2f2;
+    background:#f9f9f9;
+    border-radius: 4px;
+    font-weight: normal!important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding:0 5px;
+  }
+  .basicInformationSpan{
+    display: inline-block;
+    width:500px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .appUpload{
+    height:60px;
+    line-height:60px;
+  }
+  .appUpload span:nth-child(1){
+    font-weight:600;
+  }
+  .appUpload span:nth-child(2),.appUpload span:nth-child(3){
+    color:#74a6fa;
+  }
+  .date{
+      margin-right:10px;
+  }
+  .date1{
+    margin-left:10px;
+  }

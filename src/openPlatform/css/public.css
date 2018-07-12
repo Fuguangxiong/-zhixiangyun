@@ -1,0 +1,281 @@
+.openPlatform{
+    padding-top: 76px;
+    overflow-y: hidden;
+}
+.leftTotalContainer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 205px;
+  height: 100%;
+  z-index: 10;
+  transition: width .5s;
+  -moz-transition: width .5s;
+  padding-top: 75px;
+}
+.bigSreen .leftTotalContainer{
+   width:50px;
+}
+
+.bigSreen .leftNavScaleIcon{
+    transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+}
+.bigSreen .leftContainer{
+    width:50px;
+}
+.bigSreen .rightContainer{
+    padding-left: 50px;
+}
+.bigSreen.bigSreen2 .rightContainer{
+    padding-left: 205px;
+}
+.bigSreen .leftNavImage{
+    background-position: 10px center;
+}
+
+
+.leftChildrenHeader{
+    height: 50px;
+    background-color:#fff;
+}
+.leftChildrenTitle{
+    height: 96px;
+    line-height: 96px;
+    text-align: center;
+    font-size: 16px;
+    color: #010101;
+    border-bottom: 1px solid #f0f0f0;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+.leftChildrenItem{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+}
+.leftChildrenItem:hover{
+    background-color: #ffffff;
+    color: #55a8fd;
+}
+.leftChildrenItem.active{
+    color: #55a8fd;
+}
+.rightTopContainer{
+    position: absolute;
+    height: 50px;
+    right:0;
+    left:0;
+    z-index: 110;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.rightBottomContainer{
+    width:100%;
+    /* height:100%; */
+    padding-bottom: 38px;
+    /*background: #f3f7fd;*/
+}
+.publicWidthHeightContainer{
+    width:100%;
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+}
+.padding20 .rightBottomContentContainer{
+    width:100%;
+    height:100%;
+    position: relative;
+    /* overflow-y: auto; */
+    padding: 0 20px;
+}
+
+.layoutLeftNavItem{
+    height: 60px;
+    width:100%;
+    color: #3e444b;
+    line-height: 60px;
+    overflow: hidden;
+    position: relative;
+    border-left:3px solid transparent;
+    cursor: pointer;
+    transition: all 0.8s;
+    border-bottom:1px solid #eaecef;
+}
+.layoutLeftNavItem:hover{
+    border-left:3px solid #2ca3ee;
+    background-color: rgba(248,250,251,0.8);;
+}
+
+.select.layoutLeftNavItem{
+    border-left:3px solid #2ca3ee;
+    background-color: rgba(248,250,251,0.8);
+}
+.leftNavImage {
+    width: 70px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.leftContainer {
+  position: relative;
+  background-color: #fff;
+  width: 205px;
+  height: 100%;
+  z-index: 2;
+  transition: width 0.5s;
+  -moz-transition: width 0.5s;
+  border-right: 1px solid #eff1f3;
+}
+.leftChildrenContainer {
+  width: 205px;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: -205px;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  background-color: #f2f2f2;
+  padding-top: 146px;
+}
+.bigSreen2 .leftChildrenContainer {
+  left: 0;
+}
+.bigSreen2 .childrenHide.leftChildrenContainer {
+  left: -205px;
+}
+.rightContainer {
+  width: 100%;
+  padding-left: 205px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.leftChildrenItemContainer {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.leftBottomContainer {
+  width: 100%;
+  height:84%;
+}
+.layoutLeftBigContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.layoutLeftContainer {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.leftNavScaleIcon {
+  width: 14px;
+  height: 10px;
+  background-image: url("../../publicImages/publicLeftNavBigIcon.png");
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.leftNavScaleIcon:hover {
+  opacity: 1;
+}
+.bigSreen .leftNavScaleIcon {
+  transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+}
+.bigSreen .leftContainer {
+  width: 50px;
+}
+.bigSreen2 .rightTopContainer {
+  left: -150px;
+}
+.bigSreen .rightContainer {
+  padding-left: 50px;
+}
+.bigSreen.bigSreen2 .rightContainer {
+  padding-left: 205px;
+}
+.bigSreen .leftNavImage {
+  background-position: 10px center;
+}
+
+
+.leftChildrenHeader {
+  height: 50px;
+  background-color: #fff;
+}
+.leftChildrenTitle {
+  height: 96px;
+  line-height: 96px;
+  text-align: center;
+  font-size: 16px;
+  color: #010101;
+  border-bottom: 1px solid #f0f0f0;
+  position: absolute;
+  width: 100%;
+  top: 50px;
+}
+.leftChildrenItem {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+.leftChildrenItem:hover {
+  background-color: #ffffff;
+}
+.rightTopContainer {
+  position: absolute;
+  height: 50px;
+  /* width: 100%; */
+  z-index: 110;
+}
+.publicWidthHeightContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.leftNavName{
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+}
+.select{
+  color:#2ca3ee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

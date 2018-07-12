@@ -1,0 +1,434 @@
+em,i{
+    font-style: normal;
+}
+.appIndexConfigBoxCon{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.appIndexConfigBox{
+   background-color: #fff;
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 80px;
+    position: relative;
+    left: 0;
+    transition: all 1s;
+}
+
+.icTile{
+    height: 33px;
+    border-bottom:1px #f1f1f1 solid;
+    position: relative;
+    padding-top: 8px;
+    
+}
+.icTile span{
+    font-size: 12px;
+    color: #333;
+    padding-left: 8px;
+    position: relative;
+    
+}
+.icTile span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top:4px;
+    width: 2px;
+    height: 10px;
+    background-color: #55a8fd;
+    
+}
+
+.icSetBot{
+    position: absolute;
+    width: 100%;
+    top:0;
+}
+.icButCon{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+.icButCon button{
+    width: 83px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #fff;
+    transition: all .5s;
+    margin: 0 10px;
+}
+.icSelbox{
+    position: relative;
+    margin-top: 10px;
+}
+.fonColor{
+    color: #55a8fd;
+    line-height: 32px;
+    font-size: 14px;
+}
+.icSetCon{
+    position: relative;
+    height: 100%;
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+.icLeftNav{
+    width: 180px;
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom: 10px;
+    
+    box-shadow: 2px 1px 5px rgba(173, 172, 172, 0.3)
+}
+.icLeftNavCon{
+    height: 100%;
+    padding-top: 60px;
+    position: relative;
+}
+.icLeftNavConTlie{
+    position: absolute;
+    top:0;
+    color: #010101;
+    line-height:60px;
+    font-size: 14px;
+    width: 100%;
+    padding-left: 30px;
+}
+.icLeftNavCon ul li p{
+    font-size: 14px;
+}
+.icLeftNavCon ul li{
+    line-height: 46px;
+    border-bottom: 1px #f2f2f2 solid;
+    padding: 0 26px 0 55px;
+    position: relative;
+    cursor: pointer;
+    background-position: 20px center;
+    background-repeat: no-repeat;
+}
+.icLeftNavCon ul li#apphotrecommended{
+    background-image: url('../images/apphotrecommended.png')
+}
+.icLeftNavCon ul li#apphotrecommended:hover{
+    background-image: url('../images/apphotrecommendedBlue.png')
+}
+.icLeftNavCon ul li#appnewapplication {
+    background-image: url('../images/appnewapplication.png')
+}
+
+.icLeftNavCon ul li#appnewapplication:hover {
+    background-image: url('../images/appnewapplicationblue.png')
+}
+.icLeftNavCon ul li#appwonderfulspecial {
+    background-image: url('../images/appwonderfulspecial.png')
+}
+.icLeftNavCon ul li#appwonderfulspecial:hover {
+    background-image: url('../images/appwonderfulspecialblue.png')
+}
+.icLeftNavCon ul li#appbanner {
+    background-image: url('../images/appbanner.png')
+}
+.icLeftNavCon ul li#appbanner:hover {
+    background-image: url('../images/appbannerblue.png')
+}
+.icLeftNavCon ul li#appranking {
+    background-image: url('../images/appranking.png')
+}
+.icLeftNavCon ul li#appranking:hover {
+    background-image: url('../images/apprankingblue.png')
+}
+.icLeftNavCon ul li#appnewarrival {
+    background-image: url('../images/appnewarrival.png')
+}
+.icLeftNavCon ul li#appnewarrival:hover {
+    background-image: url('../images/appnewarrivalblue.png')
+}
+.icLeftNavCon ul li#appfriendship {
+    background-image: url('../images/appfriendship.png')
+}
+.icLeftNavCon ul li#appfriendship:hover {
+    background-image: url('../images/appfriendshipblue.png')
+}
+.icLeftNavCon ul li#appsearch {
+    background-image: url('../images/appsearch.png')
+}
+.icLeftNavCon ul li#appsearch:hover {
+    background-image: url('../images/appsearch.png')
+}
+.icLeftNavCon ul li:hover .tlet{
+    display: block;
+}
+.icLeftNavCon ul li:hover em{
+    color: #55a8fd;
+   
+}
+.icLeftNavCon ul li em{
+    font-style: normal;
+}
+.icLeftNavCon ul li .tlet{
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    border-radius: 3px;
+    background: #fff;
+    padding: 10px;
+    line-height: 24px;
+    font-size: 12px;
+    width: 200px;
+    right: -90%;
+    top:0;
+    box-shadow: 0 0 4px rgba(0,0,0,.5)
+}
+/* buton */
+button.clor{
+    background-color: #26d186;
+}
+button.clor:hover{
+    background-color: #23be78;
+}
+button.clor1{
+    background-color: #55a8fd;
+}
+button.clor1:hover{
+    background-color: #2774c2;
+}
+button.clor2{
+    background-color: #e3e3e3;
+}
+button.clor2:hover{
+    background-color: #cccbcb;
+}
+
+.styleBorder{
+    border: 1px #e3e3e3 dashed;
+    position: relative;
+    padding-top: 38px;
+    box-sizing: border-box;
+}
+.editDome{
+    width: 308px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding-left:20px;
+    box-sizing: border-box;
+    position: fixed;
+    top:100px;
+    right: -100%;
+    box-shadow: 0 0 4px rgba(0,0,0,.3);
+    transition: all 1s;
+}
+.editDome.active{
+    right: 0;
+}
+.conEdit{
+    position: relative;
+    height: 90%;
+}
+.tilet{
+    height: 53px;
+    border-bottom: 1px #e4e4e4 solid;
+}
+.htext{
+    color: #55a8fd;
+    font-size: 14px;
+    line-height: 53px;
+   
+}
+.i-style{
+    position: absolute;
+    right: 20px;
+    top:12px;
+    cursor: pointer;
+}
+.stleMotop{
+    margin-top: 25px;
+}
+.tbiaot{
+    font-size: 12px;
+    font-weight: bold;
+}
+.inpuradio{
+    margin-top: 15px;
+}
+.radioDm {
+    cursor: pointer;
+    color: #666;
+    margin: 0 20px 0 10px;
+}
+.radioDm i{
+    background: url('../images/radio.png') no-repeat;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.radioDm.active i{
+    background: url('../images/radioav.png') no-repeat;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+.stleMotop ul{
+    padding-top: 5px;
+}
+.stleMotop ul li{
+    margin-top: 12px;
+    color: #666;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.stleMotop ul li:hover{
+    color: #55a8fd;
+}
+.editBut{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.editBut button{
+    width: 83px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #fff;
+    transition: all .5s;
+    margin: 0 10px;
+}
+.componentCon{
+    position: absolute;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    top:0;
+    transition: all 1s;
+}
+.dmStop .appIndexConfigBox{
+    left:-110%;
+}
+.dmStop .componentCon{
+    right: 0;
+} 
+.componentConBox{
+    position: relative;
+    padding-left: 14px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.incoStop{
+    width: 14px;
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    left:14px;
+    margin-top: -22px;
+    background: url('../images/icoccsl.png') no-repeat;
+    cursor: pointer;
+    transition: all .5s;
+}
+.dmStop .incoStop{
+    left:0;
+}
+.componentmode{
+    height: 100%;
+   
+    box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+    
+}
+.cssStyleCon{
+    height: 100%;
+    position: relative;
+    padding-top: 60px;
+}
+.topStyle{
+    position: absolute;
+    width: 100%;
+    top:30px;
+}
+.cssCome{
+    height: 100%;
+    width: 100%;
+}
+.wAtuo{
+    width: 48%;
+    float: left;
+    margin: 0 1%;
+    height: 100%;
+    padding: 30px 0 50px 0;
+    position: relative;
+}
+.wAtuTop{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top:0;
+    left:0;
+    font-size: 14px;
+}
+.wAtuoBtom{
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    bottom:0;
+    left:0;
+    font-size: 14px;
+
+   
+}
+.hovtTdel{
+    color: #55a8fd;
+    cursor: pointer;
+}
+.hovtTdel:hover{
+    text-decoration: underline;
+}
+.wAtuoCon{
+    height: 100%;
+}
+
+.inputtex{
+    width: 100%;
+    height: 100%;
+    border: 1px #f1f1f1 solid;
+}
+.daelse{
+    background-color: #fafafa;
+}
+.fonsTlas{
+    font-size: 12px;
+    color: #9e9e9e;
+}
+.boxConConfig{
+    padding: 10px;
+}
+
+.domeFigureConfigCon img{
+   width: 100%;
+}
+.domeConfig{
+    margin-bottom: 10px;
+}
+
+.domeSearchConfigCon{
+   
+}
+.dustbin{
+    overflow: auto;
+    height: 100%;
+    padding-right: 5px;
+}
+.dustbin .conCen{
+    min-height: 100%;
+}
+.dustbin .conCen>div{
+    min-height: 300px;
+}

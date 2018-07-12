@@ -1,0 +1,394 @@
+/*-----------------------------
+Name: 字体颜色
+
+-----------------------------*/
+/*-----------------------------
+Name: common Css Class
+
+-----------------------------*/
+.bgColorRed {
+  background: #b61717;
+}
+.bgColorBlue {
+  background-color: #1056bf;
+}
+.bgligntGray {
+  background-color: #b5b5b5;
+}
+.bodyBgcolor {
+  background: #fafafa;
+}
+.boxShawow {
+  -webkit-box-shadow: 0 0 5px #ccc;
+          box-shadow: 0 0 5px #ccc;
+  border-radius: 4px;
+  background: #fff;
+}
+.radius {
+  border-radius: 4px;
+}
+.loadFileBtnMainContainer {
+  -webkit-box-shadow: 0 0 5px #ccc;
+          box-shadow: 0 0 5px #ccc;
+  border-radius: 4px;
+  background: #fff;
+  margin-top: 5px;
+  height: 90px;
+  padding: 0 20px;
+  line-height: 90px;
+}
+.fileLoadBtn {
+  width: 120px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #1056bf;
+  color: #1056bf;
+  height: 38px;
+  box-sizing: content-box;
+}
+.select.fileLoadBtn {
+  background: #b61717;
+  color: #fff;
+  height: 40px;
+  width: 122px;
+  border: none;
+}
+.router-link-active{
+  background: #b61717;
+  color: #fff;
+  height: 40px;
+  width: 122px;
+  border: none;
+}
+.uploadHistoryBtn {
+  margin-left: 5px;
+}
+.fileLoadBtn.red {
+  background: #b61717;
+  color: #fff;
+}
+.fileLoadBtn.blueBorder {
+  border: 1px solid #1056bf;
+  color: #1056bf;
+  height: 38px;
+}
+.loadFileBtnContainer {
+  float: left;
+  margin-top: 26px;
+}
+.uploadBtn {
+  margin-left: 5px;
+}
+.queryHistoryBtn {
+  float: right;
+  font-size: 14px;
+  color: #b61717;
+  text-decoration: underline;
+}
+.browseFileBox {  
+  overflow: hidden;
+}
+.fileLoadBtn.height {
+  height: 52px;
+  line-height: 52px;
+  border: none;
+}
+.fileLoadBtn.height:hover {
+  width: 52px;
+}
+.browseFileInputMainContainer {
+  width: 750px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.browseFileContainer {
+  width: 500px;
+  border: 2px dashed  #8EE5EE;
+  border-radius: 4px;
+  height: 200px;
+  float: left;
+  margin-right: 3px;
+  padding-right: 126px;
+  position: relative;
+  overflow: hidden;
+  box-sizing:content-box;
+}
+.browseFileInputBtn {
+  width: 160px;
+  position: absolute;
+  top:80px;
+  left: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-valign:center;
+  color: #1056bf;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.browseFileInputBtn:hover {
+  text-decoration: none;
+}
+.browseFileInput {
+  height: 47px;
+  width: 364px;
+  padding-left: 20px;
+  font-size: 20px;
+  color: #333;
+  margin-left: 4px;
+  line-height: 47px;
+  background: none;
+  font-size: 14px;
+  border:none;
+}
+.browseText {
+  width: 645px;
+  margin: 0 auto;
+  margin-top: 42px;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+.browseText p {
+  height: 30px;
+  line-height: 30px;
+}
+.browseFileTableBtnContainer {
+  height: 40px;
+  padding: 20px 60px 20px 20px;
+  box-sizing: content-box;
+}
+.removeIcon {
+  display: inline-block;
+  width: 18px;
+  height: 16px;
+  background-image: url("../../images/removeIcon1.png");
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0px;
+  vertical-align: middle;
+}
+.browseFileTableSearchCfontainer {
+  float: right;
+  width: 170px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: -60px;
+  margin-right: 60px;
+  box-sizing: content-box;
+}
+.browseFileTableSearchIcon {
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  background-image: url(../../images/search_small.png);
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  vertical-align: top;
+  cursor: pointer;
+}
+.browseFileTableSearchInput {
+  width: 125px;
+  height: 35px;
+  padding-left: 10px;
+  line-height: 36px;
+  margin-top: 3px;
+}
+.tableContainer {
+  padding: 0 20px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.table {
+  width: 100%;
+  box-sizing: content-box;
+}
+.table th,
+.table td {
+  text-align: left;
+  padding: 15px 10px 10px 10px;
+  box-sizing: content-box;
+}
+.table thead {
+   box-sizing: content-box;
+  /*border-bottom:1px solid @blueColor;*/
+}
+.table thead th {
+  border-bottom: 1px solid #1056bf;
+  box-sizing: content-box;
+}
+.table tbody {
+  box-sizing: content-box;
+  color: #666;
+}
+.tableUploadTimeIcon {
+  width: 7px;
+  height: 14px;
+  background-image: url("../../images/upArrow.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+  vertical-align: top;
+}
+.success .tableLookBtn {
+  display:block;
+  width:20px;
+  height: 20px;
+  background-image: url("../../images/lookIcon.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.table>tbody>tr.success>td{
+  background-color:#fff;
+}
+.reidentificationBtn {
+  display:block;
+  width:20px;
+  height: 20px;
+  background-image: url("../../images/reidentificationIcon.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.fail .tableLookBtn {
+  color: #b61717;
+  cursor: pointer;
+}
+.fail .tableStatus {
+  color: #b61717;
+}
+.browseFileTableBox {
+
+}
+.fileLoadOkBtn {
+  width: 120px;
+  height: 50px;
+  background: #b61717;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 4px;
+  padding:5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.paginContainer {
+  padding-bottom: 20px;
+}
+#fileElem{
+  color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0);
+  border: none;
+  text-indent: 1000px;
+  width: 205px;
+  height: 50px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: -2000px;
+  opacity: 0;
+}
+.dataPositionInputContainer{
+  margin-top: 20px;
+  text-align: center;
+}
+.dataPositionInput{
+  width: 60px;
+  height: 22px;
+  border: 1px solid #dfdfdf;
+  margin: 0 15px;
+}
+.talbeUploadTimeBtn{
+  background-image:url("../../images/downArrow.png");
+  background-repeat: no-repeat;
+  background-position-x:60px;
+  background-position-y:center;
+  cursor: pointer;
+}
+.talbeUploadTimeBtn.up{
+  background-image:url("../../images/upArrow.png");
+}
+.tableStatus.erro{
+  color:#b61717;
+}
+.success .tableLookBtn.erro{
+  background-image:url("../../images/lookErroIcon.png");
+}
+
+
+.uploadText{
+  padding-left:10px;
+}
+.upSplitLine{
+  border- : 2px solid #ccc;
+  width:80%;
+  margin:30px auto; 
+}
+.bottomSplitLine{
+  border-bottom:2px dashed #ccc;
+  width:90%;
+  margin:auto; 
+}
+.uploadToolTip{
+  margin: 0px auto;
+  left: 10px;
+  color: #ccc;
+  padding-top: 80px;
+  padding-left: 30%;
+}
+.buttonArea{
+  margin-left: 40%;
+}
+.sliderRange{
+  border:1px;
+}
+
+.blockItem li{
+  list-style: none;
+  float:left;
+  display:block;
+  border:1px;
+
+}
+.distText{
+    float:left;
+}
+.rowClass1{
+  height:20px;
+}
+.block1{
+  width:80px;
+  float: left;
+  height: 36px;
+  line-height: 36px;
+}
+.block2{
+  padding-left: 80px;
+}
+.returnBtn{
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.showArchivers{
+  padding-bottom: 30px;
+    padding-left: 40%;
+    margin-top: 20px;
+    font-style: initial
+}
+.butonst:hover{
+    background:#b61717 ;
+    color: #fff;
+}

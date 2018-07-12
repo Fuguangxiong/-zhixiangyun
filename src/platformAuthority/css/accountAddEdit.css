@@ -1,0 +1,158 @@
+/*.commonLayoutRightBottomContainer .el-tabs__content{
+	overflow-y: auto;
+}*/
+.basicInfoField {
+    height: 100%;
+    width: 950px;
+    margin: 0 auto;
+}
+.basicInfoFieldL{
+	float:left;
+	margin-right:6%;
+}
+.basicInfoFieldR{
+	overflow: hidden;
+	height:200px;
+	width:200px;
+	float:left;
+}
+.basicInfoFieldLTop{
+	width:100%;
+}
+.basicInfoFieldLTop .basicInfoFieldLTopL{
+	float:left;
+}
+.basicInfoFieldLTop .basicInfoFieldLTopR{
+	float:right;
+}
+.basicInfoFieldLTopL ul,.basicInfoFieldLTopR ul{
+	height:50px;
+	line-height:50px;
+}
+.basicInfoFieldLTopL ul li,.basicInfoFieldLTopR ul li,.basicInfoFieldLBotttom ul li{
+	float:left;
+}
+.basicInfoFieldLBotttom ul{
+	height:50px;
+	line-height:50px;
+}
+.beizhu{
+	clear: both;
+	margin-top:10px;
+}
+.textLabel{
+	margin-right: 20px;
+    text-align: right;
+    display: inline-block;
+    width: 95px;
+}
+.requireLogo{
+	color: red;
+	padding-right: 5px;
+}
+.tableInput{
+	font-size: 12px;
+	padding-left: 5px;
+	width: 208px;
+	height: 30px;
+	border: none;
+	float:left;
+	border-radius: 5px;
+}
+.InputLi{
+	margin-top:10px;
+	height:32px;
+	width:210px;
+	border:1px solid #9e9e9e;
+	border-radius: 5px;
+}
+.inputL{
+	width:180px;
+}
+.inputF{
+	margin-top:10px;
+	height:32px;
+	width:82.3%;
+	border:1px solid #9e9e9e;
+	border-radius: 5px;
+}
+.tableTextArea{
+	line-height:2;
+	display: block;
+	font-size: 12px;
+	padding-left: 5px;
+	height: 90px;
+	width:535px;
+	border:1px solid #9e9e9e;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin:10px 0 50px 0;
+}
+.inputFam{
+	font-size: 12px;
+	padding-left: 5px;
+	width: 100%;
+	height: 30px;
+	border: none;
+	float:left;
+	border-radius: 5px;
+}
+.accountBtn{
+	width: 100%;
+	height: 90px;
+	padding-left:0!important;
+	text-align: center;
+	clear: both;
+	margin:60px auto 0;
+	bottom:0!important;
+	padding-top:0!important;
+	z-index: 0;
+}
+.departRoleBtn button{
+	background:#26d186;
+	border-color: #fff;
+	margin: 0 20px 0 0px;
+}
+.el-pagination{
+	display: none;
+}
+.el-button--primary:focus, .el-button--primary:hover{
+	background:#26d186;
+}
+.el-button+.el-button{
+	background:#e3e3e3;
+	color:#fff;
+	border:0;
+}
+.uploadFileButton{
+	width: 100px;
+    height: 125px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #9e9e9e;
+    display: inline-block;
+    margin: 10px 0px;
+    color: #1D8DE3;
+    cursor: pointer;
+    
+}
+.upload{
+	height:40px;
+	width:40px;
+	background-image: url("../images/accountAddEditUpload.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin:28px;
+}
+#uploadFile{
+	filter:alpha(opacity=0);
+	opacity:0;
+	width: 0;
+	height: 0;
+}
+.headerImage{
+	width: 50%;
+	height: 50%;
+	cursor: pointer;
+}

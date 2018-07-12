@@ -1,0 +1,314 @@
+/* 左侧 */
+
+.bota-left {
+  width: 233px;
+  float: left;
+  border-right: 1px solid #dedede;
+  overflow: auto;
+}
+em {
+  font-style: normal;
+}
+.soto {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../../images/searchService.png) 0 0 no-repeat;
+  border-radius: 3px;
+  float: right;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.inpt-mg {
+  margin: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid #cce5fe;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.wmin.control-tcss {
+  border: 0;
+  height: 28px;
+  float: left;
+  outline: none;
+}
+.treecong {
+  margin: 0 20px;
+}
+.draggable {
+  display: block;
+  cursor: pointer;
+}
+.draggable>span {
+  display: block;
+  padding: 6px 12px;
+}
+.draggable:nth-child(2n-1):hover, .draggable:nth-child(2n):hover {
+  background: #55a8fd;
+}
+.draggable:nth-child(2n-1) {
+  background: #b3d5f8;
+}
+.draggable:nth-child(2n) {
+  background: #fff;
+}
+.draggable-service-tip>ul>li {
+  line-height: 28px;
+}
+.draggable-service-tip>ul>li>b {
+  display: inline-block;
+  width: 64px;
+  font-weight: bold;
+  vertical-align: top;
+}
+.draggable-service-tip>ul>li>span {
+  display: inline-block;
+  width: 210px;
+}
+
+/* 右侧 */
+
+.bo-right {
+  margin-left: 233px;
+}
+.right-con {
+  padding: 10px;
+}
+.infobox {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 420px;
+  position: relative;
+}
+.info-left {
+  width: 200px;
+  position: absolute;
+  right: 0;
+  border: 1px solid #55A8FD;
+  /* border-right: 1px solid #55A8FD; */
+  margin: -1px -1px 0 0;
+  z-index: 100;
+  background: #fff;
+}
+.tuijian {
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+  text-align: center;
+  color: #55A8FD;
+  /* font-weight: bold; */
+  letter-spacing: 1px;
+  border-bottom: 1px solid #55A8FD;
+  margin-bottom: -1px;
+}
+.tuijian:hover, .tuijian:focus {
+  color: #fff;
+  background: #55A8FD;
+}
+.serverListDiv {
+  height: 378px;
+  overflow-y: auto;
+  margin-top: 1px;
+}
+.serverListDiv>div {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+.showBg {
+  background: url(../../images/draptitle.png) center center no-repeat;
+}
+.el-collapse-item__content>div {
+  z-index: 222;
+  cursor: pointer;
+  /* margin: -10px -15px; */
+}
+
+/* 暂存，下一步，上一步 */
+
+.butonstred {
+  background: #55a8fd;
+  margin: 0 18px;
+}
+.butonst {
+  background: #26d186;
+}
+.butonstrnext {
+  background: #55a8fd;
+}
+.mode-div {
+  overflow: auto;
+}
+
+/* 配置参数弹出框 */
+
+.modal-header {
+  background: #55a8fd;
+}
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #55a8fd;
+}
+.modal-title {
+  color: #fff;
+  font-size: 14px;
+}
+.modal-body, .modal-footer {
+  background: #f8f8f8;
+}
+.modal-body {
+  position: relative;
+  padding: 15px;
+}
+.combination {
+  min-height: 50px;
+  max-height: 90px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+.configSpan {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  display: inline-block;
+  border-radius: 4px;
+  margin-right: 5px;
+  position: relative;
+  margin-top: 5px;
+  background: #fff;
+}
+.delConfig {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: -6px;
+  top: -5px;
+  border: 1px solid #55a8fd;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 15px;
+  background: #fff;
+  padding-left: 2px;
+  color: #55a8fd;
+  cursor: pointer;
+}
+.listStyleRight {
+  overflow: auto;
+}
+.leftMenu {
+  float: left;
+  width: 253px;
+  height: 247px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.leftMenu>p, .rightMenu>p {
+  border-bottom: 1px solid #eae4e4;
+  height: 34px;
+  font-size: 14px;
+}
+.leftMenu>p>span, .rightMenu>p>span {
+  width: 83px;
+  height: 22px;
+  line-height: 22px;
+  display: inline-block;
+  background: #55a8fd;
+  margin-top: 6px;
+  padding-left: 7px;
+  color: #fff;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.leftMenu>ul, .rightMenu>ul {
+  height: 160px;
+  overflow-y: auto;
+}
+.leftMenuListItem.active, .leftMenuListItem:hover {
+  background: #f6eeee;
+}
+.leftMenu>ul>li {
+  height: 23px;
+  line-height: 23px;
+  cursor: pointer;
+}
+.leftMenuListItem {
+  height: 29px;
+  line-height: 29px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.rightMenuList li {
+  cursor: pointer;
+}
+.describe {
+  height: 50px;
+  background: #f6eeee;
+  border-top: 1px solid #eae4e4;
+  padding: 5px 10px;
+  overflow-y: auto;
+  font-size: 12px;
+  color: #585656;
+}
+.describe>p {
+  height: 16px;
+  line-height: 16px;
+}
+.describe>p>span {
+  color: #c64d4d;
+  padding-right: 2px;
+}
+.rightMenu {
+  float: right;
+  width: 253px;
+  height: 247px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.rightMenu>ul>li {
+  height: 23px;
+  line-height: 23px;
+  padding-left: 6px;
+}
+.modal-footer {
+  border-top: none;
+}
+.btn {
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  line-height: 30px;
+  padding: 0;
+  background: #b5b5b5;
+  border: none;
+}
+#submit_label {
+  margin-left: 20px;
+  margin-right: 200px;
+  background: #55a8fd;
+}
+.componentSelectBtn {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #ececec;
+  cursor: pointer;
+}
+.componentSelectBtn.select {
+  width: 13px;
+  height: 13px;
+  background-image: url("../../images/checkBoxActive.png");
+  background-repeat: no-repeat;
+}
+.centerArrows {
+  float: left;
+  height: 247px;
+  text-align: center;
+  line-height: 247px;
+  width: 60px;
+  font-weight: 700;
+  color: #8a8a8a;
+}

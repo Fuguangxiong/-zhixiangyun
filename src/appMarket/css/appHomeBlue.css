@@ -1,0 +1,41 @@
+/* 搜索栏 */
+.App .appser_searchMainCenter .appser_searchBox{
+    border-color:  #00abf3;
+}
+.App .appser_searchMainCenter .appser_searchBtnIco{
+    background-color: #00abf3;
+}
+/* 精彩专题词条hover */
+.App .appwds_appJingcaiContentLeft .appwds_appJingcaiContentLeftBottom>p:hover {
+    background-color: rgba(98,182,118,.5);
+}
+/* 公共底部 */
+.App .bottomFooter1 .bottomFooter{
+    background-color:#01a9ec;
+}
+.App .bottomFooter1 .appFooterRigth p{
+    color: #ffffff;
+}
+.App .bottomFooter1 .appFootercontent ul li{
+    color: #ffffff;
+}
+.App .bottomFooter1 .appFooterRigth{
+    border-color: #56cfff;
+}
+.App .bottomFooter1 .fobottm {
+    background-color: #088fc6;
+    color: #ffffff;
+}
+/* 应用市场详情/精彩专题 面包屑 */
+.App .wonderfulSpecialColumn .wonderfulSpecialColumnTitle{
+    background-color: #01a1ea;
+}
+.App .wonderfulSpecialColumn .wscApplicationMarket,.App .wonderfulSpecialColumn .wscSpanText{
+    color: #ffffff;
+}
+.App .wonderfulSpecialColumn .wonderfulSpecialColumnMainBottom{
+    color: #01a9ec;
+}
+.App .checkOutMore .checkOutMoreMain{
+    color: #01a9ec;
+}

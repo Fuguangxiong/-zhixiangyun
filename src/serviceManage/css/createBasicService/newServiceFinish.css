@@ -1,0 +1,43 @@
+.mode-div{
+    overflow-y: auto;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 0 3px 2px #dedede;
+}
+.lanmp-con{
+    width: 788px;
+}
+.lanbag-text span {
+    font-size: 14px;
+    display: inline-block;
+}
+.lanbag-text span.tim2,.tim3 {
+    margin-left: 300px;
+}
+.lanbbag {
+    background: url(../../images/atomicServicePageActive.png) no-repeat;
+    width: 768px;
+    height: 37px;
+}
+.lanbbag p {
+    background: url(../../images/atomicServicePage.png) no-repeat;
+    width: 768px;
+    height: 37px;
+}
+.iformcon-con.reg4 .tonggo{
+    font-size: 14px;
+    background: url() no-repeat;
+    line-height: 70px;
+    padding-left: 117px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 464px;
+}
+.butonstred{
+	margin-left: 0;
+    background: #55a8fd;
+}
+.reg4 img{
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,44 @@
+
+.btnGreen, .btnBlue ,.btnWhite,.btnGray{
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+.btnGreen {
+    background-color: #67cd8c;
+    border: 1px solid #63c586;
+}
+.btnBlue {
+    background-color: #66abf6;
+    border: 1px solid #66a1ec;
+}
+.btnWhite{
+    background-color: transparent;
+    color: #80befd;
+}
+.btnGray{
+    background: #E3E3E3;
+    border: 1px solid #e2e2e2;
+}
+.btnSpace{
+    margin-right: 50px;
+}
+.btnLargeSpace{
+    margin-right: 80px;
+}
+.registerbtn {
+    height: 24px;
+    line-height: 22px;
+    padding: 0 8px;
+    border: 1px solid #56a8fe;
+    color: #56a8fe;
+    border-radius: 10px;
+    background: #fff;
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+    outline: none;
+  }

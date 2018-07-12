@@ -1,0 +1,99 @@
+a:hover, a:visited, a:link, a:active {
+	color: #000;
+	text-decoration: none; 
+}
+.mainBox{
+	position: relative;
+}
+.contentBox{
+	position: absolute;
+	left: 220px;
+	top:20px;
+	right: 40px;
+}
+.contentBox div{
+	width: 100%;
+	
+}
+.outer-container {
+	overflow: hidden;
+	width: 200px;
+}
+
+h1,h2{
+	font-size: 28px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h2{
+	font-size: 25px;
+}
+p{
+	font-size: 16px;
+	margin-bottom:10px;
+	line-height: 30px;
+}
+.demoLid ul li{
+	list-style: disc;
+	margin-left: 20px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+table{
+	margin: 20px 0;
+	width: 100%;
+	border: 1px solid #ebebeb;
+	border-collapse: collapse;
+}
+thead {
+	background-color: #e6f2fd;
+	color: #666;
+}
+thead th{
+	height: 49px;
+	line-height: 49px;
+	font-size: 16px;
+	font-weight: 400;
+	border-right: 1px solid #ebebeb;
+}
+thead tr th{
+	padding-left: 10px;
+}
+tbody tr td{
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	border-right: 1px solid #ebebeb;
+}
+tbody tr td{
+	padding-left: 10px;
+}
+tbody tr:nth-child(even){
+	background: #f8f8f8;
+}
+pre{
+	font-size: 14px;
+	margin:0 0 10px;
+	text-align: left;
+	color: #fff;
+	background-color: #000;
+}
+.td1{
+	width: 30px !important;
+	height: 40px;
+	border-right: 1px #f8f8f8 solid;
+	padding-left: 10px;
+}
+.td2{
+	width: 30px !important;
+	height: 40px;
+	border-right: 1px #f8f8f8 solid;
+	padding-left: 10px;
+}
+.type{
+	width: 50%;
+}
+.center{
+	text-align: center;
+	padding-right: 10px;
+}

@@ -1,0 +1,46 @@
+{
+  "API_SERVER": "http://192.168.95.154:8080/platform/",
+  "PLATFORM_USER": "http://192.168.95.154:8080/platform/priviapi/",
+  "PLATFORM_LOGIN_URL": "http://192.168.95.154:8080/mall/#/register/",
+  "SERVICE_MANAGE": "http://192.168.95.154:8080/sc",
+  "APP_MARKET": "http://192.168.95.154:8080/mall/",
+  "RESOURCE_CATALOG": "http://192.168.95.154:8080/rc/",
+  "PLATFORM": "http://192.168.95.154:8080/bc",
+  "PLATFORM_AUTHORITY": "http://192.168.95.154:8080/bc",
+  "PERSONAL_CONSOLE": "http://192.168.95.154:8080/pc/",
+  "INTERNAL_OPERATION":"http://192.168.95.154:8080/pm/",
+  "COMPANY_OPERATION": "http://192.168.95.154:8080/em/",
+
+  "MESSAGE_URL":"",
+  "INTRODUCE_GUIDE":"",
+  "PRODUCT_DOCUMENT":"",
+  "COMMON_PROBLEM":"",
+  "INTRODUCE_SERVER":"http://192.168.95.154:8080/",
+  "personalConsole": {
+    "SECURITY_MANAGE": "http://192.168.95.154:8080/pc/#/safetyManagement",
+    "BASIC_INFO": "http://192.168.95.154:8080/pc/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://192.168.95.154:8080/pc/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://192.168.95.154:8080/pc/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://192.168.95.154:8080/pc/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://192.168.95.154:8080/pc/#/identityManagement"
+  },
+  "internalOperation": {
+    "SECURITY_MANAGE": "http://192.168.95.154:8080/pm/#/safetyManagement",
+    "BASIC_INFO": "http://192.168.95.154:8080/pm/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://192.168.95.154:8080/pm/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://192.168.95.154:8080/pm/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://192.168.95.154:8080/pm/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://192.168.95.154:8080/pm/#/identityManagement"
+  },
+  "enterpriseOperation": {
+    "SECURITY_MANAGE": "http://192.168.95.154:8080/em/#/safetyManagement",
+    "BASIC_INFO": "http://192.168.95.154:8080/em/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://192.168.95.154:8080/em/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://192.168.95.154:8080/em/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://192.168.95.154:8080/em/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://192.168.95.154:8080/em/#/identityManagement"
+  },
+  "appMarket": {
+    
+  }
+}

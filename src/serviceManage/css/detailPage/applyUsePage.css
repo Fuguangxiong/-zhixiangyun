@@ -1,0 +1,267 @@
+.loadDataBox {
+  overflow-y: auto;
+  height: 300px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.inpfrom {
+  margin: 0 auto;
+}
+em {
+  font-style: normal;
+}
+.inpfrom h2.tilesc {
+  font-size: 18px;
+  color: #55a8fd;
+  text-align: center;
+  line-height: 60px;
+}
+.divtime .tile {
+  line-height: 36px;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 3px;
+  color: #55a8fd;
+  position: relative;
+  padding-left: 20px;
+}
+.divtime .wid {
+  width: 980px;
+  margin: 0 auto;
+  padding: 42px 0;
+}
+.textlinpu {
+  float: left;
+  padding-left: 100px;
+  color: #333;
+  /* padding-right: 90px; */
+  box-sizing: border-box;
+  position: relative;
+  margin: 6px 0;
+}
+.textlinpu .text {
+  position: absolute;
+  left: 0;
+  text-align: right;
+  width: 90px;
+  font-size: 14px;
+  line-height: 35px;
+}
+.inputborder.w240 {
+  width: 300px;
+  color: #333;
+  height: 30px;
+}
+.inputborder {
+  border: 1px #dadada solid;
+  border-radius: 3px;
+  padding: 8px 12px;
+  font-size: 14px;
+  margin: 0;
+}
+.w1000 {
+  width: 1000px;
+}
+.bpboerd {
+  position: relative;
+  display: block;
+  width: 122px;
+  text-align: center;
+}
+.bpboerd:after {
+  content: '';
+  border: 1px #55a8fd solid;
+  border-bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 12px;
+}
+.bpboerd:before {
+  content: '';
+  border: 1px #55a8fd solid;
+  border-top: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 12px;
+  bottom: 0;
+}
+.line {
+  position: absolute;
+  border-bottom: 1px #55a8fd solid;
+  bottom: 16px;
+  left: 141px;
+  right: 43px;
+}
+.textrea {
+  width: 480px;
+  height: 115px;
+  font-size: 14px!important;
+  height: 160px;
+  resize: none;
+}
+.con-cont {
+  position: relative;
+  overflow: hidden;
+}
+.remark {
+  position: absolute;
+  right: 0;
+  top: 39px;
+}
+.iformcon-con.reg1 {
+  width: 1000px;
+  margin: 0 auto;
+  float: left;
+  min-height: 100px;
+}
+.iftop {
+  position: relative;
+  color: #55a8fd;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 3px;
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+}
+.w100 {
+  width: 100%;
+}
+.tabth {
+  padding-bottom: 10px;
+  font-size: 14px;
+  overflow: hidden;
+  font-weight: 600;
+}
+.time-x {
+  position: relative;
+  padding-left: 210px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.time-x span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.time-x .texet {
+  position: absolute;
+  left: 45px;
+  width: 145px;
+  color: #333;
+  font-size: 14px;
+  text-align: right;
+}
+.tabcon {
+  width: 660px;
+}
+.tabcon1 {
+  width: 620px;
+}
+.shulist-con {
+  background: #f5f5f5;
+  border: 1px #a9a9a9 solid;
+  border-radius: 5px;
+}
+.inputime {
+  font-size: 14px;
+}
+.divtime span {
+  font-weight: bold;
+  margin-right: 15px;
+}
+.useDuration .lineSpan {
+  color: grey;
+}
+.useDuration, .demandPurpose {
+  margin-top: 20px;
+}
+.btns {
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+.inpfrom .btns .btn {
+  border: 1px solid #ccc;
+  margin-right: 20px;
+  float: right;
+  color: #999;
+}
+.inpfrom .btns .btn:hover {
+  border-color: #6699ff;
+  color: #6699ff;
+}
+.btnBottom {
+  height: 33px;
+  line-height: 33px;
+  width: 100%;
+  text-align: center;
+  margin-top: 105px;
+  ;
+  margin-bottom: 130px;
+}
+.btnBottom .btn {
+  padding: 5px 10px;
+  color: #ccffcc;
+  margin-right: 34px;
+}
+.btnBottom .baoCunBtn {
+  background: #6699ff;
+}
+.btnBottom .submitBtn {
+  background: #33cc99;
+}
+.btnBottom .ReturnBtn {
+  background: #cccccc;
+}
+
+/* 弹框样式 */
+
+.lineDiv {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+}
+.boxes {
+  margin-top: 45px;
+}
+.bxBig {
+  width: 100px;
+  height: 120px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 210px;
+}
+.bxBig p {
+  margin-top: 15px;
+  text-align: center;
+}
+.boxes .bxBig .bx {
+  width: 100px;
+  height: 88px;
+  text-align: center;
+  border-radius: 15px;
+}
+.boxes .bxBig .topBx {
+  width: 100px;
+  height: 55px;
+  line-height: 55px;
+  background: #F2F2F2;
+  font-weight: bold;
+}
+.boxes .bxBig .bottomBx {
+  width: 100px;
+  height: 33px;
+  line-height: 33px;
+  background: #cc3333;
+  color: #fff;
+}
+.textlinpu input {
+  border: none;
+}
+.useDuration input {
+  border: none;
+}

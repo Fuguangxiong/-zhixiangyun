@@ -1,0 +1,144 @@
+﻿@charset "utf-8";
+* {
+    outline: 0;
+    font-style: normal;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.boxBody{
+    /* height: 100%; */
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+    /* overflow: hidden; */
+    margin: 0 auto;
+    box-shadow:0 0 3px 1px rgba(55, 55, 55, .2);
+}
+
+.boxst{
+	height: 100%;
+	padding:0px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: auto;
+	margin-bottom:50px;
+}
+
+.timc-head{
+	padding: 10px 10px 20px 20px;
+}
+
+.brbgbs{
+	background: #fff;
+    -webkit-box-shadow: 0 0 3px 1px rgba(55, 55, 55, .2);
+    box-shadow: 0 0 3px 1px rgba(55, 55, 55, .2);
+    overflow: hidden;
+}
+
+.timc-title{
+	padding-top:10px;
+}
+
+.timc-title span{
+	padding-top:10px;
+	font-size: 18px;
+}
+
+.timc-title hr{	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.timc-text{
+	line-height: 24px;
+	font-size: 12px;
+}
+
+.timc-err{
+	padding:10 10 0 10px;
+	
+}
+
+.timc-err .timc-err-title{
+	padding:10px 20px;
+	font-size: 14px;
+}
+
+.timc-err .timc-err-txt{
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	font-size: 12px;
+	color:red;
+}
+
+.timc-chlie{
+    padding: 0px 0px 10px 0px;
+    
+}
+
+.timc-chlie .tilik {
+	border-bottom: 1px #e7e7e7 solid;
+	padding-bottom: 10px;
+	margin-bottom:10px;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.timc-chlie .tilik .ti {
+	width: 6px;
+	height: 6px;
+	display: inline-block;
+	vertical-align: middle;
+	background: #51b2e4;
+	margin-right: 4px
+}
+
+.timc-chlie .tilik em {
+	font-size: 14px;
+	vertical-align: middle;
+	font-size: 18px;
+	color: #1dbbe3;
+}
+
+.chitiem .col-md{	   
+    position: relative;
+    min-height: 1px;
+    float: left;
+}
+
+.chitiem .wiclie-t {
+	position: relative;
+}
+
+.chitiem .wiclie-t h2 {
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	font-size: 14px;
+	position: relative;
+}
+
+.timc-chlie .chitiem {
+	padding-bottom: 10px;
+	margin-bottom:10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+ .rowtitle{
+	border-bottom: 1px solid #ddd;
+}
+
+.chitiem .wiclie-t .rowContent {
+	margin: 5px;
+	overflow:auto;
+}
+
+/*添加end*/

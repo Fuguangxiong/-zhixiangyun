@@ -1,0 +1,1635 @@
+@import url('../../node_modules/bootstrap/dist/css/bootstrap.css');
+body, html {
+  height: 100%;
+  width: 100%;
+}
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form, button {
+  margin: 0;
+  font-weight: normal;
+}
+body {
+  font-size: 12px;
+  font-family: "microsoft yahei", Tahoma, Geneva, sans-serif;
+  height: 100%;
+  /*background: #fafafa;*/
+  color: #333;
+}
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.publicAppContainer {
+  width: 100%;
+  height: 100%;
+}
+.publicContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.publicLeftTotalContainer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  z-index: 10;
+  transition: width .5s;
+  -moz-transition: width .5s;
+}
+.bigSreen .publicLeftTotalContainer{
+   width:50px;
+}
+.publicTopNavModularTitle{
+    float:left;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.publicTopNavModularTitleIcon{
+    width: 16px;
+    height: 16px;
+    float: left;
+    background-image: url(../publicImages/publicTopNavModularIcon.png);
+    margin-top: 17px;
+    margin-left: 25px;
+    margin-right: 12px;
+    background-repeat: no-repeat;
+}
+.publicTopNavUserInfoText.level.has{
+    background-color: #2dd28a;
+}
+.bigSreen .publicLeftNavScaleIcon{
+    transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+}
+.bigSreen .publicLeftContainer{
+    width:50px;
+}
+.bigSreen .publicRightContainer{
+    padding-left: 50px;
+}
+.bigSreen.bigSreen2 .publicRightContainer{
+    padding-left: 200px;
+}
+.bigSreen .publicLeftNavImage{
+    background-position: 10px center;
+}
+.bigSreen .select .publicLayoutLeftNavTriangle{
+    display: none;
+}
+.bigSreen .publicLeftTopContainer{
+    background-position: 5px center;
+}
+.publicLeftChildrenHeader{
+    height: 50px;
+    background-color:#fff;
+}
+.publicLeftChildrenTitle{
+    height: 96px;
+    line-height: 96px;
+    text-align: center;
+    font-size: 16px;
+    color: #010101;
+    border-bottom: 1px solid #f0f0f0;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+.publicLeftChildrenItem{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+}
+.publicLeftChildrenItem:hover{
+    background-color: #ffffff;
+    color: #55a8fd;
+}
+.publicLeftChildrenItem.active{
+    color: #55a8fd;
+}
+.publicRightTopContainer{
+    position: absolute;
+    height: 50px;
+    right:0;
+    left:0;
+    z-index: 110;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.publicRightBottomContainer{
+    width:100%;
+    padding-top: 50px;
+    height:100%;
+    padding-bottom: 38px;
+    /*background: #f3f7fd;*/
+}
+.publicWidthHeightContainer{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+.padding20 .publicRightBottomContentContainer{
+    width:100%;
+    height:100%;
+    position: relative;
+    /* overflow-y: auto; */
+    padding: 0 20px;
+}
+.publicRightBottomContentContainer{
+  width:100%;
+  height:100%;
+  position: relative;
+  /* overflow-y: auto; */
+  padding: 0 20px;
+}
+.publicLayoutLeftNavItem{
+    height: 60px;
+    width:100%;
+    color: #fff;
+    line-height: 60px;
+    overflow: hidden;
+    position: relative;
+    border-left:3px solid transparent;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+.publicLayoutLeftNavItem:hover{
+    border-left:3px solid #fa405c;
+    background-color: #13264e;
+}
+.publicLayoutLeftNavTriangle{
+    width:0;
+    height:0;
+    border-width:7px 7px 7px 0;
+    border-style:solid;
+    border-color:transparent #eef5fd transparent transparent;/*透明 灰 透明 透明 */
+    position:absolute;
+    right:0;
+    top:28px;
+    display: none;
+}
+.select .publicLayoutLeftNavTriangle{
+    display: block;
+}
+.select.publicLayoutLeftNavItem{
+    border-left:3px solid #fa405c;
+    background-color: #13264e;
+}
+.publicLeftNavImage {
+    width: 80px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.publicLeftContainer {
+  position: relative;
+  background-color: #0c1a35;
+  width: 200px;
+  height: 100%;
+  z-index: 2;
+  transition: width 0.5s;
+  -moz-transition: width 0.5s;
+}
+.publicLeftChildrenContainer {
+  width: 200px;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: -200px;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  background-color: #f2f2f2;
+  padding-top: 146px;
+}
+.bigSreen2 .publicLeftChildrenContainer {
+  left: 0;
+}
+.bigSreen2 .childrenHide.publicLeftChildrenContainer {
+  left: -200px;
+}
+.publicRightContainer {
+  width: 100%;
+  padding-left: 200px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+.publicLeftTopContainer {
+  width: 100%;
+  height: 45px;
+  position: absolute;
+  background-image: url("../publicImages/newlogoIcon.png");
+  background-repeat: no-repeat;
+  background-position: 22px center;
+  cursor: pointer;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+.publicLeftChildrenItemContainer {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+.publicLeftTopContainer:after {
+  content: '';
+  position: absolute;
+  width: 118px;
+  height: 14px;
+  background-image: url("../publicImages/newlogoTextIcon.png");
+  background-repeat: no-repeat;
+  top: 25px;
+  left: 59px;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+.bigSreen .publicLeftTopContainer:after {
+  opacity: 0;
+}
+.publicLeftBottomContainer {
+  width: 100%;
+  height: 100%;
+  padding-top: 85px;
+}
+.publicLayoutLeftBigContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.publicLayoutLeftContainer {
+  overflow-y: auto;
+  height: 100%;
+}
+.publicLeftNavScaleBtn {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 45px;
+  right: 0px;
+  background-color: #102042;
+  cursor: pointer;
+}
+.publicLeftNavScaleIcon {
+  width: 14px;
+  height: 10px;
+  background-image: url("../publicImages/publicLeftNavBigIcon.png");
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.publicLeftNavScaleBtn:hover .publicLeftNavScaleIcon {
+  background-image: url("../publicImages/publicLeftNavBigIcon_hover.png");
+}
+.publicLeftNavScaleIcon:hover {
+  opacity: 1;
+}
+.publicTopNavModularTitle {
+  float: left;
+  margin-right: 70px;
+  cursor: pointer;
+}
+.publicTopNavModularTitleIcon {
+  width: 16px;
+  height: 16px;
+  float: left;
+  background-image: url(../publicImages/publicTopNavModularIcon.png);
+  margin-top: 17px;
+  margin-left: 25px;
+  margin-right: 12px;
+}
+.publicTopNavUserInfoText.level.has {
+  background-color: #2dd28a;
+}
+.bigSreen .publicLeftNavScaleIcon {
+  transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+}
+.bigSreen .publicLeftContainer {
+  width: 50px;
+}
+.bigSreen2 .publicRightTopContainer {
+  left: -150px;
+}
+.bigSreen .publicRightContainer {
+  padding-left: 50px;
+}
+.bigSreen.bigSreen2 .publicRightContainer {
+  padding-left: 200px;
+}
+.bigSreen .publicLeftNavImage {
+  background-position: 10px center;
+}
+.bigSreen .select .publicLayoutLeftNavTriangle {
+  display: none;
+}
+.bigSreen .publicLeftTopContainer {
+  background-position: 5px center;
+}
+.publicLeftChildrenHeader {
+  height: 50px;
+  background-color: #fff;
+}
+.publicLeftChildrenTitle {
+  height: 96px;
+  line-height: 96px;
+  text-align: center;
+  font-size: 16px;
+  color: #010101;
+  border-bottom: 1px solid #f0f0f0;
+  position: absolute;
+  width: 100%;
+  top: 50px;
+}
+.publicLeftChildrenItem {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+.publicLeftChildrenItem:hover {
+  background-color: #ffffff;
+}
+.publicRightTopContainer {
+  position: absolute;
+  height: 50px;
+  /* width: 100%; */
+  z-index: 110;
+}
+.publicRightBottomContainer {
+  width: 100%;
+  padding-top: 50px;
+  height: 100%;
+  padding-bottom: 38px;
+  /*background: #f3f7fd;*/
+}
+.publicWidthHeightContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.publicLayoutLeftNavItem {
+  height: 60px;
+  width: 100%;
+  color: #fff;
+  line-height: 60px;
+  overflow: hidden;
+  position: relative;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+.publicLayoutLeftNavItem:hover {
+  border-left: 3px solid #fa405c;
+  background-color: #13264e;
+}
+.publicLayoutLeftNavTriangle {
+  width: 0;
+  height: 0;
+  border-width: 7px 7px 7px 0;
+  border-style: solid;
+  border-color: transparent #eef5fd transparent transparent;
+  /*透明 灰 透明 透明 */
+  position: absolute;
+  right: 0;
+  top: 28px;
+  display: none;
+}
+.select .publicLayoutLeftNavTriangle {
+  display: block;
+}
+.select.publicLayoutLeftNavItem {
+  border-left: 3px solid #fa405c;
+  background-color: #13264e;
+}
+.publicLeftNavImage {
+  width: 80px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  float: left;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+.publicTopNavTitle {
+  float: left;
+  position: relative;
+  z-index: 10;
+}
+.publicTopNavComponent {
+  height: 50px;
+  background-color: #fff;
+  box-shadow: 2px 0px 5px #ccc;
+  line-height: 50px;
+  font-size: 14px;
+  color: #13264e;
+}
+.publicTopNavTitleImage {
+  width: 16px;
+  height: 16px;
+  float: left;
+  background-image: url("../publicImages/publicTopNavTitleImg.png");
+  margin-top: 17px;
+  margin-left: 25px;
+  margin-right: 12px;
+}
+.publicTopNavModularTitle:hover .publicTopNavModularTitleIcon {
+  background-image: url("../publicImages/publicTopNavModularIcon_hover.png");
+}
+.publicTopNavModularTitle:hover .publicTopNavModularTitleText {
+  color: #55a8fd;
+}
+.publicTopNavTitle:hover .publicTopNavTitleImage {
+  background-image: url("../publicImages/publicTopNavTitleImg_hover.png");
+}
+.publicTopNavTitle:hover .publicTopNavTitleText {
+  color: #55a8fd;
+}
+.publicTopNavSearchContainer {
+  float: left;
+  margin-left: 100px;
+  margin-top: 13px;
+  position: relative;
+}
+.publicTopNavSearchDiv {
+  height: 24px;
+  border: 1px solid #55a8fd;
+  border-radius: 10px;
+  position: relative;
+  padding: 0 30px;
+  line-height: 24px;
+  opacity: 0;
+  width: 5px;
+  overflow: hidden;
+  transition: all 0.8s;
+}
+.publicTopNavSearchInput {
+  width: 120px;
+  height: 20px;
+  border: none;
+  color: #666;
+  outline: none;
+}
+.publicTopNavSearchImg {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../publicImages/publicTopNavSearchIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  z-index: 12;
+}
+
+/*.publicTopNavSearchContainer:hover .publicTopNavSearchDiv{
+    opacity: 1;
+    width:180px;
+}*/
+
+.show .publicTopNavSearchDiv {
+  opacity: 1;
+  width: 180px;
+}
+.publicTopNavSearchDelet {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../publicImages/publicTopNavSearchDeletIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  right: 0;
+  top: 0;
+}
+
+.publicTopNavUserContainer{
+    float: right;
+    margin-right: 20px;
+}
+.publicTopNavUserImg{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-image:url("../publicImages/publicTopNavUserIcon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    border-radius: 50%;
+    margin-top: 12px;
+    background-size: cover;
+}
+.publicTopNavUserName{
+    float: left;
+    color:#333;
+    font-size: 12px;
+    padding-right: 15px;
+    /* background-image:url("../publicImages/selectHeader.png"); */
+    background-repeat: no-repeat;
+    background-position: right center;
+
+    position: relative;
+}
+.publicTopNavUserName>span{
+    cursor: pointer;
+}
+.publicTopNavUserName>span:hover{
+    color: #55a8fd;
+}
+.publicTopNavMsg{
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+.publicTopNavMsgTitle:hover{
+    color: #55a8fd;
+}
+.publicTopNavMsgTip{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fa405c;
+    position: absolute;
+    top: 15px;
+    right: -5px;
+}
+.publicTopNavMsgTip.hasMsg{
+    color:#fa405c;
+}
+.publicTopNavHelpContainer{
+    float: left;
+   margin-right: 30px;
+    position: relative;
+}
+.publicTopNavHelpText{
+    padding-right: 15px;
+    background-image:url("../publicImages/selectHeader.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    cursor: pointer;
+}
+.publicTopNavHelpText:hover{
+    color: #55a8fd;
+}
+.publicTopNavHelpSecondContainer{
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0 0 5px #ccc;
+    background-color: #fff;
+}
+.publicTopNavHelpSecondItem{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    color: #333;
+    cursor: pointer;
+}
+.publicTopNavHelpSecondItem:hover{
+    color: #55a8fd;
+}
+.publicTopNavUserNameBox{
+    position: absolute;
+    width:340px;
+    /* height:250px; */
+    box-shadow: 0 0 5px #ccc;
+    right: 0;
+    z-index: 2000;
+    background-color: #fff;
+}
+.publicTopNavUserInfoContainer{
+    overflow: hidden;
+    padding: 10px;
+}
+.publicTopNavUserInfoTextContainer{
+    float: left;
+    width: 260px;
+    margin-left: 20px;
+}
+.publicTopNavUserInfoTextLine{
+    overflow: hidden;
+    line-height: 20px;
+}
+.publicTopNavUserInfoText{
+    float: left;
+}
+.publicTopNavUserInfoImg{
+    overflow: hidden;
+    float: left;
+}
+.publicTopNavUserInfoImg .publicTopNavUserImg{
+    width:40px;
+    height: 40px;
+}
+.publicTopNavUserInfoText.level{
+    padding: 0 5px;
+    color: #fff;
+    background-color: #d7d7d7;
+    margin-left: 13px;
+}
+.detailMsg.publicTopNavUserInfoText{
+    width:208px;
+    padding-left: 10px;
+}
+.publicTopNavUserMenuContainer{
+    padding:0 10px;
+}
+.publicTopNavUserMenu{
+    overflow: hidden;
+    border-top:1px solid #ebebeb;
+    border-bottom:1px solid #ebebeb;
+    padding: 9px 0;
+}
+.publicTopNavUserInfoImg .publicTopNavUserImg{
+    margin: 0;
+}
+.publicTopNavUserMenuItem{
+    float:left;
+    width:80px;
+    height: 60px;
+    background-image: url("../publicImages/safeManageIcon.png");
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.publicTopNavUserMenuItem.data{
+   background-image: url("../publicImages/publicTopNavDataIcon.png");
+}
+.publicTopNavUserMenuItem.real{
+    background-image: url("../publicImages/publicTopNavRealIcon.png");
+}
+.publicTopNavUserMenuItem.create{
+    background-image: url("../publicImages/publicTopNavCreateIcon.png");
+}
+.publicTopNavUserMenuItem.create{
+    background-image: url("../publicImages/publicTopNavCreateIcon.png");
+}
+.publicTopNavUserMenuItem.join{
+    background-image: url("../publicImages/publicTopNavJoinIcon.png");
+}
+.publicTopNavUserMenuItem.identity{
+    background-image: url("../publicImages/publicTopNavIdentityIcon.png");
+}
+.publicTopNavUserMenuItem:hover{
+    background-color: #f9f9f9;
+}
+.publicTopNavDivision{
+    width: 1px;
+    height: 24px;
+    background-color: #666;
+    float: left;
+    margin: 0 20px;
+    margin-top: 14px;
+}
+.publicTopNavUserHelpIcon{
+    float: left;
+    width:30px;
+    height:65px;
+    background-image: url("../publicImages/publicTopNavUserHelpIcon.png");
+    /*background-image: url("../publicImages/watch.svg");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.publicTopNavUserSetIcon{
+    float: left;
+    width:30px;
+    height:65px;
+    background-image: url("../publicImages/publicTopNavUserSetIcon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.publicTopNavUserExitIcon{
+    width:16px;
+    height:16px;
+    background-image: url("../publicImages/publicTopNavUserExitIcon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+
+.publicTopNavUserExitContainer{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.publicTopNavUserExitContainer:hover{
+    color:#55a8fd;
+}
+.publicTopNavUserExitContainer:hover .publicTopNavUserExitIcon{
+    background-image: url("../publicImages/publicTopNavUserExitIcon_hover.png");
+}
+.publicTopNavLeftContainer{
+    position: absolute;
+    height: 50px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+/* .bigSreen2 .publicRightTopContainer{
+   left:-150px;
+} */
+.publicBottomComponentContainer{
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    background-color: #f7f7f7;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px;
+    z-index: 10;
+}
+.publicTopNavTitle:hover .publicTopNavHideBox{
+    opacity: 1;
+    left:20px;
+    visibility: visible;
+}
+
+/*.publicTopNavHideBoxTriangle {
+    width: 0;
+    height: 0;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #f4f9ff;
+    border-left: 15px solid transparent;
+    position: absolute;
+    top: -13px;
+    left: 60px;
+}*/
+
+.publicTopNavUserContainer {
+  float: right;
+  margin-right: 20px;
+}
+.publicTopNavUserImg {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background-image: url("../publicImages/publicTopNavUserIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  border-radius: 50%;
+  margin-top: 12px;
+  background-size: cover;
+}
+.publicTopNavMsg {
+  float: left;
+  cursor: pointer;
+  position: relative;
+}
+.publicTopNavMsgTitle:hover {
+  color: #55a8fd;
+}
+.publicTopNavMsgTip {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fa405c;
+  position: absolute;
+  top: 15px;
+  right: -5px;
+}
+.publicTopNavMsgTip.hasMsg {
+  color: #fa405c;
+}
+.publicTopNavHelpContainer {
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.publicTopNavHelpText {
+  padding-right: 15px;
+  background-image: url("../publicImages/selectHeader.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  cursor: pointer;
+}
+.publicTopNavHelpText:hover {
+  color: #55a8fd;
+}
+.publicTopNavHelpSecondContainer {
+  position: absolute;
+  z-index: 2;
+  box-shadow: 0 0 5px #ccc;
+  background-color: #fff;
+}
+.publicTopNavHelpSecondItem {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-bottom: 1px solid #ebebeb;
+  color: #333;
+  cursor: pointer;
+}
+.publicTopNavHelpSecondItem:hover {
+  color: #55a8fd;
+}
+.publicTopNavUserInfoContainer {
+  overflow: hidden;
+  padding: 10px;
+}
+.publicTopNavUserInfoTextContainer {
+  float: left;
+  width: 260px;
+  margin-left: 20px;
+}
+.publicTopNavUserInfoTextLine {
+  overflow: hidden;
+  line-height: 20px;
+}
+.publicTopNavUserInfoText {
+  float: left;
+}
+.publicTopNavUserInfoImg {
+  overflow: hidden;
+  float: left;
+}
+.publicTopNavUserInfoImg .publicTopNavUserImg {
+  width: 40px;
+  height: 40px;
+}
+.publicTopNavUserInfoText.level {
+  padding: 0 5px;
+  color: #fff;
+  background-color: #d7d7d7;
+  margin-left: 13px;
+}
+.detailMsg.publicTopNavUserInfoText {
+  width: 208px;
+  padding-left: 10px;
+}
+.publicTopNavUserMenuContainer {
+  padding: 0 10px;
+}
+.publicTopNavUserMenu {
+  overflow: hidden;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding: 9px 0;
+}
+.publicTopNavUserInfoImg .publicTopNavUserImg {
+  margin: 0;
+}
+.publicTopNavUserMenuItem {
+  float: left;
+  width: 80px;
+  height: 60px;
+  background-image: url("../publicImages/safeManageIcon.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  padding-top: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.publicTopNavUserMenuItem.data {
+  background-image: url("../publicImages/publicTopNavDataIcon.png");
+}
+.publicTopNavUserMenuItem.real {
+  background-image: url("../publicImages/publicTopNavRealIcon.png");
+}
+.publicTopNavUserMenuItem.create {
+  background-image: url("../publicImages/publicTopNavCreateIcon.png");
+}
+.publicTopNavUserMenuItem.create {
+  background-image: url("../publicImages/publicTopNavCreateIcon.png");
+}
+.publicTopNavUserMenuItem.join {
+  background-image: url("../publicImages/publicTopNavJoinIcon.png");
+}
+.publicTopNavUserMenuItem.identity {
+  background-image: url("../publicImages/publicTopNavIdentityIcon.png");
+}
+.publicTopNavUserMenuItem:hover {
+  background-color: #f9f9f9;
+}
+.publicTopNavDivision {
+  width: 1px;
+  height: 24px;
+  background-color: #666;
+  float: left;
+  margin: 0 20px;
+  margin-top: 14px;
+}
+.publicTopNavUserHelpIcon {
+  float: left;
+  width: 30px;
+  height: 65px;
+  background-image: url("../publicImages/publicTopNavUserHelpIcon.png");
+  /*background-image: url("../publicImages/watch.svg");*/
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.publicTopNavUserSetIcon {
+  float: left;
+  width: 30px;
+  height: 65px;
+  background-image: url("../publicImages/publicTopNavUserSetIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.publicTopNavUserExitIcon {
+  width: 16px;
+  height: 16px;
+  background-image: url("../publicImages/publicTopNavUserExitIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+/* .publicTopNavUserExitContainer {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.publicTopNavUserExitContainer:hover {
+  color: #55a8fd;
+}
+.publicTopNavUserExitContainer:hover .publicTopNavUserExitIcon {
+  background-image: url("../publicImages/publicTopNavUserExitIcon_hover.png");
+} */
+.publicTopNavLeftContainer {
+  position: absolute;
+  height: 50px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.bigSreen2 .publicTopNavLeftContainer {
+  /* transform: translateX(-155px); */
+}
+.publicBottomComponentContainer {
+  text-align: center;
+  height: 38px;
+  line-height: 38px;
+  background-color: #f7f7f7;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 12px;
+  z-index: 10;
+}
+.publicTopNavHideBox {
+    padding-bottom: 20px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  transition: all 0.5s;
+  visibility: hidden;
+  opacity: 0;
+    box-shadow: 0px 2px 5px #ddd;
+}
+.publicTopNavTitle:hover .publicTopNavHideBox {
+  opacity: 1;
+  left: 20px;
+  visibility: visible;
+}
+.publicTopNavHideBoxToMarketBtn {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 120px;
+  border: 1px solid #56a8fe;
+  text-align: center;
+  color: #56a8fe;
+  cursor: pointer;
+}
+.publicTopNavHideBoxToMarketBtn:hover{
+  background-color: #56a8fe;
+  color:#fff;
+}
+.publicTopNavHideBoxItemContainer {
+  display: inline-block;
+  padding: 10px 40px;
+  vertical-align: top;
+    border-right: 1px solid #f2f2f2;
+    position: relative;
+}
+.publicTopNavHideBoxItemContainer::before{
+    content:'';
+    position: absolute;
+    width:100%;
+    height: 3px;
+    background-color: #56a8fe;
+    left: 0;
+    top: 0;
+    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    opacity: 0;
+    transition: all 0.3s;
+}
+.publicTopNavHideBoxItemContainer:hover::before{
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    opacity: 1;
+}
+.publicTopNavHideBoxItemContainer:hover .publicTopNavHideBoxItemTitle{
+    color: #56a8fe;
+}
+.publicTopNavHideBoxContent {
+  white-space: nowrap;
+}
+.publicTopNavHideBoxItem {
+  color: #666;
+  font-size: 12px;
+  line-height: 35px;
+  cursor: pointer;
+}
+.publicTopNavHideBoxItem:hover {
+  color: #56a8fe;
+}
+.publicTopNavHideBoxItemTitle {
+  font-size: 16px;
+}
+.publicTopNavHideBoxToMarketContainer {
+  text-align: center;
+}
+
+/*左侧导航，图标的地方*/
+
+.publicLeftNavImage.resourceCatalog {
+  background-image: url("../publicImages/resourceCatalogIcon.png");
+}
+.publicLeftNavImage.individualApplication {
+  background-image: url("../publicImages/individualApplicationIcon.png");
+}
+.publicLeftNavImage.applyManage {
+  background-image: url("../publicImages/applyManageIcon.png");
+}
+.publicLeftNavImage.individualRegistration {
+  background-image: url("../publicImages/individualRegistrationIcon.png");
+}
+.publicLeftNavImage.registerManage {
+  background-image: url("../publicImages/registerManageIcon.png");
+}
+.publicLeftNavImage.dataElement {
+  background-image: url("../publicImages/dataElementIcon.png");
+}
+.publicLeftNavImage.qualityInspect {
+  background-image: url("../publicImages/qualityInspectIcon.png");
+}
+.publicLeftNavImage.directoryMaintenance {
+  background-image: url("../publicImages/directoryMaintenanceIcon.png");
+}
+
+/*右侧导航，图标的地方*/
+
+.publicRightMenu .workbench {
+  background-image: url("../publicImages/publicWorkbench.png");
+}
+.publicRightMenu .customerService {
+  background-image: url("../publicImages/publicCustomerService.png");
+}
+.publicRightMenu .opinion {
+  background-image: url("../publicImages/publicOpinion.png");
+}
+.publicRightMenu .stick {
+  background-image: url("../publicImages/publicStick.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/*服务管理-左侧导航，图标的地方*/
+
+.publicLeftNavImage.applyManage {
+  background-image: url("../publicImages/publicApplyManage.png");
+}
+.publicLeftNavImage.applyApproval {
+  background-image: url("../publicImages/publicApplyApproval.png");
+}
+.publicLeftNavImage.serviceManage {
+  background-image: url("../publicImages/publicServiceManage.png");
+}
+.publicLeftNavImage.applyApproval {
+  background-image: url("../publicImages/publicSpplyApproval.png");
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("../publicImages/opacityBg.png");
+  z-index: 2100;
+}
+.popupBox {
+  width: 370px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  margin-left: -185px;
+  z-index: 1001;
+  background: #fff;
+}
+.popupBox.large {
+  width: 480px;
+  margin-left: -240px;
+}
+.popupBoxHeader {
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  padding: 0 20px;
+  background: #55a8fd;
+  font-size: 14px;
+  position: relative;
+}
+
+/* 修改审批页面不予通过文本域的边框bug */
+
+.approvalText {
+  width: 238px;
+  height: 60px;
+  padding: 10px;
+  color: #333;
+  font-size: 12px;
+}
+.popupBoxCloseIconBtn {
+  width: 14px;
+  height: 18px;
+  display: inline-block;
+  cursor: pointer;
+  background-image: url("../publicImages/cuohao01.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 20px;
+  top: 13px;
+}
+.popupBoxBody {
+  background-color: #fff;
+  padding: 30px 20px;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+.popupBox.large .popupBoxBody {
+  padding: 50px 20px;
+  padding-bottom: 34px;
+}
+.popupBoxBtnContainer {
+  background-color: #fff;
+  padding-bottom: 20px;
+  text-align: center;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.popupBoxBtn {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  width: 77px;
+  height: 33px;
+  line-height: 33px;
+  background: rgb(227, 227, 227);
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 8px;
+}
+.popupBoxLineTitle {
+  color: #333;
+  margin-right: 10px;
+  text-align: right;
+  display: inline-block;
+  width: 100px;
+  font-size: 14px;
+}
+.popupBoxLine {
+  margin-bottom: 20px;
+}
+.redBg.popupBoxBtn {
+  background-color: #26d186;
+  color: #fff;
+}
+.redBg:hover {
+  background: #3ab0d4;
+  cursor: pointer;
+}
+.loadDataBox {
+  -webkit-box-shadow: 0 0 3px 2px #dedede;
+  box-shadow: 0 0 3px 2px #dedede;
+  border-radius: 2px;
+  background: #fff;
+  margin-top: 12px;
+  min-height: 380px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+  /*background-color: #eee;*/
+  cursor: pointer;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  /*background-color: #eee;*/
+  cursor: pointer;
+}
+
+/*定义滑块 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #55a8fd;
+  cursor: pointer;
+}
+.paginationContainer {
+  text-align: center;
+  height: 50px;
+  margin-top: 20px;
+}
+#loadingDiv {
+  width: 153px;
+  height: 60px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -77px;
+  margin-top: -25px;
+  z-index: 101;
+  background-image: url('../publicImages/loading.gif');
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  background-position: center;
+}
+#loadingDiv .public_loadingText {
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  top: 74px;
+  display: block;
+  text-align: center;
+}
+#app {
+  min-height: 100%;
+  position: relative;
+}
+.entryPeopleDataPicker .el-input__inner {
+  border: 1px solid #fff;
+}
+.peopleForm table .erro input {
+  border: 1px solid #f00;
+  color: #f00;
+}
+.publicTipBox {
+  width: 260px;
+  height: 130px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #ccc;
+  color: #333333;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -65px;
+  margin-left: -130px;
+  z-index: 2000;
+}
+.publicTipIcon {
+  width: 48px;
+  height: 48px;
+  background-image: url("../publicImages/publicTipSuccessIcon.png");
+  background-repeat: no-repeat;
+  display: block;
+  margin: 24px auto 14px auto;
+}
+.publicTipIcon.erro {
+  background-image: url("../publicImages/publicTipErroIcon.png");
+}
+.publicTipIcon.warn {
+  background-image: url("../publicImages/publicTipWarnIcon.png");
+}
+.publicTipText {
+  text-align: center;
+  font-size: 16px;
+}
+.paginationContainer .el-pager li.active {
+  border-color: #1056bf;
+  background-color: #1056bf;
+  color: #fff;
+}
+.dataPickerContainer.queryData .el-input--large .el-input__inner {
+  height: 47px;
+  font-size: 14px;
+}
+.publicRedColor {
+  color: #b61717;
+}
+.publicRedBg {
+  background-color: #b61717;
+}
+.commonTableTabContainer {
+  height: 49px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.commonTabContent {
+  display: none;
+}
+.commonTabContent.active {
+  display: block;
+  min-height: 350px;
+}
+.publicRedBtn.autoWidth {
+  width: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: auto;
+  line-height: 30px;
+  display: inline-block;
+  margin: 0 2px;
+}
+.publicRedBtn.borderBtn {
+  background-color: #fff;
+  color: #b61717;
+  border: 1px solid #b61717;
+}
+.publicRedBtn.borderBtn:hover {
+  background-color: #b61717;
+  color: #fff;
+}
+.hoverRed {
+  background-color: #25D185;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to
+/* .fade-leave-active in <2.1.8 */
+
+{
+  opacity: 0;
+}
+.menushow-enter-active, .menushow-leave-active {
+  transition: all .5s;
+}
+.menushow-enter, .menushow-leave-to
+/* .fade-leave-active in below version 2.1.8 */
+
+{
+  opacity: 0;
+  transform: translateY(-15px);
+}
+.el-cascader-menu {
+  max-width: 400px;
+}
+.wrong {
+  border-color: #b61717 !important;
+}
+.commonTable .el-switch__label span {
+  font-size: 12px;
+  font-weight: normal;
+}
+.el-cascader-menus .el-cascader-menu__item.is-active:hover {
+  background-color: #1156be;
+}
+.el-cascader-menus .el-cascader-menu__item.is-active {
+  background-color: #1156be;
+  color: #fff;
+}
+.wrong {
+  border: 1px #dadada solid;
+}
+.tableBottom table tbody tr td span.keyword {
+  color: #ca2813;
+}
+.texet>i {
+  color: #b61717;
+}
+.serverName {
+  width: 98px;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dle {
+  cursor: pointer;
+}
+svg>path {
+  cursor: pointer;
+}
+
+/* 分页器 */
+
+.publicContainer .el-pagination .btn-prev .el-icon, .publicContainer .el-pagination .btn-next .el-icon {
+  display: none;
+}
+
+/* 去线 ul*/
+
+.el-pagination .el-pager li {
+  border: none;
+}
+
+/* 去线 button-left*/
+
+.publicContainer .el-pagination .btn-prev {
+  border: none;
+  background: url(../publicImages/pageLeft.png) 12px 9px no-repeat;
+}
+
+/* 去线 button-right*/
+
+.publicContainer .el-pagination .btn-next {
+  border: none;
+  background: url(../publicImages/pageRight.png) 9px 9px no-repeat;
+}
+
+/* active */
+
+.publicContainer .el-pagination .el-pager li.active {
+  color: #55a8fd;
+  background: none;
+}
+.publicContainer .el-pagination .el-pager li:last-child {
+  border: none;
+}
+.el-pagination .el-pagination__editor {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #9a9a9a;
+  padding: 0;
+}
+.tableSelectBtn {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #55a8fd;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+.tableSelectBtn.select {
+  background-image: url("../publicImages/checkSelectIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.el-select {
+  display: inline-block;
+  position: relative;
+}
+.el-input__inner {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 4px;
+  border: 1px solid #58A6F9;
+  box-sizing: border-box;
+  color: #1f2d3d;
+  font-size: inherit;
+  height: 36px;
+  line-height: 1;
+  outline: 0;
+  padding: 3px 10px;
+  /* transition: border-color .2s cubic-bezier(.645,.045,.355,1); */
+}
+.el-input__inner:hover {
+  border-radius: 4px;
+  border: 1px solid #58A6F9;
+}
+
+/* 权限管理 左侧导航图标 */
+
+.publicLeftNavImage.departmentManage {
+  background-image: url("../publicImages/departmentManageIcon.png");
+}
+.publicLeftNavImage.accoutManage {
+  background-image: url("../publicImages/accountManageIcon.png");
+}
+.publicLeftNavImage.authority {
+  background-image: url("../publicImages/authorityManageIcon.png");
+}
+.publicLeftNavImage.accoutApproval {
+  background-image: url("../publicImages/accountManage2.png");
+}
+.publicLeftNavImage.superAdmin {
+  background-image: url("../publicImages/superAdministratorIcon.png");
+}
+.publicLeftNavImage.approvalEnterprise {
+  background-image: url("../publicImages/approvalEnterprise.png");
+}
+.publicLeftNavImage.enterpriseLicensing {
+  background-image: url("../publicImages/enterpriseLicensingIcon.png");
+}
+.publicLeftNavImage.createEnterprise {
+  background-image: url("../publicImages/createEnterpriseIcon.png");
+}
+.publicLeftNavImage.joinEnterprise {
+  background-image: url("../publicImages/joinEnterprise.png");
+}
+.publicLayoutLeftContainer .publicLeftNavImage.servicemanage {
+  background-image: url('../publicImages/servicemanage.png')
+}
+.pcTipBox {
+  width: 260px;
+  height: 160px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #ccc;
+  color: #333;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -130px;
+  z-index: 2000;
+}
+.pcTipTitle {
+  height: 30px;
+  line-height: 30px;
+  background: #55a8fd;
+  padding-left: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+.pcTipText {
+  text-align: center;
+  font-size: 16px;
+}
+.pcTipTitleRed {
+  height: 30px;
+  line-height: 30px;
+  background: #D63A51;
+  padding-left: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+.pcTipText {
+  text-align: center;
+  font-size: 16px;
+}
+
+/* 弹窗样式 */
+#NoticeBoxOverlay.overlay .popupBoxBody {
+  height: 180px;
+  padding-top: 0;
+  line-height: 260px;
+  color: #898989;
+  background: url("../publicImages/deleteIcon.png") no-repeat center 26px;
+  background-color: #fff;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+}
+#NoticeBoxOverlay.overlay .popupBoxBody1 {
+  height: 180px;
+  padding-top: 0;
+  line-height: 260px;
+  color: #898989;
+  background: url("../publicImages/switch.png") no-repeat center 26px;
+  background-color: #fff;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+}
+#NoticeBoxOverlay.overlay .popupBoxBody2 {
+  height: 180px;
+  padding-top: 0;
+  line-height: 260px;
+  color: #898989;
+  background: url("../publicImages/quit.png") no-repeat center 26px;
+  background-color: #fff;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+}

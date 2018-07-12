@@ -1,0 +1,45 @@
+{
+  "API_SERVER": "http://10.0.0.147:8091/platform/",
+  "PLATFORM_USER": "http://10.0.0.147:8091/platform/priviapi/",
+  "PLATFORM_LOGIN_URL": "http://10.0.0.147:8091/platform/mall/#/register/",
+  "SERVICE_MANAGE": "http://10.0.0.147:8091/platform/sc",
+  "APP_MARKET": "http://10.0.0.147:8091/platform/mall/",
+  "RESOURCE_CATALOG": "http://10.0.0.147:8091/platform/rc/",
+  "PLATFORM": "http://10.0.0.147:8091/platform/bc",
+  "PLATFORM_AUTHORITY": "http://10.0.0.147:8091/platform/bc",
+  "PERSONAL_CONSOLE": "http://10.0.0.147:8091/platform/pc/",
+  "INTERNAL_OPERATION":"http://10.0.0.147:8091/platform/pm/",
+  "COMPANY_OPERATION": "http://10.0.0.147:8091/platform/em/",
+
+  "MESSAGE_URL": "",
+  "INTRODUCE_GUIDE": "",
+  "PRODUCT_DOCUMENT": "",
+  "COMMON_PROBLEM": "",
+  "personalConsole": {
+    "SECURITY_MANAGE": "http://10.0.0.147:8091/platform/pc/#/safetyManagement",
+    "BASIC_INFO": "http://10.0.0.147:8091/platform/pc/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://10.0.0.147:8091/platform/pc/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://10.0.0.147:8091/platform/pc/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://10.0.0.147:8091/platform/pc/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://10.0.0.147:8091/platform/pc/#/identityManagement"
+  },
+  "internalOperation": {
+    "SECURITY_MANAGE": "http://10.0.0.147:8091/platform/pm/#/safetyManagement",
+    "BASIC_INFO": "http://10.0.0.147:8091/platform/pm/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://10.0.0.147:8091/platform/pm/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://10.0.0.147:8091/platform/pm/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://10.0.0.147:8091/platform/pm/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://10.0.0.147:8091/platform/pm/#/identityManagement"
+  },
+  "enterpriseOperation": {
+    "SECURITY_MANAGE": "http://10.0.0.147:8091/platform/em/#/safetyManagement",
+    "BASIC_INFO": "http://10.0.0.147:8091/platform/em/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://10.0.0.147:8091/platform/em/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://10.0.0.147:8091/platform/em/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://10.0.0.147:8091/platform/em/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://10.0.0.147:8091/platform/em/#/identityManagement"
+  },
+  "appMarket": {
+    
+  }
+}

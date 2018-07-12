@@ -1,0 +1,34 @@
+﻿/*-----------------------------
+Name: button.css Class
+-----------------------------*/
+.searchButton{
+    background: white;
+    color: black;
+    border-radius: 3px;
+    line-height: 26px;
+    width: 60px;
+    height: 30px;
+    margin-left: 5px;
+  }
+
+  .normalButton{
+    background:#b61717;
+    color:white;
+    border-radius: 3px;
+    padding: 6px;
+  }
+
+   .btn-danger {
+    color: #fff;
+    background-color:#b61717;
+    border-color: #d43f3a;
+  }
+
+  .nav_box_button_group {
+    text-align: right;
+    padding-right: 10px;
+}
+  nav_box_button_group button {
+    margin: 0px 0px 0px 10px;
+    width: 95px;
+}

@@ -1,0 +1,96 @@
+.loadDataBox{
+	overflow-y: auto;
+	height: 500px;
+	border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 0 3px 2px #dedede;
+}
+em{
+    font-style: normal;
+}
+.inpfrom {
+    margin: 0 auto;
+}
+.inpfrom h2.tilesc {
+    font-size: 18px;
+    color: #55a8fd;
+    text-align: center;
+    line-height: 60px;
+}
+.divtime .tile[data-v-9894cc16] {
+    line-height: 36px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 3px;
+    color: #55a8fd;
+    padding-left: 18px;
+    position: relative;
+}
+.bpboerd{
+	position: relative;
+	display: block;
+	width: 122px;
+	text-align: center;
+}
+.bpboerd:after{
+	content: '';
+	border: 1px #55a8fd solid;
+	border-bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 12px;
+}
+.bpboerd:before{
+	content: '';
+	border: 1px #55a8fd solid;
+	border-top: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 12px;
+	bottom: 0;
+}
+.line{
+	position: absolute;
+    border-bottom: 1px #55a8fd solid;
+    bottom: 16px;
+    left: 139px;
+    right: 43px;
+}
+.textlinpu {
+    float: left;
+    padding-left: 100px;
+    color: #333;
+    padding-right: 10px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 5px 0;
+}
+.textlinpu .text {
+    position: absolute;
+    left: 0;
+    text-align: right;
+    width: 90px;
+    font-size: 14px;
+    line-height: 35px;
+}
+.divtime .wid {
+    width: 770px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.con-cont {
+    overflow: hidden;
+}
+.inputborder {
+    border: 0px #dadada solid;
+    border-radius: 3px;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin: 0;
+}
+.inputborder.w240 {
+    width: 240px;
+    color: #333;
+}

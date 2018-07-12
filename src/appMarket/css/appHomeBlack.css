@@ -1,0 +1,375 @@
+/* 搜索栏 */
+.App .appser_searchMainCenter .appser_searchBox{
+    border-color: #474b53;
+    background: #474b53;
+}
+.App .appser_searchMainCenter .appser_searchBtnIco{
+    background-color: #212327;
+}
+.App .appser_searchBox .appser_searchBtnIco .searchIcon {
+    color: #00abf3;
+}
+/* 精彩专题词条hover */
+.App .appwds_appJingcaiContentLeft .appwds_appJingcaiContentLeftBottom>p:hover {
+    background-color: rgba(98,182,118,.5);
+}
+/* 公共底部 */
+.App .bottomFooter1 .bottomFooter{
+    background-color:#434343;
+}
+.App .bottomFooter1 .appFooterRigth p{
+    color: #ffffff;
+}
+.App .bottomFooter1 .appFootercontent ul li{
+    color: #ffffff;
+}
+.App .bottomFooter1 .appFooterRigth{
+    border-color: #23262b;
+}
+.App .bottomFooter1 .fobottm {
+    background-color: #23262b;
+    color: #ffffff;
+}
+/* 应用市场详情/精彩专题 面包屑 */
+.App .wonderfulSpecialColumn .wonderfulSpecialColumnTitle{
+    background-color: #363a44;
+}
+.App .wonderfulSpecialColumn .wscApplicationMarket,.App .wonderfulSpecialColumn .wscSpanText{
+    color: #ffffff;
+}
+.App .wonderfulSpecialColumn .wonderfulSpecialColumnMainBottom{
+    color: #01a9ec;
+}
+.App .checkOutMore .checkOutMoreMain{
+    color: #01a9ec;
+}
+/* 页面背景色 */
+.publicContainer .App .content{
+    background-color: #363a44;
+}
+/* 热门推荐背景色 */
+.publicContainer .App .content .apphot_appHotbox{
+    background-color: #363a44;
+}
+.publicContainer .App .apphot_appHot{
+    background-color: #363a44;
+}
+.publicContainer .App .apphot_appHotTop>h4 {
+    color: #ffffff;
+}
+.publicContainer .App .appser_appSearch1 .appser_appSearch{
+    background-color: #2e343e;
+}
+.publicContainer .App .appser_searchTermMain .appser_logoText {
+    color: #ffffff;
+}
+.publicContainer .App .appser_searchOptions .appser_soLi .appser_soLiA {
+    color: #ffffff;
+}
+/* 精彩专题背景色 */
+.publicContainer .App .content .appwds_appJingcaibox{
+    background-color: #363a44;
+}
+.publicContainer .App  .appwds_appJingcai{
+    background-color: #363a44;
+}
+.publicContainer .App .appwds_appJingcaiTop>h4{
+    color: #ffffff;
+}
+/* 新锐应用背景色 */
+.publicContainer .App .appnewa_appXinrui{
+    background-color: #363a44;
+}
+.publicContainer .App .appnewa_appXinruiContent>li:hover {
+    box-shadow: 0 0 12px rgba(76,90,115,0.6);
+}
+.publicContainer .App .appnewa_appXinrui .appnewa_appXinruiTop>h4{
+    color: #ffffff;
+}
+.publicContainer .App .appnewa_appXinrui .appnewa_appXinruiContentRight>h5{
+    color: #ffffff;
+}
+.publicContainer .App .appnewa_appXinrui .appnewa_appXinruiContentBottom{
+    color: #999999;
+}
+/* 热门排行背景色 */
+.publicContainer .App  .appBottomBox {
+    background-color: #363a44;
+}
+.publicContainer .App  .apprk_appBottomRmphb{
+    background-color: #232a35;
+}
+.publicContainer .App .apprk_appBottomRmphbTop{
+    border-bottom-color: #435066;
+}
+.publicContainer .App .apprk_appBottomRmphb>ul>li{
+    border-bottom-color: #435066;
+    color:  #ffffff;
+}
+.publicContainer .App .apprk_appBottomRmphbTop{
+    color: #ffffff;
+}
+.publicContainer .App .apprk_appBottomRmphb>ul>li>span:first-child{
+    color: #ffffff;
+}
+.publicContainer .App .apprk_appBottomRmphb>ul>li>span:last-child{
+    color: #ffffff;
+}
+.publicContainer .App .apprk_appBottomRmphb>ul>li:hover {
+    background: #5c606c;
+    color: #ffffff;
+}
+.publicContainer .App .apprk_appBottomRmphb>ul>li:hover>span:last-child {
+    color: #ffffff;
+}
+/* 最新上架背景色 */
+.publicContainer .App  .appna_appBottomRmphb{
+    background-color: #232a35;
+}
+.publicContainer .App .appna_appBottomRmphbTop{
+    border-bottom-color: #435066;
+}
+.publicContainer .App .appna_appBottomRmphb>ul>li{
+    border-bottom-color: #435066;
+    color:  #ffffff;
+}
+.publicContainer .App .appna_appBottomRmphbTop{
+    color: #ffffff;
+}
+.publicContainer .App .appna_appBottomRmphb>ul>li>span:first-child{
+    color: #ffffff;
+}
+.publicContainer .App .appna_appBottomRmphb>ul>li>span:last-child{
+    color: #ffffff;
+}
+.publicContainer .App .appna_appBottomRmphb>ul>li:hover {
+    background: #5c606c;
+    color: #ffffff;
+}
+.publicContainer .App .appna_appBottomRmphb>ul>li:hover>span:last-child {
+    color: #ffffff;
+}
+/* 友情链接背景色 */
+.publicContainer .App  .appfs_appBottomRmphb{
+    background-color: #232a35;
+}
+.publicContainer .App .appfs_appBottomRmphb:last-child>.appfs_appBottomRmphbTop{
+    border-bottom-color: #435066;
+}
+.publicContainer .App .appfs_appBottomRmphbTop{
+    color: #ffffff;
+}
+.publicContainer .App .appfs_appBottomRmphb>.appfs_appBottomList>p{
+    background-color: #232a35;
+    color:#7ec1f0;
+    border: 1px dashed #7ec1f0;
+}
+/* 服务详情背景色 */
+.publicContainer .bodyMain{
+    background-color: #363a44;
+}
+.publicContainer .App .publicMain{
+    background-color: #363a44;
+}
+.publicContainer .App .applicationDetailsMain{
+    border: 0px;
+    box-shadow: 0 0px 0px #ededee;
+}
+.publicContainer .App .relatedApplications{
+    border: 0px;
+    box-shadow: 0 0px 0px #ededee;
+}
+.publicContainer .App .iwantToScore{
+    border: 0px;
+    box-shadow: 0 0px 0px #ededee;
+}
+.publicContainer .App .applyNameCenter .applyNameCenterH{
+    color: #ffffff;
+}
+.publicContainer .App .applyNameCenter .applyNameCenterP{
+    color: #ffffff;
+}
+.publicContainer .App .applyNameCenter .versionUpdateCollection{
+    color: #8e8e8e;
+}
+.publicContainer .App .applyNameCenter .spanIconJia{
+    color: #8e8e8e;
+}
+.publicContainer .App .spanPingfen{
+    color: #ffffff;
+}
+.publicContainer .App .applicationIntroductionTop{
+    color: #ffffff;
+}
+.publicContainer .App .applicationIntroductionMainP{
+    color: #ffffff;
+}
+.publicContainer .App .relatedApplicationsH{
+    color: #ffffff;
+}
+.publicContainer .App .spanScore[data-v-9b1e07f6]{
+    color: #ffffff;
+}
+.publicContainer .App .commentariesH{
+    color: #ffffff;
+}
+.publicContainer .App .commentariesHI{
+    color: #8e8e8e;
+}
+.publicContainer .App .cdamTime{
+    color: #8e8e8e;
+}
+.publicContainer .App .cdamName{
+    color: #8e8e8e;
+}
+.publicContainer .App .cdamCenter{
+    color: #ffffff;
+}
+.publicContainer .App .commentDisplayAreaMain{
+    border-top-color: #435066;
+}
+.publicContainer .App .checkOutMore{
+    border-top-color: #435066;
+}
+/* 新锐应用/热门推荐更多页面 */
+.publicContainer .App .hotHead {
+    background: #363a44;
+    color: #ffffff;
+}
+.publicContainer .App .hotRecommendationTop{
+    border: 0px;
+    box-shadow: 0 0px 0px #ededee;
+}
+.publicContainer .App .hotSpanLab{
+    color: #ffffff;
+}
+.publicContainer .App .hotLi .hotLiA{
+    color: #ffffff;
+}
+.publicContainer .App .hotLi:hover .hotLiA{
+    background-color: #363a44;
+    color: #6aa8f6;
+}
+.publicContainer .App .hotMainCenterTop {
+    border-color: #363a44;
+    background-color: #363a44;
+    box-shadow: 0 0px 0px #ededee;
+}
+.publicContainer .App .hotMainCenterTop .hotMainCenterLi.aclickLi {
+    background-color: #232a35;
+    border-color: #232a35;
+    color: #fb6233;
+}
+.publicContainer .App .hotMainCenterTop .hotMainCenterLi{
+    color: #ffffff;
+}
+.publicContainer .App .hotMainCenterMain{
+    border-color: #363a44;
+    background-color: #363a44;
+    box-shadow: 0 0px 0px #ededee;
+}
+.publicContainer .App .hotRecommendationCenter{
+    background-color: #363a44;
+}
+.publicContainer .App .hotRecommendationCenter:hover {
+    border-color: #70737d;
+    box-shadow: 0 0px 0px #ededee;
+    background-color: #70737d
+}
+.publicContainer .App  .hrmctH{
+    color: #ffffff;
+}
+.publicContainer .App .hrmctP{
+    color: #ffffff;
+}
+.publicContainer .App .editionTime .spanBanB,
+.publicContainer .App .editionTime .spanBanHao,
+.publicContainer .App .editionTime .spanGengGaiTime
+.publicContainer .App .editionTime .spanGengGaiTimeMain{
+    color: #999999
+}
+.publicContainer .App .hrcMain{
+    border-bottom-color: #435066;
+}
+.publicContainer .App .loadmore{
+    color: #00abf3;
+}
+/* 精彩专题更多页面 */
+.publicContainer .App .spanTitle{
+    color: #ffffff;
+}
+.publicContainer .App .wsccmcModular{
+    border-color: #435066;
+}
+.publicContainer .App .wsccmcModular:hover{
+    box-shadow: 0px 3px 10px #435066;
+}
+.publicContainer .App .wmtrTitle{
+    color: #ffffff;
+}
+.publicContainer .App .editionP,.publicContainer .App .UpdateP{
+    color: #999999
+}
+.publicContainer .App .wsccmcModularMainP{
+    color: #ffffff
+}
+.publicContainer .App .viewAll{
+    color: #999999
+}
+.publicContainer .App .wonderfulSpecialColumnMainBottom{
+    border-color: #363a44;
+    box-shadow: 0 0px 0px #ededee;
+}
+.publicContainer .App .wonderfulSpecialColumnMainBottom:hover {
+    box-shadow: 0px 0px 0px #e5e5e5;
+}
+.publicContainer .App .wonderfulSpecialColumnMain .msg{
+    color: #fff;
+}
+/* 精彩专题-精彩列表 */
+.publicContainer .App .financialEducationSeriesMain{
+    border-color: #363a44;
+    box-shadow: 0 0px 0px #ededee;
+}
+.publicContainer .App .financialEducationSeriesCenter{
+    border-color: #363a44;
+    box-shadow: 0 0px 0px #ededee;
+}
+.publicContainer .App .financialEducationSeriesBottom{
+    border-color: #363a44;
+    box-shadow: 0 0px 0px #ededee;
+}
+.publicContainer .App .financialEducationSeriesBottom:hover{
+    box-shadow: 0 0px 0px #ededee;
+}
+.publicContainer .App .fesmRightH,.publicContainer .App .fesmRightP{
+    color: #ffffff
+}
+.publicContainer .App .fesmRightFoot{
+    color: #8e8e8e;
+}
+.publicContainer .App .fesmCenter:hover {
+    box-shadow: 0px 0px 0px #e5e5e5;
+    background-color: #70737d;
+}
+.publicContainer .App .fcrH,.publicContainer .App .fcrP{
+    color: #8e8e8e;
+}
+.publicContainer .App .fesmCenter:hover .fcrH,
+.publicContainer .App .fesmCenter:hover .fcrP{
+    color: #ffffff
+}
+.publicContainer .App .financialEducationSeriesBottom{
+    color: #00abf3;
+}
+/* 搜素页面背景 */
+.publicContainer .App .publicMain1{
+    background-color: #363a44;
+}
+
+.publicContainer .App .hotLi.active a, .hotLi .hotLiA.aclick {
+    color: #337ab7;
+}
+.publicContainer .App  .hotLi .hotLiA.aclick {
+    color: #337ab7;
+}

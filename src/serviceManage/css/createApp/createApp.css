@@ -1,0 +1,176 @@
+.iformcon-con.reg2 {
+  width: 668px;
+  margin: 0 auto;
+}
+em {
+  font-style: normal;
+}
+.time-x {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.iformcon-con.reg2 .texet.lihei {
+  line-height: 32px;
+}
+.time-x .texet {
+  width: 88px;
+  color: #333;
+  font-size: 14px;
+  text-align: right;
+}
+.time-x span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.texet {
+  margin-right: 12px;
+}
+.texet>i {
+  color: #b61717;
+  padding-right: 3px;
+}
+.inputime {
+  font-size: 14px;
+}
+.inputborder {
+  border: 1px solid #eeeeee;
+  height: 30px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0;
+  padding-left: 5px;
+}
+.wi540 {
+  width: 564px;
+}
+.mode-div {
+  overflow-y: auto;
+}
+.inputime .css-radio {
+  float: left;
+  cursor: pointer;
+  margin-right: 80px;
+}
+.css-radio.active i {
+  background-position: 0 -13px;
+}
+.css-radio i {
+  background: url(../../images/radio.png) no-repeat;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.wi550 {
+  width: 564px;
+  height: 114px;
+  padding: 5px;
+}
+.el-date-editor.el-input {
+  width: 164px;
+}
+.touxi {
+  overflow: auto;
+}
+.touxi dl {
+  float: right;
+  margin-left: 20px;
+}
+dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.touxi dl dd {
+  width: 272px;
+  height: 162px;
+  border: 1px #ccc solid;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.box {
+  position: relative;
+}
+.touxi dl dd div {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.box form {
+  position: relative;
+  height: 160px;
+}
+.box input {
+  position: absolute;
+  left: -9999px;
+}
+input[type=file] {
+  display: block;
+}
+.box img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 270px;
+  height: 160px;
+}
+img {
+  vertical-align: middle;
+}
+.box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  cursor: pointer;
+  height: 160px;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.touxi dl dd i {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin-bottom: 10px;
+  background: url(../../images/addImg.png);
+}
+.touxi dl dd p {
+  color: #999999;
+  font-size: 14px;
+}
+.touxi dl dt label {
+  display: block;
+  font-weight: 400;
+  margin: 10px auto;
+}
+.choiceLogo, .choiceBg {
+  border-radius: 3px;
+  border: 1px #55a8fd solid;
+  text-align: center;
+  font-size: 14px;
+  color: #55a8fd;
+  line-height: 26px;
+  height: 26px;
+  width: 82px;
+  cursor: pointer;
+}
+.hidBox {
+  display: none;
+}
+.butonstred {
+  background: #55a8fd;
+  margin-left: 117px;
+}
+.butonst {
+  background: #26d186;
+}

@@ -1,0 +1,245 @@
+.headTitle{
+    height:50px ;
+    line-height:50px ;
+    background: #fff;
+    font-size: 16px;
+    color:#55a8fd ;
+    text-align: center;
+}
+em{
+    font-style: normal;
+}
+.tabBox{
+    margin-left: 55px;
+}
+.contentDetails{
+    padding-bottom: 20px;
+}
+.contentDetails>div>h2{
+    height: 38px;
+    line-height: 38px;
+    background: #f4f4f4;
+    font-size: 16px;
+    color: #55a8fd;
+    margin: 8px 18px;
+    padding-left: 24px;
+}
+.proposerMsgContent,.basicInfo{
+    overflow: auto;
+}
+.left{
+    width: 50%;
+    float: left;
+}
+.right{
+    width: 50%;
+    float: left;
+}
+.basicLogo,.basicBg{
+    width: 135px;
+    height: 135px;
+    border:1px solid #dedbdb;
+    margin-right: 75px;
+}
+.basicLogo>h3,.basicBg>h3{
+    height:42px ;
+    line-height:42px  ;
+    text-align: center;
+    font-size:16px;
+     border-bottom: 1px dashed #f4f4ff;
+}
+.basicLogo{
+    color:#b61717; 
+    margin-right: 6px;
+}
+.basicBg{
+     color:#2079d2;
+}
+.basicInfoContent{
+    overflow: auto;
+    width: 100%;
+}
+.basicInfoContent>ul{
+    float: left;
+}
+.basicInfoContent,.basicImg{
+    float: right;
+}
+.basicInfoContent,.basicImg>div{
+    float: left;
+
+}
+.left>ul,.basicInfoContent>ul,.right>ul{
+    padding-left: 208px;
+}
+.left>ul>li,.right>ul>li,.basicInfoContent>ul>li{
+    line-height: 38px;
+    height: 38px;
+}
+.left>ul>li>.key,.right>ul>li>.key,.basicInfoContent>ul>li>.key{
+    display: inline-block;
+   width: 75px;
+   text-align: right;
+}
+.left>ul>li>.value,.rihgt>ul>li>.value,.basicInfoContent>ul>li>.value{
+    display: inline-block;      
+    padding-left: 17px;
+}
+.closes{
+    border-radius: 3px;
+    text-align: center;
+    font-size: 14px;
+    height: 32px;
+    width: 82px;
+    line-height: 32px;
+    cursor: pointer;
+    color: #fff;
+    background: #55a8fd;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.resoubox {
+    padding-bottom: 80px;
+}
+#container{
+    position: relative;
+    min-height: 400px;
+}
+.lanm-hed {
+    height: 60px;
+}
+.mode-div {
+    border-radius: 2px;
+    background-color: #fff;
+    overflow: auto;
+}
+.ouehide {
+    overflow: hidden;
+}
+.crumbs {
+    background: url(../../images/icone.png) left center no-repeat;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    float: left;
+}
+.pormbutton {
+    float: right;
+    margin-top: 15px;
+    margin-right: 8px;
+}
+.pormbutton button {
+    margin: 0 2px;
+}
+.pormbutton>button:hover{
+    background: #b61717;
+    color:#fff;
+}
+.butonst {
+    border-radius: 3px;
+    border: 1px #b61717 solid;
+    text-align: center;
+    font-size: 14px;
+    color: #b61717;
+    line-height: 28px;
+    cursor: pointer;
+    padding: 0 12px;
+}
+.butonstred {
+    border-radius: 3px;
+    border: 1px #b61717 solid;
+    text-align: center;
+    font-size: 14px;
+    background: #b61717;
+    color: #fff;
+    line-height: 28px;
+    cursor: pointer;
+    padding: 0 12px;
+}
+.lam-tdl dl {
+    overflow: hidden;
+    border-bottom: 1px #cccccc solid;
+}
+.lam-tdl dl dd {
+    display: inline-block;
+    vertical-align: middle;
+    width: 250px;
+    padding: 35px 0;
+    padding-left: 80px;
+    position: relative;
+    border-right: 1px #cccccc solid;
+}
+.lam-tdl dl dd .poden {
+    position: absolute;
+    background: url(../../images/talt.png) no-repeat;
+    width: 63px;
+    height: 57px;
+    left: 0;
+    top: 0;
+}
+.lam-tdl dl dd h2 {
+    font-size: 14px;
+    color: #333;
+}
+.lam-tdl dl dd p {
+    font-size: 12px;
+    color: #999999;
+}
+.lam-tdl dl dt {
+    display: inline-block;
+    vertical-align: middle;
+    width: 208px;
+    text-align: center;
+    border-right: 1px #cccccc solid;
+}
+.lam-tdl dl dt.noe {
+    border-right: 0;
+}
+.lam-tdl dl dt p button {
+    margin: 0 4px;
+}
+.butonst1 {
+    border-radius: 3px;
+    border: 1px #1056bf solid;
+    text-align: center;
+    font-size: 14px;
+    color: #1056bf;
+    line-height: 28px;
+    cursor: pointer;
+    padding: 0 12px;
+}
+.butonstdelet {
+    border-radius: 3px;
+    border: 1px #b2b2b2 solid;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    line-height: 28px;
+    cursor: pointer;
+    padding: 0 12px;
+    background: #b2b2b2;
+}
+.w1200 {
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.showLogo>img,.showBg>img{
+    width: 133px;
+    height: 91px;
+}
+.basicInfoContent>ul>li:last-child>span{
+    float: left;
+}
+pre{
+    width: 410px;
+    float: left;
+    white-space: pre-wrap!important;
+    word-wrap: break-word!important;
+    *white-space:normal!important;
+    margin-left: 20px;
+}
+.intro{
+    float: left;
+}

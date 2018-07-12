@@ -1,0 +1,351 @@
+em,i{
+    font-style: normal;
+}
+.appIndexConfigBoxCon{
+    height: 100%;
+    position: relative;
+}
+.appIndexConfigBox{
+   background-color: #fff;
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 30px;
+    position: relative;
+    left: 0;
+    transition: all 1s;
+}
+
+.icTile{
+    height: 33px;
+    border-bottom:1px #f1f1f1 solid;
+    position: relative;
+    padding-top: 8px;
+    
+}
+.icTile span{
+    font-size: 12px;
+    color: #333;
+    padding-left: 8px;
+    position: relative;
+    
+}
+.icTile span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top:4px;
+    width: 2px;
+    height: 10px;
+    background-color: #55a8fd;
+    
+}
+.modeTemp{
+    height: 280px;
+    float: left;
+    width: 300px;
+    padding-left: 20px;
+}
+.modeStyle{
+    position: relative;
+}
+.icSetBot{
+    position: absolute;
+    width: 100%;
+    top:0;
+}
+.modeStyle{
+    width: 190px;
+    height: 230px;
+    border: 1px #fff solid;
+    box-shadow: 0 0 10px rgba(0,0, 0, .1);
+    transition: all .5s;
+}
+.modeStyle:hover{
+   
+    border: 1px #60aefd solid;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(96, 147, 253, .5);
+}
+.mobg{
+    background: url('../images/lanbg.png') no-repeat;
+    position: relative;
+}
+.talit{
+    position: absolute;
+    right: -20px;
+    bottom:32px;
+}
+.talit:hover .xinxi p{
+    display: block;
+}
+.talit:hover i{
+    color: #55a8fd;
+    cursor: pointer;
+}
+.talit .xinxi{
+    position: relative;
+    z-index: 99;
+}
+.talit .xinxi p{
+    display: none;
+    width: 200px;
+    height: 76px;
+    border-radius: 4px;
+    padding: 5px;
+    top:-20px;
+    left: 30px;
+    background: #fff;
+    color: #666666;
+    position: absolute;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+}
+.talit .xinxi p::after{
+    content: '';
+    position: absolute;
+    background: url('../images/leftjt.png') no-repeat;
+    width: 11px;
+    height: 18px;
+    left: -11px;;
+    top:4px;
+}
+.listName{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 3px;
+    height: 30px;
+}
+.modeTempList{
+    position: relative;
+    width: 190px;
+}
+.modeTempList.active .modeStyle{
+    border: 1px #60aefd solid;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(96, 147, 253, .5);
+}
+.modeTempList.active::after{
+    content: '';
+    position: absolute;
+    background: url('../images/use.png') no-repeat;
+    width: 43px;
+    height: 43px;
+    right: 0;
+    top:0;
+}
+.modeTempList.active::before{
+    content: '';
+    position: absolute;
+    background: url('../images/atl.png') #fff no-repeat;
+    width: 25px;
+    height: 25px;
+    left: -5px;
+    z-index: 99;
+    border-radius: 50%;
+    top:-5px;
+}
+
+.popupCon{
+    position: absolute;
+    width: 500px;
+    height: 385px;
+    left: 50%;
+    top:50%;
+    margin-left: -250px;
+    margin-top: -200px;
+    box-shadow: 0 0 10px rgba(0,0, 0, .4);
+    background: #fff;
+    border-radius: 5px;
+    z-index: 999;
+    overflow: hidden;
+}
+.modetato{
+    height: 40px;
+    background-color: #6aa8f6;
+    color: #fff;
+    line-height: 40px;
+    
+    border-radius: 5px 5px 0 0;
+}
+
+.popupBg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1988;
+}
+.timeMode{
+    width: 380px;
+    margin: 0 auto;
+   
+}
+.modetato{
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.timeBut{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.timeBut button{
+    width: 50%;
+    float: left;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 0;
+}
+.determine{
+    background-color: #6aa8f6;
+    font-size: 14px;
+    color: #fff;
+    transition: all .5s;
+}
+.determine:hover{
+    background-color: #4387db;
+}
+.escDete{
+    background-color: #e3e3e3;
+    font-size: 14px;
+    color: #fff;
+    transition: all .5s; 
+}
+.escDete:hover{
+    background-color: #c5c4c4;
+}
+.tempCon{
+    height: 100%;
+    overflow: auto;
+    padding-top: 30px;
+}
+.mobg:hover .butbg{
+    display:block;
+}
+.butbg{
+    display: none;
+    background: rgba(0,0, 0, .3);
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 70px;
+    z-index: 10;
+}
+.butbg p{
+    text-align: center;
+    margin-top: 10px;
+}
+.butbg button{
+    width: 70px;
+    height: 28px;
+    color: #fff;
+    
+    cursor: pointer;
+   
+}
+.butbg button.lan{
+    background-color: #55a8fd;
+    transition:all .5s;
+}
+.butbg button.lan:hover{
+    background-color: #4094e9;
+}
+.butbg button.lv{
+    background-color: #67cd8c;
+    transition:all .5s;
+}
+.butbg button.lv:hover{
+    background-color: #4fb974;
+}
+
+.txetUl{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+.txetUl .moverHover{
+    position: relative;
+}
+.txetUl .styHover{
+    position: absolute;
+    top:0;
+    right: -20px;
+    font-size: 18px;
+}
+.txetUl .moverHover i{
+    width: 20px;
+}
+.txetUl .moverHover:hover{
+    color: #55a8fd;
+}
+.txetUl .moverHover:hover ul{
+    display: block;
+}
+.txetUl .moverHover ul{
+    display: none;
+    width: 58px;
+    position: absolute;
+    right: -77px;
+    top:0;
+    background: #fff;
+    color: #666666;
+    position: absolute;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+}
+.txetUl .moverHover li{
+    text-align: center;
+    border-bottom: 1px #f1f1f1 solid;
+    line-height: 30px;
+    cursor: pointer;
+}
+.txetUl .moverHover li:hover{
+    background: #55a8fd;
+    color: #fff;
+    border-bottom: 1px #55a8fd solid;
+}
+.addTemp{
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.addTemp i{
+    font-size: 100px;
+    color: #cccccc;
+}
+.addTemp p{
+    font-size: 12px;
+    color: #666;
+}
+.addTemp:hover i,.addTemp:hover p{
+    color: #55a8fd;
+}
+.centetColor{
+    height: 42px;
+    background-color: #55a8fd;
+    width: 98%;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    font-size: 14px;
+    position: absolute;
+    left: 1%;
+    top: 100px;
+}
+.modeStyle .centetColor.color1{
+    border: 1px #6aa8f6 solid;
+    background-color: #fff;
+    color: #363a46;
+}
+.centetColor.color2 {
+    background-color: #363a46;
+}
+.centetColor.color3 {
+    background-color: #00aaf2;
+}

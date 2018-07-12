@@ -1,0 +1,1045 @@
+﻿@charset "utf-8";
+/*-----------------------------
+Name: common Css
+-----------------------------*/
+/* 公共 */
+
+/* 公共-end */
+.mode-div{
+    overflow-y: auto;
+    height: 500px;
+}
+em{
+    font-style: normal;
+}
+.register{
+    position: relative;
+    box-sizing: border-box;
+}
+.lanmpege{
+    background: #f4f4f4;
+    height: 90px;
+}
+.bar_xb{
+    padding-right: 160px
+}
+.lanmp-con{
+    width:960px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.lanbbag{
+    background: url("../../images/apinubh.png") no-repeat;
+    width:992px;
+    height: 22px;
+}
+.lanbbag p{
+    background: url("../../images/apinunb.png") no-repeat;
+    width:992px;
+    height: 22px;
+}
+.lanbbag5{
+    background: url("../../images/apinu5.png") no-repeat;
+    width:992px;
+    height: 22px;
+}
+.lanbbag5 p{
+    background: url("../../images/apinun5.png") no-repeat;
+    width:992px;
+    height: 22px;
+}
+.iformcon-con.reg1{
+    width:1000px;
+    margin: 0 auto;
+}
+.iformcon div{
+}
+.bjtoe .iformcon-con.reg1{
+    width:800px;
+    margin: 0 auto;
+
+}
+.bjtoe .w50k .time-x{
+    width:50%;
+    float: left;
+    margin: 10px 0;
+}
+.bjtoe .w50k .iformcon-con.reg1{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.iformcon-con.reg2{
+   width: 650px;
+    margin: 0 auto;
+}
+.iformcon-con.reg2 .texet.lihei{
+    line-height: 32px;
+}
+.lanbag-text{
+    width:992px;
+    margin-top: 5px;
+}
+.lanbag-text1{
+    width:992px;
+    margin-top: 5px;
+}
+.time-x{
+    position: relative;
+    padding-left: 170px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.time-x span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.time-x .texet{
+    position: absolute;
+    left: 0;
+    width:145px;
+    color: #333;
+    font-size: 14px;
+    text-align: right;
+}
+.inputime .css-radio{
+    float: left;
+    cursor: pointer;
+    margin-right:80px;
+}
+.inputime{
+    font-size: 14px;
+}
+.shulist{
+    overflow: hidden;
+}
+.wi540{
+    width:350px;
+}
+.wi560{
+    width:262px;
+}
+.wi550{
+    width:350px;
+    height: 100px;
+    padding:8px 12px;
+}
+.w1{
+    width:10%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.tablnav{
+    border-bottom: 1px #e0e0e0 solid;
+}
+.tablnav ul{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 27px;
+    padding-bottom: 27px;
+
+}
+.tablnav li{
+    border: 1px #999 solid;
+    padding:0 10px;
+    display: inline-block;
+    line-height: 32px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    margin-right: 3px;
+}
+.tablnav li.active{
+    border: 1px #b61717 solid;
+    color: #b61717;
+}
+.tablnav li.active::before{
+    content: '';
+    position: absolute;
+    background: url("../../images/tuerr.png") no-repeat;
+    width:13px;
+    height: 13px;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.shulist .inptcssw{
+    width:100px;
+}
+.shulist .inptcssw1{
+    width:140px;
+}
+.shulist .icobut{
+    display: inline-block;
+    border: 1px #959595 solid;
+    border-radius: 50%;
+    width:24px;
+    height: 24px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer;
+}
+.shulist .icobut:hover{
+    background: #b61717;
+    border: 1px #b61717 solid;
+    color: #fff;
+}
+.w2{
+    width:20%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.w3{
+    width:30%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.shulist .inptcss{
+    background: transparent;
+    border: 1px #a9a9a9 solid;
+    border-radius: 3px;
+    height: 24px;
+    padding:0;
+
+}
+.shulist-con{
+    background: #f5f5f5;
+    border: 1px #a9a9a9 solid;
+    border-radius: 3px;
+    padding: 10px 0;
+}
+.tabcon{
+    width:800px;
+}
+.textreas{
+    height: 180px;
+}
+.lanbag-text span{
+    font-size: 14px;
+    display: inline-block;
+}
+.lanbag-text span.tim2{
+    margin-left: 370px;
+}
+.lanbag-text span.tim3{
+    margin-left: 370px;
+}
+.lanbag-text span.tim4{
+    margin-left: 130px;
+}
+.lanbag-text span.tim5{
+    margin-left: 140px;
+}
+.lanbag-text1 span{
+    font-size: 14px;
+    display: inline-block;
+}
+.lanbag-text1 span.tim2{
+    margin-left: 155px;
+}
+.lanbag-text1 span.tim3{
+    margin-left: 158px;
+}
+.lanbag-text1 span.tim4{
+    margin-left: 158px;
+}
+.lanbag-text1 span.tim5{
+    margin-left: 155px;
+}
+.shulist-c{
+    border-top: 1px #33a6ff solid;
+
+}
+.shulist-m{
+    overflow: hidden;
+    border-top: 1px #cdcdcd solid;
+    padding: 10px 0;
+}
+.shulist-m:first-child{
+    border-top:none;
+}
+.shulist-c .shulist-m .eqad .inptcss{
+    margin-left: 10px;
+}
+.shulist-c .shulist-m{
+    border-top:none;
+}
+.shulist-c .shulist-c .shulist-m  .eqad .inptcss{
+    margin-left: 20px;
+}
+.shulist-c .shulist-c .shulist-m{
+    border-top:none;
+}
+.cssinput{
+    background: transparent;
+    border: 1px #dadada solid;
+    border-radius: 3px;
+    height: 24px;
+    padding:0;
+}
+.tabth{
+    padding-bottom:10px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.w200{
+    width:200px;
+}
+.w590{
+    width:590px;
+}
+.fl{
+    float: left;
+}
+.chepoc{
+    float: left;
+    margin:  4px 0 0 4px;
+    position: relative;
+}
+.chepoc i.charu{
+    background: url("../../images/fxin.png") no-repeat;
+    width:20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.charutex{
+    position: absolute;
+    border: 1px #d9d9d9 solid;
+    border-radius: 3px;
+    display: none!important;
+    width:30px;
+    padding: 3px 0;
+    cursor: pointer;
+    text-align: center;
+    background: #fff;
+}
+.chepoc:hover .charutex{
+    display: inline-block!important;
+}
+
+.teac{
+    width:800px;
+    height: 100px;
+}
+.buttnet{
+    text-align: center;
+    border-top: 1px #d9d9d9 dashed;
+   	padding-top: 10px;
+    padding-bottom: 50px;
+}
+.buttnet button{
+    margin: 0 10px;
+}
+.touxi{
+    position: absolute;
+    left: 50%;
+    width:115px;
+    margin-left: 240px;
+    z-index: 999;
+}
+.touxi dl dd{
+    width:112px;
+    height: 112px;
+    border: 1px #ccc solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.touxi dl dd div{
+    text-align: center;
+    margin-top: 30px;
+}
+.touxi dl dd i{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px #ccc solid;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+    color: #333;
+}
+.touxi dl dd p{
+    color: #333;
+    font-size: 14px;
+}
+.touxi dl dt button{
+    width:100%;
+    margin-top: 10px;
+}
+.iformcon-con.reg4 .tonggo{
+    font-size: 24px;
+    background: url(../../images/dui.png) no-repeat;
+    line-height: 70px;
+    padding-left: 80px;
+    color: #2c9801;
+    margin: 140px auto;
+    width: 464px;
+
+}
+.lanm-con{
+    margin-top: 10px;
+}
+.tabcon-mian{
+
+}
+.tabcon-mian .tabl-top{
+    height: 52px;
+}
+.tabcon-mian .tabl-top-nav{
+
+    padding: 11px 18px 0 18px;
+    height: 41px;
+    border: 1px #d8d8d8 solid;
+}
+.tabcon-mian .tabl-top-nav li{
+    height: 40px;
+    width:88px;
+    display: inline-block;
+    margin-right:-4px;
+    cursor: pointer;
+    text-align: center;
+    border-width:1px 0 0 1px;
+    border-color: #d8d8d8;
+    border-style:solid;
+    border-radius: 3px 3px 0 0;
+    line-height: 40px;
+    background: #fff;
+}
+.tabcon-mian .tabl-top-nav li:last-child{
+    border-right: 1px #d8d8d8 solid;
+}
+.tabcon-mian .tabl-top-nav li.active{
+    border-top: 1px #b61717 solid;
+    color:#b61717;
+    height: 41px;
+}
+.tabl-body{}
+.tabl-body-bod{
+    position: relative;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.tabl-body-bod label{
+    cursor: pointer;
+    margin: 0 20px;
+}
+.tabl-body-bod .inptexcss{
+    position: absolute;
+    right: 20px;
+    top:0;
+    background-color: #fff;
+}
+.tabl-body-bod label span{
+    vertical-align: middle;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.tab-box span{
+    display: inline-block;
+    margin-right: -4px;
+    font-size: 14px;
+
+}
+.tab-box{
+    margin: 0 14px;
+}
+.tab-box-head{
+  border-bottom: 1px #0066ca solid;
+}
+.tab-box-head span{
+    padding: 10px 0;
+}
+.tab-box .w10{
+    width:13%;
+}
+.tab-box .w12{
+    width:16%;
+}
+.biaotiimg img{
+    border: 1px #d3d3d3 solid;
+    border-radius: 3px;
+    background: #fff;
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-left: 1px;
+}
+.biaotiimg em{
+
+}
+.tab-box-body .tblist{
+    border-bottom: 1px #dedede solid;
+}
+.tab-box-body .tblist li:hover{
+    background: #faf4f4;
+}
+.tab-box-body .tblist li{
+    height: 60px;
+    padding-top: 14px;
+}
+.up-lc{
+    position: relative;
+}
+.up-lc-con{
+    position: absolute;
+    z-index:99;
+    border: 1px #1056bf solid;
+    border-radius: 3px;
+    background: #fff;
+    width: 68px;
+
+    text-align: center;
+}
+.up-lc-con p{
+    color: #999999;
+    line-height: 34px;
+    cursor: pointer;
+
+}
+.up-lc-con p.active{
+    background: #1056bf;
+    color: #fff;
+}
+.alicen{
+    text-align: center;
+}
+.caoz{
+    float: left;
+
+}
+.caoz i{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.caoz i.ico4{
+    background:url("../../images/ico-fw4.png") center no-repeat;
+    width:24px;
+    height: 24px;
+}
+.caoz i::before{
+    background: #fff;
+    box-shadow: 2px 2px 2px #ccc;
+    border-radius: 3px;
+    display: none;
+    text-align: center;
+    position: absolute;
+    top:0;
+}
+.caoz i.ico::before{
+    content: '查看原因';
+    width: 80px;
+    right: -80px;
+    line-height: 24px;
+    height:24px;
+}
+.caoz i.ico1::before{
+    content: '编辑';
+    width: 40px;
+    right: -40px;
+    line-height: 24px;
+    height:24px;
+}
+.caoz i.ico2::before{
+    content: '删除';
+    width: 40px;
+    right: -40px;
+    line-height: 24px;
+    height:24px;
+}
+.caoz i.ico3::before{
+    content: '撤销';
+    width: 40px;
+    right: -40px;
+    line-height: 24px;
+    height:24px;
+}
+.caoz i.ico4::before{
+    content: '查看审批流程';
+    width: 120px;
+    right: -120px;
+    line-height: 24px;
+    height:24px;
+}
+.caoz i:hover::before{
+    display: block;
+    z-index: 99;
+}
+.caoz i.ico{
+    background:url("../../images/ico-fw.png") center no-repeat;
+    width:24px;
+    height: 24px;
+}
+.caoz i.ico1{
+    background:url("../../images/ico-fw1.png") center no-repeat;
+    width:24px;
+    height: 24px;
+}
+.caoz i.ico2{
+    background:url("../../images/ico-fw2.png") center no-repeat;
+    width:24px;
+    height: 24px;
+}
+.caoz i.ico3{
+    background:url("../../images/ico-fw3.png") center no-repeat;
+    width:24px;
+    height: 24px;
+}
+.kaiguanbut{
+    width: 70px;
+    height: 26px;
+    background: #1bb617;
+    display: inline-block;
+    border-radius: 13px;
+    position: relative;
+    cursor: pointer;
+}
+.kaiguanbut i{
+    position: absolute;
+    width: 35px;
+    height: 24px;
+    border: 1px #1bb617 solid;
+    border-radius: 12px;
+    background: #fff;
+}
+.kaiguanbut.active{
+    background: #b2b2b2;
+}
+.kaiguanbut.active i{
+    right: 0;
+    border: 1px #b2b2b2 solid;
+}
+.kaiguanbut b{
+    font-weight: normal;
+    width:50%;
+    float: left;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+}
+.rilics{
+    background: url("../../images/rili.png") center right 5px no-repeat;
+    padding-right: 20px;
+}
+
+.gong-con-ce{
+    margin: 0 25px;
+    margin-top: 10px;
+}
+.gong-con-ce .file{
+    border-radius: 3px;
+    padding: 4px 8px;
+    color: #377aea;
+    border: 1px #377aea solid;
+    font-size: 14px;
+}
+.tac2{
+    font-size: 12px;
+    color: #999;
+    padding: 2px 0;
+}
+.tac3{
+    height: 140px;
+    background: #eaeaea;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.tac3 dl{
+    width:114px;
+    height: 114px;
+    border-radius: 3px;
+    background: #cecece;
+    margin: 0 auto;
+
+    margin-top: 13px;
+}
+.tac3 dl dd{
+    background: url("../../images/renwu.png") center no-repeat;
+    width:114px;
+    height: 86px;
+}
+.tac3 dl dt{
+    font-size: 12px;
+    text-align: center;
+}
+.tac4{
+    border-radius: 3px;
+    border: 1px #eaeaea solid;
+    height: 100px;
+    margin-top: 5px;
+}
+.tac4 ul li{
+    float: left;
+    margin: 5px;
+}
+.tac4 ul li img{
+    width:38px;
+    height: 38px;
+    border-radius: 3px;
+}
+
+.lam-tdl dl dd{
+    display: inline-block;
+    vertical-align: middle;
+    width:250px;
+    padding: 35px 0;
+    padding-left: 80px;
+    position: relative;
+    border-right: 1px #cccccc solid;
+}
+.lam-tdl dl dd .poden{
+    position: absolute;
+    background: url("../../images/talt.png") no-repeat;
+    width:63px;
+    height: 57px;
+    left: 0;
+    top: 0;
+}
+.lam-tdl dl dd h2{
+    padding-top: 2px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    color: #333;
+    width: 140px;
+    height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.lam-tdl dl dd p{
+    font-size: 12px;
+    color: #999999;
+    width: 140px;
+    height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.lam-tdl dl{
+    overflow: hidden;
+    border-bottom: 1px #cccccc solid;
+}
+.lam-tdl dl dt{
+    display: inline-block;
+    vertical-align: middle;
+    width:208px;
+    text-align: center;
+    border-right: 1px #cccccc solid;
+}
+.lam-tdl dl dt.noe{
+    border-right: 0;
+}
+.lam-tdl dl dt a{
+    color: #0066ca;
+}
+.lam-tdl dl dt p button{
+    margin: 0 4px;
+}
+.iftop{
+    background: #f4f4f4;
+    color: #b61717;
+    margin: 0 20px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 3px;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+.pormbutton{
+    position: absolute;
+    right: 10px;
+    top:15px;
+}
+.topcom{
+    background: #b61717;
+    color: #fff;
+    text-align: center;font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+}
+/* 内容 */
+
+/*添加end*/
+
+/*********************新建应用.第二步*************************/
+.iformcon-con2.second_step {
+    width: 650px;
+    margin: 0 auto;
+}
+.click_upload_file{
+    width: 640px;
+    height:155px;
+    margin: 100px auto 175px;
+    border: 1.5px dashed #2a9cd7;
+    border-radius: 4px;
+}
+.cuf_tp{
+    width: 100%;
+    height: auto;
+}
+.up_icon{
+    width: 50px;
+    height: 50px;
+    margin: 30px auto 0;
+    background: url("../../images/up_ico.png") no-repeat;
+    cursor: pointer;
+}
+p.p_cuf{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #1056bf;
+}
+p.p_support{
+    font-size: 14px;
+    color: #999999;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+/*********************新建应用.第三步*************************/
+.iformcon-con3.third_step{
+    width: 560px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+div.cpu_box,div.memory_box{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+span.cpu_title,span.memory_title,.disk_size_title{
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    font-size: 14px;
+    color: #333333;
+    margin-right: 15px;
+    text-align: right;
+}
+.cpu_main,.memory_main{
+    float: left;
+    width: auto;
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    line-height: 40px;
+}
+.cpu_main ul li,.memory_main ul li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 120px;
+    border-right: 1px solid #cccccc;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+}
+.cpu_main ul li.active,.memory_main ul li.active{
+    background:#287cef;
+    color: #ffffff;
+}
+.cpu_main ul li.no_borr,.memory_main ul li.no_borr{
+    border-right: none;
+}
+.disk_size{
+    width: 100%;
+    height:auto;
+}
+.bar_box{
+    width: 365px;
+    height: auto;
+    float: left;
+}
+.bar_bg{
+    width:100%;
+    height: 5px;
+    background: #e9e9e9;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+.bar_main{
+    height: 5px;
+    border-radius: 10px;
+    background: #287cef;
+    position: relative;
+}
+.span_quan{
+    display: inline;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: -4px;
+    right: 0;
+    background: #ffffff;
+    box-shadow: -1px 1px 5px #333333;
+    cursor: pointer;
+}
+.bar_xb{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+.ogl{
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+    float: left;
+    background: url("../../images/0G-ico.png") no-repeat;
+    margin-left: -10px;
+}
+.g300r{
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    float: right;
+    background: url("../../images/300G.png") no-repeat;
+    margin-right: -20px;
+}
+.input_bar_box{
+    width:auto;
+    height: auto;
+    float: left;
+    margin-left: 5px;
+}
+.inp_bar{
+    width: 70px;
+    height: 25px;
+    box-sizing: border-box;
+    padding: 0 5px;
+    float: left;
+    border: 0;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+.span_bar_dw{
+    width: auto;
+    float: left;
+    height: auto;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/*********************新建应用.第四步*************************/
+.iformcon-con4.fourth_part{
+    width: 500px;
+    height: auto;
+    margin: 45px auto 0;
+}
+.port_apply{
+    width: 100%;
+    height: auto;
+}
+.port_apply_jia,.port_apply_jia_jian{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 6px;
+}
+.span_pa_title{
+    display: inline-block;
+    width: auto;
+    float: left;
+    margin-right: 10px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #333333;
+}
+input.inp_pa{
+    width: 285px;
+    height: 35px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 35px;
+    padding: 0 10px;
+    border: 0;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    float: left;
+}
+i.add_sub_ico{
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: url("../../images/jiajian_ico.png") no-repeat;
+    margin-top: 4px;
+    cursor: pointer;
+}
+i.add_icon{
+    background-position: 0 0;
+}
+i.sub_icon{
+    background-position: 0 -35px;
+}
+/*********************新建应用.第五步*************************/
+.iformcon-con5.step_five{
+    width: 500px;
+    height: auto;
+    margin: 60px auto 0;
+}
+.complete{
+    width: 100%;
+    height: 70px;
+}
+.complete_ico{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    float: left;
+    background: url("../../images/dui.png") no-repeat;
+    margin-left: 50px;
+}
+.complete_main{
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+    color: #2c9801;
+    margin-left: 20px;
+}
+.determine{
+    border-radius: 3px;
+    border: 1px #b61717 solid;
+    text-align: center;
+    font-size: 14px;
+    background: #b61717;
+    color: #fff;
+    line-height: 28px;
+    cursor: pointer;
+    padding: 0 12px;
+}
+
+
+
+
+
+
+
+
+

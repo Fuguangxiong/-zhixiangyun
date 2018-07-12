@@ -1,0 +1,61 @@
+.iformcon-con4.fourth_part {
+    width: 708px;
+    height: auto;
+    margin: 45px auto 0;
+}
+.port_apply_jia_jian.clearfix{
+	margin-bottom: 15px;
+}
+em{
+    font-style: normal;
+}
+.span_pa_title {
+    display: inline-block;
+    width: auto;
+    float: left;
+    margin-right: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+}
+input.inp_pa{
+    width: 560px;
+    height: 30px;
+    box-sizing: border-box;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: left;
+}
+i.add_icon{
+     background: url(../../images/createAppAdd.png) no-repeat center center;
+}
+i.sub_icon{
+     background: url(../../images/createAppSub.png) no-repeat center center;
+}
+i.add_sub_ico{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+    border:1.5px solid #55a8fd;
+}
+
+
+/* 暂存，下一步，上一步 */
+.butonstdelet{
+	background: #55a8fd;
+	margin: 0 18px;
+}
+.butonstred{
+	background: #55a8fd;
+}
+.butonst{
+	background: #26d186;
+}

@@ -1,0 +1,55 @@
+{
+  "API_SERVER": "http://www.iscas.com:8091/platform/",
+  "PLATFORM_USER": "http://www.iscas.com:8091/platform/priviapi/",
+  "PLATFORM_LOGIN_URL": "http://www.iscas.com:8081/iscs/login",
+  "PLATFORM_LOGOUT_URL": "http://www.iscas.com:8081/iscs/logout",
+  "SERVICE_MANAGE": "http://www.iscas.com:8091/platform/sc",
+  "APP_MARKET": "http://www.iscas.com:8091/platform/mall/",
+  "RESOURCE_CATALOG": "http://www.iscas.com:8091/platform/rc/",
+  "PLATFORM": "http://www.iscas.com:8091/platform/bc",
+  "PLATFORM_AUTHORITY": "http://www.iscas.com:8081/iscs/#/AuthorityManagement",
+  "PERSONAL_CONSOLE": "http://www.iscas.com:8091/platform/pc/",
+  "INTERNAL_OPERATION":"http://www.iscas.com:8091/platform/pm/",
+  "COMPANY_OPERATION": "http://www.iscas.com:8091/platform/em/",
+
+  "MESSAGE_URL": "",
+  "INTRODUCE_GUIDE": "",
+  "PRODUCT_DOCUMENT": "",
+  "COMMON_PROBLEM": "",
+
+  "personalConsole": {
+    "SECURITY_MANAGE": "http://www.iscas.com:8091/platform/pc/#/safetyManagement",
+    "BASIC_INFO": "http://www.iscas.com:8091/platform/pc/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION": "http://www.iscas.com:8091/platform/pc/#/realNameCertification",
+    "CREATE_ENTERPRISE": "http://www.iscas.com:8091/platform/pc/#/createEnterprise",
+    "JOIN_ENTERPRISE": "http://www.iscas.com:8091/platform/pc/#/joinEnterprise",
+    "IDENTITY_MANAGE": "http://www.iscas.com:8091/platform/pc/#/identityManagement"
+  },
+  "internalOperation": {
+    "SECURITY_MANAGE":"http://www.iscas.com:8091/#/safetyManagement",
+    "BASIC_INFO":"http://www.iscas.com:8091/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION":"http://www.iscas.com:8091/#/realNameCertification",
+    "CREATE_ENTERPRISE":"http://www.iscas.com:8091/#/createEnterprise",
+    "JOIN_ENTERPRISE":"http://www.iscas.com:8091/#/joinEnterprise",
+    "IDENTITY_MANAGE":"http://www.iscas.com:8091/#/identityManagement"
+  },
+  "enterpriseOperation": {
+    "SECURITY_MANAGE":"http://www.iscas.com:8091/#/safetyManagement",
+    "BASIC_INFO":"http://www.iscas.com:8091/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION":"http://www.iscas.com:8091/#/realNameCertification",
+    "CREATE_ENTERPRISE":"http://www.iscas.com:8091/#/createEnterprise",
+    "JOIN_ENTERPRISE":"http://www.iscas.com:8091/#/joinEnterprise",
+    "IDENTITY_MANAGE":"http://www.iscas.com:8091/#/identityManagement"
+  },
+  "appMarket": {
+    
+  },
+  "openPlatform":{
+    "SECURITY_MANAGE":"http://www.iscas.com:8091/#/safetyManagement",
+    "BASIC_INFO":"http://www.iscas.com:8091/#/basicInformation",
+    "REAL_NAME_AUTHENTICATION":"http://www.iscas.com:8091/#/realNameCertification",
+    "CREATE_ENTERPRISE":"http://www.iscas.com:8091/#/createEnterprise",
+    "JOIN_ENTERPRISE":"http://www.iscas.com:8091/#/joinEnterprise",
+    "IDENTITY_MANAGE":"http://www.iscas.com:8091/#/identityManagement"
+  }
+}

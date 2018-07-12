@@ -1,0 +1,205 @@
+
+.select_service_type{
+    width: 540px;
+    height: 370px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -265px;
+    background: #ffffff;
+    border-radius: 4px;
+
+}
+.select_service_type_top{
+    width: 100%;
+    height: 46px;
+    background: #55a8fd;
+    border-radius: 4px 4px 0 0;
+}
+span.sst_text{
+    display: inline-block;
+    width: auto;
+    height: 46px;
+    line-height: 46px;
+    float: left;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #ffffff;
+}
+span.sst_ico{
+    display: inline-block;
+    float: right;
+    width: 18px;
+    height: 18px;
+    background: url("../../images/gb_ico.png") no-repeat;
+    margin-right: 15px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.select_service_type_main{
+    width: 100%;
+    height: 160px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 77px;
+    margin-top: 35px;
+
+}
+.sstm_left,.sstm_right{
+    width: 174px;
+    height: 174px;
+    float: left;
+    border: 1px transparent solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+     position: relative;
+}
+.sstm_right{
+    margin-left: 38px;
+}
+.sstml_main,.sstmr_main{
+    width: 130px;
+    height: 130px;
+    margin:0 auto;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 38px;
+    cursor: pointer;
+   
+}
+.limain:hover{
+    border: 1px solid #55a8fd;
+    border-radius: 6px;
+}
+.limain:hover .aclickse p{
+    color: #55a8fd
+}
+.limain:hover .cj_new_ico{
+     background: url("../../images/cs_server.png") no-repeat;
+     background-position: left 2px;
+}
+.limain:hover .fw_zh_ico{
+     background: url("../../images/cs_server.png") no-repeat;
+     background-position: right 1px;
+}
+.limain:before{
+    position: absolute;
+    width: 25px;
+    height: 24px;
+    background:url(../../images/ico-y.png);
+    right: 0;
+    top:0;
+}
+.limain:hover:before,.clickClass:before{
+    content:'';
+}
+.clickClass {
+    border: 1px solid #55a8fd;
+    border-radius: 6px;
+}
+.clickClass .aclickse p{
+    color: #55a8fd
+}
+.clickClass .cj_new_ico{
+    background: url("../../images/cs_server.png") no-repeat;
+    background-position: left 2px;
+}
+.clickClass .fw_zh_ico{
+    background: url("../../images/cs_server.png") no-repeat;
+    background-position: right 1px;
+}
+
+/*.sstmr_main{*/
+    /*border: 0;*/
+/*}*/
+.cj_new_ico{
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin:0 auto;
+    background: url("../../images/cs_server.png") no-repeat;
+    background-position: left -36px;
+}
+.fw_zh_ico{
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin:0 auto;
+    background: url("../../images/cs_server.png") no-repeat;
+    background-position: right -36px;
+}
+.sstml_main p,.sstmr_main p{
+    text-align: center;
+    font-size: 16px;
+    color: #cbcbcb;
+    margin-top: 38px;
+}
+.button_box{
+    text-align:center;
+    margin:0 auto;
+    width: 100%;
+    height: 30px;
+    margin-top: 50px;
+    padding-left: 140px;
+}
+.button_box button{
+    margin-right: 20px;
+    border: 0;
+    background: 0;
+    height: 30px;
+    line-height: 29px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 14px;
+}
+.button_box .quxiao{
+    background:#b5b5b5;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+.button_box .queding{
+    background:#b61717;
+    border-radius: 4px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.tankuang {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("../../images/opacityBg.png");
+    z-index: 1000;
+}
+.button_box span{
+    display: block;
+    width: 82px !important;
+    height: 30px !important;
+    color: #fff !important;
+    text-align: center !important;
+    float: left;
+    line-height: 30px;
+    margin:0 auto;
+    margin-left: 30px;
+}
+.queding{
+    background-color: #26d186 !important;
+}
+.quxiao{
+    background-color: #e3e3e3 !important;  
+}
+
+
+
+
+
+
+
+

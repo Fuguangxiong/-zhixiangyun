@@ -1,0 +1,210 @@
+.appImgConfigTop {
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	color: #333;
+	font-size: 14px;
+	background: #fff;
+	padding-left: 12px;
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 15px;
+}
+
+.appImgConfigTop>span {
+	width: 14px;
+	height: 14px;
+	color: #3dd693;
+	margin-right: 8px;
+}
+
+.appImgConfigContent {
+	width: 100%;
+	height: 84%;
+	background-color: #fff;
+}
+
+.appImgConfigContentTp {
+	width: 100%;
+	height: 33.3%;
+	border-bottom: 1px solid #eee;
+	background: #fff;
+	overflow: hidden;
+}
+.appImgConfigContentTp:last-child {
+	border: none;
+}
+.appImgConfigContentTpTt {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #000;
+	padding-left: 37px;
+}
+
+.appImgConfigContentTpTt>span {
+	width: 17px;
+	height: 17px;
+	color: #000;
+}
+
+.appImgConfigContentBt {
+	width: 100%;
+	height: 235px;
+	background: #fff;
+}
+
+.appImgConfigLogo {
+	width: 45%;
+	padding-left: 148px;
+	float: left;
+}
+
+.appImgConfigLogo>p {
+	width: 100%;
+	line-height: 18px;
+	color: #c7c7c7;
+	font-size: 11px;
+}
+
+.appImgConfigLogoFromOut {
+	width: 78px;
+	height: 78px;
+	padding: 3px;
+	border: 1px dashed #eee;
+	border-radius: 3px;
+	position: relative;
+}
+
+.browserImg {
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+	top: 3px;
+	left: 3px;
+	border-radius: 5px;
+}
+
+.websiteImg {
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+	top: 3px;
+	left: 3px;
+	border-radius: 5px;
+}
+
+.appImgConfigLogoFromOut>span {
+	width: 20px;
+	height: 20px;
+	color: #ccc;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}
+
+.appImgConfigLogo>.appImgConfigLogoFromOut>form {
+	width: 100%;
+	height: 100%;
+	background: #eee;
+	position: relative;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 22px;
+	font-size: 30px;
+	color: #dedede;
+}
+
+.appImgConfigLogo>.appImgConfigLogoFromOut>form>input {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	opacity: 0;
+	z-index: 99;
+	cursor: pointer
+}
+
+.appImgConfigLogo>.appImgConfigLogoFromOut>form>.el-icon-plus {
+	width: 30px;
+	height: 30px;
+	display: block;
+}
+
+.appImgConfigLogoImg {
+	width: 50%;
+	padding: 0 0 0 100px;
+	float: left;
+}
+
+.appImgConfigLogoImg>img {
+	width: 300px;
+	height: 80px;
+}
+
+.appImgConfigLogoFromOut1 {
+	width: 247px;
+	height: 76px
+}
+
+.appImgConfigLogoImg1 {
+	width: 46%;
+	height: 67%;
+}
+
+.appImgConfigBottom {
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	text-align: center;
+}
+
+.appImgConfigBottom>button {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 3px;
+	margin: auto;
+}
+
+.appImgConfigBottom>button:first-child {
+	background: #26d186;
+	margin-right: 40px;
+}
+
+.appImgConfigBottom>button:nth-child(2) {
+	background: #e3e3e3;
+}
+
+.hidBox {
+	display: none;
+}
+
+.appImgConfigBox {
+	height: 100%;
+}
+
+.appImgConfigBox .appImgConfigBottom button {
+	color: #fff;
+	background-color: #20a0ff;
+	border-color: #20a0ff;
+	font-size: 13px;
+}
+
+.appImgConfigBox .appImgConfigBottom button:last-child {
+	background-color: #e3e3e3;
+	color: #000
+}
+.addbox{
+	cursor: pointer;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	line-height: 70px;
+}

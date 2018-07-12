@@ -1,0 +1,469 @@
+.commonTableControlContainer {
+  margin-top: 10px;
+  height: 36px;
+  overflow: hidden;
+}
+.commonCheckBtnContainer {
+  float: right;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+.commonCheckItem {
+  display: inline-block;
+  margin-left: 20px;
+}
+.commonTableSearch {
+  /*width: 280px;*/
+  height: 32px;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  position: relative;
+}
+.commonSearchContainer {
+  float: left;
+  margin-left: 15px;
+}
+.commonTableSearchIcon {
+  display: inline-block;
+  width: 30px;
+  height: 32px;
+  background-image: url("../../images/search_small.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: center;
+  vertical-align: top;
+  cursor: pointer;
+}
+.commonTableSearchInput {
+  width: 235px;
+  height: 30px;
+  padding-left: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.commonTableSearchInput:focus {
+  border: 1px solid #B61717;
+}
+.commonTableContainer {
+  padding: 20px;
+  min-height: 300px;
+}
+.commonTable {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.commonTable thead th {
+  border-bottom: 1px solid #1056bf;
+  text-align: left;
+  padding: 15px 10px 0px 10px;
+}
+.commonTable tbody td {
+  text-align: left;
+  padding: 15px 10px 10px 10px;
+  max-width: 200px;
+}
+.commonTable tbody td>span {
+  display: inline-block;
+  height: 22px;
+  overflow: hidden;
+  line-height: 22px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.commonTable tbody tr:nth-child(odd) {
+  background-color: #fcf4f4;
+}
+.commonTalbeUploadTimeBtn {
+  height: 38px;
+  line-height: 38px;
+  background-image: url("../../images/downArrow.png");
+  background-repeat: no-repeat;
+  background-position-x: 60px;
+  background-position-y: center;
+  cursor: pointer;
+}
+.commonTableControlBigContainer {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 50px;
+}
+.commonTableImg {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #8c8c8c;
+}
+.commonTable.imgLine tbody td>span {
+  height: 42px;
+  line-height: 42px;
+}
+.commonTalbeUploadTimeBtn.up {
+  background-image: url("../../images/upArrow.png");
+}
+.commonTableMarketBtn {
+  height: 38px;
+  line-height: 38px;
+  cursor: pointer;
+  position: relative;
+}
+.commonTableMarketBtnIcon {
+  display: inline-block;
+  width: 11px;
+  height: 7px;
+  background-image: url("../../images/select.png");
+  background-repeat: no-repeat;
+  margin-left: 10px;
+}
+.commonTableLookBtn {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/lookIcon.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.notPass .commonTableLookBtn {
+  background-image: url("../../images/lookErroIcon.png");
+  /*查看审批流程*/
+}
+.wait .commonTableLookBtn {
+  /*background-image: url("../img/lookWaitIcon.png");*/
+  background-image: none;
+}
+.wait.commonTableLookBtn {
+  background-image: url("../../images/lookApplyBtnIcon.png");
+  /*查看详情*/
+}
+.erro.commonTableLookBtn {
+  background-image: url("../../images/lookErroIcon.png");
+  /*查看原因*/
+  margin-right: 10px;
+}
+.commonTableApprovalBtn {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/examinationBtnIcon.png");
+  /*审批*/
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.commonTableBtn.revokeShow {
+  background-image: url("../../images/ico-fw3.png");
+  /*撤销*/
+  background-size: 20px auto;
+}
+.commonTableBtn.renewShow {
+  background-image: url("../../images/renewIcon.png");
+  /*更新*/
+}
+.commonTableBtn.maintainShow {
+  background-image: url("../../images/maintainIcon.png");
+  /*维护 */
+}
+.commonTableBtn.upShow {
+  background-image: url("../../images/upShowIcon.png");
+  /*上架 */
+}
+.commonTableBtn.downShow {
+  background-image: url("../../images/downShowIcon.png");
+  /*下架 */
+}
+.commonTableBtn.deployShow {
+  background-image: url("../../images/deployShowIcon.png");
+  /*部署 */
+}
+.commonTableBtn.cancelShow {
+  background-image: url("../../images/cancelShowIcon.png");
+  /*取消 */
+}
+.commonTableEditBtn {
+  background-image: url("../../images/tableEditeIcon.png");
+  /*编辑 */
+}
+.preview {
+  background-image: url("../../images/previewIcon.png");
+  /*预览 */
+}
+.commonTableRemoveBtn {
+  background-image: url("../../images/tableRemoveIcon.png");
+  /*删除 */
+}
+.notPass .commonStateText {
+  color: #c84e4e;
+}
+.pass .commonStateText {
+  color: #00a51b;
+}
+.notSubmit .commonStateText {
+  color: #d0c51d;
+}
+.commonTableBtnDiv>span>a {
+  margin-right: 12px;
+}
+.commonTableEditBtn, .commonTableRemoveBtn {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.commonTableTagContainer {
+  position: absolute;
+  width: 130%;
+  background-color: #fff;
+  top: 30px;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 4px;
+}
+.commonTableTag {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+.commonTableTag:hover {
+  color: #55a8fd;
+}
+.commonTableTag .glyphicon {
+  float: right;
+  display: inline-block;
+  margin: 11px 10px 0 0;
+  color: #55a8fd;
+}
+.commonTableTipMsg {
+  text-align: center;
+  color: #666;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 150px;
+}
+.commonSwitchContainer {
+  margin-right: 20px;
+  top: -3px;
+  position: relative;
+}
+.commTable {
+  color: #333;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+.commmonTable {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.commmonTable thead th, .commmonTable tbody td {
+  text-align: center;
+  padding: 10px 0 10px 10px;
+  max-width: 80px;
+}
+.commmonTable thead th {
+  min-width: 150px;
+}
+.commmonTable th.check {
+  width: 30px;
+  min-width: 0;
+}
+.commmonTable .link {
+  cursor: pointer;
+}
+.paginationContainer {
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  width: 100%;
+  bottom: 5px;
+}
+.commonTableBtnDiv {
+  padding-left: 25%;
+  margin-top: 35px;
+}
+.commonTableBtn {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin: 28px 10px 0 10px;
+}
+.commmonTable tbody tr {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
+.commonTableItemDiv {
+  float: left;
+  height: 100%;
+}
+.commonTableItemLine {
+  overflow: hidden;
+  height: 110px;
+  width: 100%;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  padding: 13px 0;
+}
+.commonTableItemLine:hover {
+  background-color: #f7fbff;
+}
+.commonTableDivContainer {
+  padding: 0 20px 20px 20px;
+}
+.commmonTable p {
+  text-align: left;
+  margin: 6px 0;
+  overflow: hidden;
+}
+.commonTableItemDiv.image {
+  width: 10%;
+}
+.commonTableItemDiv.check {
+  width: 10%;
+}
+.commonTableIcon {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+}
+.commonTableCheck {
+  text-align: center;
+  margin-top: 25px;
+}
+.commonTableItemTitle {
+  width: 35%;
+  float: left;
+  text-align: right;
+}
+.commonTableItemText {
+  width: 65%;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.commonTableText {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*.commonTableIcon.depart{
+  background-image: url("../../images/tabelIcon1.png");
+}
+.commonTableIcon.accout{
+  background-image: url("../../images/accoutManageTableIcon.png");
+}
+.commonTableItemLine:hover .commonTableIcon.depart{
+  background-image: url("../../images/tableIcon1_hover.png");
+}
+.commonTableItemLine:hover .commonTableIcon.accout{
+  background-image: url("../../images/accoutManageTableIcon_hover.png");
+}*/
+
+.commmonTableMsg {
+  text-align: center;
+  color: #333;
+  padding-top: 200px;
+}
+.commonTableHeadLeftItem {
+  float: left;
+  margin-right: 20px;
+}
+.commonTableHeadSort {
+  cursor: pointer;
+  /* background-image:url("../../images/sort.png"); */
+  padding: 10px 30px 10px 0;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  vertical-align: middle;
+}
+.commonTableHeadSort .glyphicon {
+  margin-left: 6px;
+  vertical-align: baseline;
+  font-size: 12px;
+}
+.commonTableHeadSort.active {
+  color: #55a8fd;
+}
+.commonTableHeadTag {
+  cursor: pointer;
+  padding: 10px 30px 10px 0;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  background-image: url("../../images/select.png");
+}
+.commonTableControlContainer {
+  overflow: inherit;
+}
+.commonTableItemText.red {
+  color: #d22039;
+}
+.commonTableItemText.orange {
+  color: #ffa729;
+}
+.commonTableItemText.blue {
+  color: #55a8fd;
+}
+.commonTableItemText.green {
+  color: #2dd28a;
+}
+
+/*.commonTableCheck{
+    display: inline-block;
+    position: relative;
+    border: 1px solid #bfcbd9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    z-index: 1;
+    transition: border-color .25s cubic-bezier(.71,-.46,.29,1.46),background-color .25s cubic-bezier(.71,-.46,.29,1.46);
+}
+.commonTableCheck::after {
+    box-sizing: content-box;
+    content: "";
+    border: 2px solid #fff;
+    border-left: 0;
+    border-top: 0;
+    height: 8px;
+    left: 5px;
+    position: absolute;
+    top: 1px;
+    -ms-transform: rotate(45deg) scaleY(0);
+    transform: rotate(45deg) scaleY(0);
+    width: 4px;
+    transition: transform .15s cubic-bezier(.71,-.46,.88,.6) .05s;
+    -ms-transform-origin: center;
+    transform-origin: center;
+}
+.commonTableCheck.select {
+    background-color: #20a0ff;
+    border-color: #0190fe;
+}
+.commonTableCheck.select::after {
+    -ms-transform: rotate(45deg) scaleY(1);
+    transform: rotate(45deg) scaleY(1);
+}
+.commmonTableCheckInput{
+    width:0;
+    height: 0;
+}*/

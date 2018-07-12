@@ -1,0 +1,187 @@
+.publicNav {
+  font-size: 0;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 2px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 3px 2px #dedede;
+  box-shadow: 0 0 3px 2px #dedede;
+  margin: 13px 0;
+}
+.publicContent {
+  position: relative;
+}
+
+/* 文字 */
+
+.publicNav .active {
+  color: #999999;
+  font-size: 14px;
+}
+
+/* 文字 */
+
+.publicNav .arrows {
+  padding: 0 4px 2px;
+  font-size: 14px;
+  color: #999999;
+}
+
+/* 小图标 */
+
+.hand {
+  display: block;
+  float: left;
+  width: 11px;
+  height: 15px;
+  background: url(../../images/position.png) 0 0 no-repeat;
+  margin: 14px 7px 0 11px;
+  cursor: pointer;
+}
+
+/* 返回按钮 */
+
+.returnBtn {
+  float: right;
+  width: 88px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #55a8fd;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #55a8fd;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+/* 内容部分*/
+
+.mode-div {
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 0 3px 2px #dedede;
+}
+
+/* 进度条 */
+
+.lanmp-con {
+  width: 768px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 65px;
+}
+.lanbbag5 {
+  background: url(../../images/createAppProgressBar0.png) no-repeat;
+  width: 768px;
+  height: 37px;
+}
+.lanbbag5 p {
+  background: url(../../images/createAppProgressBar1.png) no-repeat;
+  width: 768px;
+  height: 37px;
+}
+.lanbag-text1 {
+  width: 790px;
+  margin-top: 5px;
+}
+.lanbag-text1 span {
+  font-size: 14px;
+  display: inline-block;
+}
+.lanbag-text1 span.tim2, .lanbag-text1 span.tim5 {
+  margin-left: 120px;
+}
+.lanbag-text1 span.tim3, .lanbag-text1 span.tim4 {
+  margin-left: 125px;
+}
+
+/* 暂存，下一步，上一步 */
+
+.buttnet {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.buttnet span {
+  display: inline-block;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 14px;
+  height: 32px;
+  width: 82px;
+  line-height: 32px;
+  cursor: pointer;
+  color: #fff;
+}
+.commonTableTabItem {
+  height: 45px;
+  padding: 0 42px;
+  float: left;
+  color: #666666;
+  font-size: 14px;
+  cursor: pointer;
+}
+.commonTableTabItem.active {
+  color: #55a8fd;
+  border-bottom: 2px solid #55a8fd;
+}
+.searchBox {
+  float: right;
+  width: 260px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #cce5fe;
+  border-radius: 6px;
+  margin-top: 5px;
+  margin-right: 40px;
+}
+.searchBox>input {
+  height: 100%;
+  width: 200px;
+  color: #666;
+  font-size: 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.searchBox .searchImg {
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: right;
+  margin: 7px 10px 0 0;
+  background: url(../../images/searchNav.png) 0 0 no-repeat;
+  cursor: pointer;
+}
+
+/**服务页面需要以下样式**/
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: -5px;
+  position: abosolute;
+}
+.fa-minus-square-o:before {
+  vertical-align: middle;
+  display: inline-block;
+  content: url(../../images/minus_10.png);
+}
+.fa-plus-square-o:before {
+  vertical-align: middle;
+  display: inline-block;
+  content: url(../../images/add_10X10.png);
+}
+
+/**服务页面需要以上样式   end **/
+
+.publicRightBottomContentContainer {
+  overflow-y: auto;
+  /* padding: 0 5px; */
+}

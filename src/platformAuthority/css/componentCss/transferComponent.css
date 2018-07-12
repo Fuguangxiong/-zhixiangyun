@@ -1,0 +1,185 @@
+.transferBox{
+    width:540px;
+    height: 460px;
+    background-color: #f8f8f8;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    margin-left: -270px;
+    margin-top: -230px;
+    color: #333;
+    border-radius: 5px;
+}
+.transferBoxTitleContainer{
+    height: 40px;
+    line-height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #d9d9d9;
+    position: relative;
+    background-color: #55a8fd;
+    color: #fff;
+}
+.transferBoxTitle{
+    margin-left: 20px;
+}
+.transferBoxClose{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+    background-image: url("../../images/transferBoxCloseIcon.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 20px;
+    top: 11px;
+}
+.transferBoxSearchDiv{
+    width:220px;
+    position: relative;
+}
+.transferBoxSearchContainer{
+    margin-top: 10px;
+    padding: 0 20px;
+}
+.transferBoxSearchDiv .commonLayoutRightTopSearchInput{
+    width:190px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #f8f8f8;
+}
+.transferBoxSearchDiv .commonLayoutRightTopSearchBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0px;
+    border-left: none;
+    height: 28px;
+}
+.transferBoxContentContainer{
+    padding: 6px 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.transferBoxContentLeftContainer,.transferBoxContentRightContainer{
+    width:224px;
+    float:left;
+    height: 280px;
+    box-shadow: 0px 0px 5px #ccc;
+    background-color: #fff;
+}
+.transferBoxContentName{
+    color: #55a8fd;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.transferBoxContentLeftBox .el-tree{
+    border: none;
+}
+.transferBoxContentBtnContainer{
+    float:left;
+    width:50px;
+    padding-top: 70px;
+}
+.transferBoxContentLeftBox,.transferBoxContentRightBox{
+    height: 238px;
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow: auto;
+}
+.transferBoxBtnContainer{
+    margin-top: 20px;
+    text-align: center;
+}
+.transferBoxBtnContainer .publicBtn{
+    margin: 0 10px;
+}
+.transferBoxBtn{
+    width:30px;
+    height:30px;
+    border-radius: 3px;
+    margin-left: 9px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.left.transferBoxBtn{
+    background-image: url("../../images/rightTriangleIcon.png");
+}
+.right.transferBoxBtn{
+    background-image: url("../../images/leftTriangleIcon.png");
+}
+.mLeft.transferBoxBtn{
+    background-image: url("../../images/mRightTriangleIcon.png");
+}
+.mRight.transferBoxBtn{
+    background-image: url("../../images/mLeftTriangleIcon.png");
+}
+.transferBoxRightList{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    background-color: #f5faff;
+    margin-bottom: 5px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.transferBoxRightList.select{
+    background-color:#edf7ff;
+}
+.el-tree-node__label{
+	width: 179px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.transferBoxSearchContainer.approlDetail{
+    height: 322px;
+    overflow-y: auto;
+    padding-top: 36px;
+}
+.approDetailListPot{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #55a8fd;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    left: -4px;
+    background-color: #fff;
+    float:left;
+}
+.approDetailListTimeContainer{
+    display: inline-block;
+    margin-left: 20px;
+    float:left;
+    width:175px;
+}
+.approlDetailListContent{
+    display: inline-block;
+    margin-left: 30px;
+    word-break: break-all;
+    word-wrap: break-word;
+    width: 255px;
+    clear:both;
+}
+.approlDetailList{
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 30px;
+    border-left: 1px solid #e3e3e3;
+}
+
+.approlDetailList:last-child{
+    border-left:none;
+}
+.approlDetailListTime{
+    margin-left: 10px;
+}

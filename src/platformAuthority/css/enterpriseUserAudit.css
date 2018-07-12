@@ -1,0 +1,14 @@
+.notAudit,.audit{
+	display: inline-block;
+	height:50px;
+	line-height:50px;
+	width:100px;
+	text-align: center;
+	margin-right:20px;
+}
+.publicContainer .el-tabs__header{
+	margin:0!important;
+}
+.el-tabs__header{
+	margin:0!important;
+}
